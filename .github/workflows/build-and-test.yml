@@ -11,10 +11,10 @@ jobs:
     name: Build and Test default scheme using any available iPhone simulator
     runs-on: macos-12
     env:
-      device: iPhone 11 Pro
+      device: iPhone 12 Pro
       scheme: ViewSnapshots
       project: ViewSnapshots.xcodeproj
-      destination: "platform=iOS Simulator,name=iPhone 11 Pro"
+      destination: "platform=iOS Simulator,name=iPhone 12 Pro"
 
     steps:
       - name: Checkout

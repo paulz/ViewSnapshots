@@ -17,6 +17,7 @@
 		4B6D596A2843082F00642239 /* PopularityBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D59692843082F00642239 /* PopularityBadge.swift */; };
 		4B6D596C2843311000642239 /* SettingsForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D596B2843311000642239 /* SettingsForm.swift */; };
 		4B6D597828434EF100642239 /* LayeringShadowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D597728434EF100642239 /* LayeringShadowsView.swift */; };
+		4B6D597A2843533600642239 /* RainbowGlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D59792843533600642239 /* RainbowGlowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		4B6D59692843082F00642239 /* PopularityBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularityBadge.swift; sourceTree = "<group>"; };
 		4B6D596B2843311000642239 /* SettingsForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsForm.swift; sourceTree = "<group>"; };
 		4B6D597728434EF100642239 /* LayeringShadowsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayeringShadowsView.swift; sourceTree = "<group>"; };
+		4B6D59792843533600642239 /* RainbowGlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowGlowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				4B6D59352842F6F500642239 /* ExampleApp.swift */,
 				4B6D59372842F6F500642239 /* ContentView.swift */,
 				4B6D597728434EF100642239 /* LayeringShadowsView.swift */,
+				4B6D59792843533600642239 /* RainbowGlowView.swift */,
 				4B6D59692843082F00642239 /* PopularityBadge.swift */,
 				4B6D596B2843311000642239 /* SettingsForm.swift */,
 				4B6D59392842F6F600642239 /* Assets.xcassets */,
@@ -295,6 +298,7 @@
 				4B6D596A2843082F00642239 /* PopularityBadge.swift in Sources */,
 				4B6D59382842F6F500642239 /* ContentView.swift in Sources */,
 				4B6D596C2843311000642239 /* SettingsForm.swift in Sources */,
+				4B6D597A2843533600642239 /* RainbowGlowView.swift in Sources */,
 				4B6D59362842F6F500642239 /* ExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

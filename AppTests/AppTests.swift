@@ -8,5 +8,6 @@ class AppTests: XCTestCase {
         verifySnapshot(PopularityBadge_Previews.self)
         verifySnapshot(SettingsForm_Previews.self)
         verifySnapshot(LayeringShadowsView_Previews.self)
+        verifySnapshot(RainbowGlowView_Previews.self)
     }
 }

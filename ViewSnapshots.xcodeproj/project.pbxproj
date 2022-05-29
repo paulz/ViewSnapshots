@@ -13,6 +13,7 @@
 		4B6D593D2842F6F600642239 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B6D593C2842F6F600642239 /* Preview Assets.xcassets */; };
 		4B6D59472842F6F600642239 /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D59462842F6F600642239 /* AppTests.swift */; };
 		4B6D59512842F6F600642239 /* UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D59502842F6F600642239 /* UITests.swift */; };
+		4B6D5967284305AB00642239 /* SwiftUI_SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 4B6D5966284305AB00642239 /* SwiftUI_SnapshotTesting */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4B6D59502842F6F600642239 /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
 		4B6D59612842FEB700642239 /* SwiftUI-snapshot-testing */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "SwiftUI-snapshot-testing"; sourceTree = "<group>"; };
 		4B6D59622842FF2000642239 /* workflows */ = {isa = PBXFileReference; lastKnownFileType = folder; name = workflows; path = .github/workflows; sourceTree = "<group>"; };
+		4B6D5968284305DE00642239 /* Snapshots */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Snapshots; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B6D5967284305AB00642239 /* SwiftUI_SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +83,7 @@
 				4B6D59452842F6F600642239 /* AppTests */,
 				4B6D594F2842F6F600642239 /* UITests */,
 				4B6D59332842F6F500642239 /* Products */,
+				4B6D5965284305AB00642239 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +119,7 @@
 		4B6D59452842F6F600642239 /* AppTests */ = {
 			isa = PBXGroup;
 			children = (
+				4B6D5968284305DE00642239 /* Snapshots */,
 				4B6D59462842F6F600642239 /* AppTests.swift */,
 			);
 			path = AppTests;
@@ -134,6 +139,13 @@
 				4B6D59612842FEB700642239 /* SwiftUI-snapshot-testing */,
 			);
 			name = Packages;
+			sourceTree = "<group>";
+		};
+		4B6D5965284305AB00642239 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,9 +179,13 @@
 			buildRules = (
 			);
 			dependencies = (
+				4B6D5964284305A400642239 /* PBXTargetDependency */,
 				4B6D59442842F6F600642239 /* PBXTargetDependency */,
 			);
 			name = AppTests;
+			packageProductDependencies = (
+				4B6D5966284305AB00642239 /* SwiftUI_SnapshotTesting */,
+			);
 			productName = ViewSnapshotsTests;
 			productReference = 4B6D59422842F6F600642239 /* AppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -299,6 +315,10 @@
 			isa = PBXTargetDependency;
 			target = 4B6D59312842F6F500642239 /* ExampleApp */;
 			targetProxy = 4B6D594D2842F6F600642239 /* PBXContainerItemProxy */;
+		};
+		4B6D5964284305A400642239 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 4B6D5963284305A400642239 /* SwiftUI_SnapshotTesting */;
 		};
 /* End PBXTargetDependency section */
 
@@ -551,6 +571,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4B6D5963284305A400642239 /* SwiftUI_SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftUI_SnapshotTesting;
+		};
+		4B6D5966284305AB00642239 /* SwiftUI_SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftUI_SnapshotTesting;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4B6D592A2842F6F500642239 /* Project object */;
 }

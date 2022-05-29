@@ -1,8 +1,9 @@
 import XCTest
 @testable import ExampleApp
+import ViewSnapshotTesting
 
 class AppTests: XCTestCase {
-
-    func testExample() throws {
+    func testPreviews() throws {
+        verifySnapshot(ContentView_Previews.self)
     }
 }

@@ -1,0 +1,40 @@
+name: build and test
+
+on:
+  push:
+    branches: [ main, fix-ci ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    name: Build and Test default scheme using any available iPhone simulator
+    runs-on: macos-12
+    env:
+      platform: ${{ 'iOS Simulator' }}
+      device: iPhone 11 Pro
+      scheme: ViewSnapshots
+      project: ViewSnapshots.xcodeproj
+      destination: "platform=iOS Simulator,name=iPhone 11 Pro"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive
+      - name: Resolve dependencies
+        run: xcodebuild -resolvePackageDependencies -project $project -scheme $scheme
+      - name: Build
+        uses: sersoft-gmbh/xcodebuild-action@v1
+        with:
+          project: ${{ env.project }}
+          scheme: ${{ env.scheme }}
+          destination: ${{ env.destination }}
+          action: build
+      - name: Test
+        uses: sersoft-gmbh/xcodebuild-action@v1
+        with:
+          project: ${{ env.project }}
+          scheme: ${{ env.scheme }}
+          destination: ${{ env.destination }}
+          action: test-without-building

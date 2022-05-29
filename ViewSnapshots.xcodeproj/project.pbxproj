@@ -43,6 +43,7 @@
 		4B6D594C2842F6F600642239 /* UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B6D59502842F6F600642239 /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
 		4B6D59612842FEB700642239 /* SwiftUI-snapshot-testing */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "SwiftUI-snapshot-testing"; sourceTree = "<group>"; };
+		4B6D59622842FF2000642239 /* workflows */ = {isa = PBXFileReference; lastKnownFileType = folder; name = workflows; path = .github/workflows; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +74,7 @@
 		4B6D59292842F6F500642239 = {
 			isa = PBXGroup;
 			children = (
+				4B6D59622842FF2000642239 /* workflows */,
 				4B6D59602842FEB700642239 /* Packages */,
 				4B6D59342842F6F500642239 /* ExampleApp */,
 				4B6D59452842F6F600642239 /* AppTests */,

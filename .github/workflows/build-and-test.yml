@@ -25,14 +25,14 @@ jobs:
       - name: Resolve dependencies
         run: xcodebuild -resolvePackageDependencies -project $project -scheme $scheme
       - name: Build
-        uses: sersoft-gmbh/xcodebuild-action@v1
+        uses: sersoft-gmbh/xcodebuild-action@master
         with:
           project: ${{ env.project }}
           scheme: ${{ env.scheme }}
           destination: ${{ env.destination }}
           action: build
       - name: Test
-        uses: sersoft-gmbh/xcodebuild-action@v1
+        uses: sersoft-gmbh/xcodebuild-action@master
         with:
           project: ${{ env.project }}
           scheme: ${{ env.scheme }}

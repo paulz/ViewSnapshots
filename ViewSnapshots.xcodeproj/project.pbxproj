@@ -15,6 +15,7 @@
 		4B6D59512842F6F600642239 /* UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D59502842F6F600642239 /* UITests.swift */; };
 		4B6D5967284305AB00642239 /* SwiftUI_SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 4B6D5966284305AB00642239 /* SwiftUI_SnapshotTesting */; };
 		4B6D596A2843082F00642239 /* PopularityBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D59692843082F00642239 /* PopularityBadge.swift */; };
+		4B6D596C2843311000642239 /* SettingsForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D596B2843311000642239 /* SettingsForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		4B6D59622842FF2000642239 /* workflows */ = {isa = PBXFileReference; lastKnownFileType = folder; name = workflows; path = .github/workflows; sourceTree = "<group>"; };
 		4B6D5968284305DE00642239 /* Snapshots */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Snapshots; sourceTree = "<group>"; };
 		4B6D59692843082F00642239 /* PopularityBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularityBadge.swift; sourceTree = "<group>"; };
+		4B6D596B2843311000642239 /* SettingsForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				4B6D59352842F6F500642239 /* ExampleApp.swift */,
 				4B6D59372842F6F500642239 /* ContentView.swift */,
 				4B6D59692843082F00642239 /* PopularityBadge.swift */,
+				4B6D596B2843311000642239 /* SettingsForm.swift */,
 				4B6D59392842F6F600642239 /* Assets.xcassets */,
 				4B6D593B2842F6F600642239 /* Preview Content */,
 			);
@@ -287,6 +290,7 @@
 			files = (
 				4B6D596A2843082F00642239 /* PopularityBadge.swift in Sources */,
 				4B6D59382842F6F500642239 /* ContentView.swift in Sources */,
+				4B6D596C2843311000642239 /* SettingsForm.swift in Sources */,
 				4B6D59362842F6F500642239 /* ExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

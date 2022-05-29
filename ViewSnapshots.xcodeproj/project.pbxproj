@@ -14,6 +14,7 @@
 		4B6D59472842F6F600642239 /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D59462842F6F600642239 /* AppTests.swift */; };
 		4B6D59512842F6F600642239 /* UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D59502842F6F600642239 /* UITests.swift */; };
 		4B6D5967284305AB00642239 /* SwiftUI_SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 4B6D5966284305AB00642239 /* SwiftUI_SnapshotTesting */; };
+		4B6D596A2843082F00642239 /* PopularityBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D59692843082F00642239 /* PopularityBadge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		4B6D59612842FEB700642239 /* SwiftUI-snapshot-testing */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "SwiftUI-snapshot-testing"; sourceTree = "<group>"; };
 		4B6D59622842FF2000642239 /* workflows */ = {isa = PBXFileReference; lastKnownFileType = folder; name = workflows; path = .github/workflows; sourceTree = "<group>"; };
 		4B6D5968284305DE00642239 /* Snapshots */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Snapshots; sourceTree = "<group>"; };
+		4B6D59692843082F00642239 /* PopularityBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularityBadge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			children = (
 				4B6D59352842F6F500642239 /* ExampleApp.swift */,
 				4B6D59372842F6F500642239 /* ContentView.swift */,
+				4B6D59692843082F00642239 /* PopularityBadge.swift */,
 				4B6D59392842F6F600642239 /* Assets.xcassets */,
 				4B6D593B2842F6F600642239 /* Preview Content */,
 			);
@@ -282,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B6D596A2843082F00642239 /* PopularityBadge.swift in Sources */,
 				4B6D59382842F6F500642239 /* ContentView.swift in Sources */,
 				4B6D59362842F6F500642239 /* ExampleApp.swift in Sources */,
 			);

@@ -18,6 +18,7 @@
 		4B6D596C2843311000642239 /* SettingsForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D596B2843311000642239 /* SettingsForm.swift */; };
 		4B6D597828434EF100642239 /* LayeringShadowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D597728434EF100642239 /* LayeringShadowsView.swift */; };
 		4B6D597A2843533600642239 /* RainbowGlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D59792843533600642239 /* RainbowGlowView.swift */; };
+		4BFAB27528448E5900E65405 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAB27428448E5900E65405 /* ToggleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		4B6D596B2843311000642239 /* SettingsForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsForm.swift; sourceTree = "<group>"; };
 		4B6D597728434EF100642239 /* LayeringShadowsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayeringShadowsView.swift; sourceTree = "<group>"; };
 		4B6D59792843533600642239 /* RainbowGlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowGlowView.swift; sourceTree = "<group>"; };
+		4BFAB27428448E5900E65405 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				4B6D59792843533600642239 /* RainbowGlowView.swift */,
 				4B6D59692843082F00642239 /* PopularityBadge.swift */,
 				4B6D596B2843311000642239 /* SettingsForm.swift */,
+				4BFAB27428448E5900E65405 /* ToggleView.swift */,
 				4B6D59392842F6F600642239 /* Assets.xcassets */,
 				4B6D593B2842F6F600642239 /* Preview Content */,
 			);
@@ -300,6 +303,7 @@
 				4B6D596C2843311000642239 /* SettingsForm.swift in Sources */,
 				4B6D597A2843533600642239 /* RainbowGlowView.swift in Sources */,
 				4B6D59362842F6F500642239 /* ExampleApp.swift in Sources */,
+				4BFAB27528448E5900E65405 /* ToggleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

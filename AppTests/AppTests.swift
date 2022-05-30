@@ -9,5 +9,6 @@ class AppTests: XCTestCase {
         verifySnapshot(SettingsForm_Previews.self)
         verifySnapshot(LayeringShadowsView_Previews.self)
         verifySnapshot(RainbowGlowView_Previews.self)
+        verifySnapshot(ToggleView_Previews.self)
     }
 }

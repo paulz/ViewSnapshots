@@ -19,6 +19,7 @@
 		4B6D597828434EF100642239 /* LayeringShadowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D597728434EF100642239 /* LayeringShadowsView.swift */; };
 		4B6D597A2843533600642239 /* RainbowGlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D59792843533600642239 /* RainbowGlowView.swift */; };
 		4BFAB27528448E5900E65405 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAB27428448E5900E65405 /* ToggleView.swift */; };
+		4BFAB27728457D4300E65405 /* RenderLayerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAB27628457D4300E65405 /* RenderLayerTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		4B6D597728434EF100642239 /* LayeringShadowsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayeringShadowsView.swift; sourceTree = "<group>"; };
 		4B6D59792843533600642239 /* RainbowGlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowGlowView.swift; sourceTree = "<group>"; };
 		4BFAB27428448E5900E65405 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
+		4BFAB27628457D4300E65405 /* RenderLayerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderLayerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 			children = (
 				4B6D5968284305DE00642239 /* Snapshots */,
 				4B6D59462842F6F600642239 /* AppTests.swift */,
+				4BFAB27628457D4300E65405 /* RenderLayerTest.swift */,
 			);
 			path = AppTests;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B6D59472842F6F600642239 /* AppTests.swift in Sources */,
+				4BFAB27728457D4300E65405 /* RenderLayerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

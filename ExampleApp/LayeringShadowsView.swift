@@ -11,7 +11,7 @@ struct LayeringShadowsView: View {
             .shadow(color: .green, radius: 10)
             .shadow(color: .red, radius: 10)
             .shadow(color: .blue, radius: 10)
-            .padding(30)
+            .padding(50)
     }
 }
 

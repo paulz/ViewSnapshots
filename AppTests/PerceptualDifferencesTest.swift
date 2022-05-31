@@ -69,13 +69,29 @@ class PerceptualDifferencesTest: XCTestCase {
         return [UInt8](data)
     }
     
-    func testMaxDifferenceInToggleViewIsLarge() throws {
-        let toggleDelta = try calculateDelta("ToggleView")
-        XCTAssertEqual(areaMaximum(toggleDelta.delta), [255, 255, 255, 255])
+    func testLargeDeltaEvenColorDifferenceIsLessThen2Percent() throws {
+        let delta = try calculateDelta("ToggleView")
+        XCTAssertEqual(areaMaximum(delta.delta), [255, 255, 255, 255])
+        
+        let difference = try XCTUnwrap(diff(delta.first, delta.second).outputImage)
+        XCTAssertEqual(AbsoluteColorDiff(difference: difference).maxColorDifference(), 0.015625)
     }
     
-    func testMaxDifferenceInContentViewIsLarge() throws {
-        let toggleDelta = try calculateDelta("ContentView")
-        XCTAssertEqual(areaMaximum(toggleDelta.delta), [99, 99, 99, 99])
+    func testLargeDifferenceEvenWhenColorHasNoDifference() throws {
+        let delta = try calculateDelta("ContentView")
+        let maxDifference: [UInt8] = [99, 99, 99, 99]
+        XCTAssertEqual(areaMaximum(delta.delta), maxDifference)
+        let diffPoint = CGPoint(x: 108, y: 52 - 24)
+        let maxColor = getColor(delta.delta, at: diffPoint)
+        XCTAssertEqual(maxColor, maxDifference)
+        
+        let firstColor = getColor(delta.first, at: diffPoint)
+        XCTAssertEqual(firstColor, [79, 63, 0, 255])
+
+        let secondColor = getColor(delta.second, at: diffPoint)
+        XCTAssertEqual(secondColor, [79, 62, 0, 255])
+        
+        let difference = try XCTUnwrap(diff(delta.first, delta.second).outputImage)
+        XCTAssertEqual(AbsoluteColorDiff(difference: difference).maxColorDifference(), 0)
     }
 }

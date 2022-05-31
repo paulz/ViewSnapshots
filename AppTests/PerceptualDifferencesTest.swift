@@ -4,12 +4,6 @@ import XCTest
 import CoreImage
 import SwiftUI
 
-extension CIImage {
-    func settingAlphaOne() -> CIImage {
-        settingAlphaOne(in: extent)
-    }
-}
-
 class PerceptualDifferencesTest: XCTestCase {
     struct Delta {
         let first: CIImage

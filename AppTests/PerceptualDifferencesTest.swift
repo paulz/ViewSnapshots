@@ -74,7 +74,7 @@ class PerceptualDifferencesTest: XCTestCase {
         XCTAssertEqual(areaMaximum(delta.delta), [255, 255, 255, 255])
         
         let difference = try XCTUnwrap(diff(delta.first, delta.second).outputImage)
-        XCTAssertEqual(AbsoluteColorDiff(difference: difference).maxColorDifference(), 0.015625)
+        XCTAssertEqual(ImageComparisonResult(difference: difference).maxColorDifference(), 0.015625)
     }
     
     func testLargeDifferenceEvenWhenColorHasNoDifference() throws {
@@ -92,6 +92,6 @@ class PerceptualDifferencesTest: XCTestCase {
         XCTAssertEqual(secondColor, [79, 62, 0, 255])
         
         let difference = try XCTUnwrap(diff(delta.first, delta.second).outputImage)
-        XCTAssertEqual(AbsoluteColorDiff(difference: difference).maxColorDifference(), 0)
+        XCTAssertEqual(ImageComparisonResult(difference: difference).maxColorDifference(), 0)
     }
 }

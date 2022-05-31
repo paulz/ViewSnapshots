@@ -11,13 +11,18 @@ extension CIImage {
 }
 
 class PerceptualDifferencesTest: XCTestCase {
+    struct Delta {
+        let first: CIImage
+        let second: CIImage
+        let delta: CIImage
+    }
     let sRGB = CGColorSpace(name: CGColorSpace.sRGB)!
     lazy var context = CIContext(options: [
         .workingColorSpace : sRGB,
         .outputColorSpace: sRGB
     ])
-
-    func labDelta(_ name: String) throws -> CIImage {
+    
+    func calculateDelta(_ name: String) throws -> Delta {
         let options: [CIImageOption : Any] = [
             .colorSpace: sRGB
         ]
@@ -36,9 +41,13 @@ class PerceptualDifferencesTest: XCTestCase {
             of: deltaImage, to: deltaUrl, format: .RGBA8, colorSpace: sRGB
         )
         XCTAssertEqual(m1Image.properties as NSDictionary, intelImage.properties as NSDictionary)
-        return deltaImage
+        return Delta(
+            first: deltaFilter.inputImage!,
+            second: deltaFilter.image2!,
+            delta: deltaImage
+        )
     }
-    
+
     func areaMaximum(_ image: CIImage) -> [UInt8] {
         let filter = CIFilter.areaMaximum()
         filter.inputImage = image
@@ -61,12 +70,12 @@ class PerceptualDifferencesTest: XCTestCase {
     }
     
     func testMaxDifferenceInToggleViewIsLarge() throws {
-        let toggleDelta = try labDelta("ToggleView")
-        XCTAssertEqual(areaMaximum(toggleDelta), [255, 255, 255, 255])
+        let toggleDelta = try calculateDelta("ToggleView")
+        XCTAssertEqual(areaMaximum(toggleDelta.delta), [255, 255, 255, 255])
     }
     
     func testMaxDifferenceInContentViewIsLarge() throws {
-        let toggleDelta = try labDelta("ContentView")
-        XCTAssertEqual(areaMaximum(toggleDelta), [99, 99, 99, 99])
+        let toggleDelta = try calculateDelta("ContentView")
+        XCTAssertEqual(areaMaximum(toggleDelta.delta), [99, 99, 99, 99])
     }
 }

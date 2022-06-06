@@ -1,4 +1,5 @@
 import SwiftUI
+import PreviewGroup
 
 struct ContentView: View {
     var body: some View {
@@ -9,7 +10,11 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
-            .background(Color.yellow)
+        PreviewGroup {
+            ContentView()
+                .background(Color.yellow)
+            ContentView()
+                .background(Color.green)
+        }
     }
 }

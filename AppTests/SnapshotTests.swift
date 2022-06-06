@@ -25,7 +25,7 @@ class SnapshotTests: XCTestCase {
          https://commons.wikimedia.org/wiki/File:Philips_PM5544.svg
          new versión by ebnz, CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons
          */
-        verifySnapshot(Image("Philips_PM5544_PDF"), "tv-set-test-pattern.pdf")
-        verifySnapshot(Image("Philips_PM5544_SVG"), "tv-set-test-pattern.svg")
+        verifySnapshot(Image("Philips_PM5544_PDF"), "tv-set-test-pattern.pdf", colorAccuracy: 0.1)
+        verifySnapshot(Image("Philips_PM5544_SVG"), "tv-set-test-pattern.svg", colorAccuracy: 0)
     }
 }

@@ -7,6 +7,7 @@
 //
 // from: https://github.com/Dimillian/MovieSwiftUI/blob/72eb4ae7117fbf893be533c9a277c47a7287d87e/MovieSwift/Packages/UI/Sources/UI/badges/PopularityBadge.swift
 import SwiftUI
+import PreviewGroup
 
 public struct PopularityBadge : View {
     public let score: Int
@@ -66,7 +67,7 @@ public struct PopularityBadge : View {
 #if DEBUG
 struct PopularityBadge_Previews : PreviewProvider {
     static var previews: some View {
-        VStack {
+        PreviewGroup {
             PopularityBadge(score: 80)
             PopularityBadge(score: 10)
             PopularityBadge(score: 30)

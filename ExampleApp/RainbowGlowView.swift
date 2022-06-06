@@ -32,7 +32,7 @@ struct RainbowGlowView: View {
             .multilineTextAlignment(.center)
             .multicolorGlow()
             .frame(width: 200, height: 100)
-            .padding()
+            .padding(50)
     }
 }
 

@@ -4,6 +4,14 @@ import ViewSnapshotTesting
 import SwiftUI
 
 class SnapshotTests: XCTestCase {
+    override class func setUp() {
+        super.setUp()
+        let testBundle = Bundle(for: Self.self)
+        let snapshotsUrl = testBundle
+            .resourceURL!
+            .appendingPathComponent("Snapshots")
+        snapshotsConfiguration.folderUrl = snapshotsUrl
+    }
     func testPreviews() throws {
         verifySnapshot(ContentView_Previews.self)
         verifySnapshot(PopularityBadge_Previews.self)

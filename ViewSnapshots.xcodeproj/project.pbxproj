@@ -47,12 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B6D59322842F6F500642239 /* SnapshotsExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapshotsExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B6CD7FF2851AB0700118D04 /* VisualTestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisualTestKit.framework; path = lib/VisualTestKit/VisualTestKit.framework; sourceTree = SOURCE_ROOT; };
 		4B6CD8022851ACB700118D04 /* VisualTests.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = VisualTests.swift; sourceTree = "<group>"; tabWidth = 2; };
 		4B6CD8042851AD9800118D04 /* VisualTestKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualTestKit.swift; sourceTree = "<group>"; };
 		4B6CD8062851AE0100118D04 /* VisualTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = VisualTests; sourceTree = "<group>"; };
 		4B6CD8312851EFEA00118D04 /* Headers */ = {isa = PBXFileReference; lastKnownFileType = text; name = Headers; path = lib/VisualTestKit/VisualTestKit.framework/Headers; sourceTree = SOURCE_ROOT; };
-		4B6D59322842F6F500642239 /* ExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B6D59352842F6F500642239 /* ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleApp.swift; sourceTree = "<group>"; };
 		4B6D59372842F6F500642239 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4B6D59392842F6F600642239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -117,7 +117,7 @@
 		4B6D59332842F6F500642239 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B6D59322842F6F500642239 /* ExampleApp.app */,
+				4B6D59322842F6F500642239 /* SnapshotsExampleApp.app */,
 				4B6D59422842F6F600642239 /* AppTests.xctest */,
 				4B6D594C2842F6F600642239 /* UITests.xctest */,
 			);
@@ -207,7 +207,7 @@
 				4BE8B8E2284DD83B00083A24 /* SnapshotTestingPreviewGroup */,
 			);
 			productName = ViewSnapshots;
-			productReference = 4B6D59322842F6F500642239 /* ExampleApp.app */;
+			productReference = 4B6D59322842F6F500642239 /* SnapshotsExampleApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 		4B6D59412842F6F600642239 /* AppTests */ = {
@@ -510,7 +510,8 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.paulz.swiftui-snapshot-test.ViewSnapshots";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = ExampleApp;
+				PRODUCT_NAME = "Snapshots$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
 			name = Debug;
@@ -533,7 +534,8 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.paulz.swiftui-snapshot-test.ViewSnapshots";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = ExampleApp;
+				PRODUCT_NAME = "Snapshots$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
 			name = Release;
@@ -550,7 +552,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.paulz.swiftui-snapshot-test.ViewSnapshots.AppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExampleApp.app/ExampleApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapshotsExampleApp.app/SnapshotsExampleApp";
 			};
 			name = Debug;
 		};
@@ -566,7 +568,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.paulz.swiftui-snapshot-test.ViewSnapshots.AppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExampleApp.app/ExampleApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapshotsExampleApp.app/SnapshotsExampleApp";
 			};
 			name = Release;
 		};

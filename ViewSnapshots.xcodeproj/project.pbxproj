@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		335C7825284F07FA007ED83E /* Snapshots in Resources */ = {isa = PBXBuildFile; fileRef = 4B6D5968284305DE00642239 /* Snapshots */; };
 		335C7827284F0EDF007ED83E /* Principal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335C7826284F0EDF007ED83E /* Principal.swift */; };
-		335C7829284F1431007ED83E /* HardwareTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335C7828284F1431007ED83E /* HardwareTest.swift */; };
 		4B6D59362842F6F500642239 /* ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D59352842F6F500642239 /* ExampleApp.swift */; };
 		4B6D59382842F6F500642239 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D59372842F6F500642239 /* ContentView.swift */; };
 		4B6D593A2842F6F600642239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B6D59392842F6F600642239 /* Assets.xcassets */; };
@@ -46,7 +45,6 @@
 
 /* Begin PBXFileReference section */
 		335C7826284F0EDF007ED83E /* Principal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Principal.swift; sourceTree = "<group>"; };
-		335C7828284F1431007ED83E /* HardwareTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardwareTest.swift; sourceTree = "<group>"; };
 		4B6D59322842F6F500642239 /* SnapshotsExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapshotsExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B6D59352842F6F500642239 /* ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleApp.swift; sourceTree = "<group>"; };
 		4B6D59372842F6F500642239 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -148,7 +146,6 @@
 				4B6D5968284305DE00642239 /* Snapshots */,
 				4B6D59462842F6F600642239 /* SnapshotTests.swift */,
 				335C7826284F0EDF007ED83E /* Principal.swift */,
-				335C7828284F1431007ED83E /* HardwareTest.swift */,
 				4BFAB27628457D4300E65405 /* RenderLayerTest.swift */,
 				4BFAB2782845888E00E65405 /* PerceptualDifferencesTest.swift */,
 			);
@@ -331,7 +328,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				335C7827284F0EDF007ED83E /* Principal.swift in Sources */,
-				335C7829284F1431007ED83E /* HardwareTest.swift in Sources */,
 				4BFAB2792845888E00E65405 /* PerceptualDifferencesTest.swift in Sources */,
 				4B6D59472842F6F600642239 /* SnapshotTests.swift in Sources */,
 				4BFAB27728457D4300E65405 /* RenderLayerTest.swift in Sources */,

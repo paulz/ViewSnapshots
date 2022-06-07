@@ -45,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		335C7826284F0EDF007ED83E /* Principal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Principal.swift; sourceTree = "<group>"; };
+		335C782A284F2365007ED83E /* ci_scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ci_scripts; sourceTree = "<group>"; };
 		4B6D59322842F6F500642239 /* SnapshotsExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapshotsExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B6D59352842F6F500642239 /* ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleApp.swift; sourceTree = "<group>"; };
 		4B6D59372842F6F500642239 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +97,7 @@
 		4B6D59292842F6F500642239 = {
 			isa = PBXGroup;
 			children = (
+				335C782A284F2365007ED83E /* ci_scripts */,
 				4B6D59622842FF2000642239 /* workflows */,
 				4B6D59602842FEB700642239 /* Packages */,
 				4B6D59342842F6F500642239 /* ExampleApp */,

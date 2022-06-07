@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		335C7825284F07FA007ED83E /* Snapshots in Resources */ = {isa = PBXBuildFile; fileRef = 4B6D5968284305DE00642239 /* Snapshots */; };
+		335C7827284F0EDF007ED83E /* Principal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335C7826284F0EDF007ED83E /* Principal.swift */; };
 		4B6CD8012851AC0400118D04 /* VisualTestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B6CD7FF2851AB0700118D04 /* VisualTestKit.framework */; };
 		4B6CD8032851ACB700118D04 /* VisualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6CD8022851ACB700118D04 /* VisualTests.swift */; };
 		4B6CD8052851AD9800118D04 /* VisualTestKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6CD8042851AD9800118D04 /* VisualTestKit.swift */; };
@@ -47,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		335C7826284F0EDF007ED83E /* Principal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Principal.swift; sourceTree = "<group>"; };
 		4B6D59322842F6F500642239 /* SnapshotsExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapshotsExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B6CD7FF2851AB0700118D04 /* VisualTestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisualTestKit.framework; path = lib/VisualTestKit/VisualTestKit.framework; sourceTree = SOURCE_ROOT; };
 		4B6CD8022851ACB700118D04 /* VisualTests.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = VisualTests.swift; sourceTree = "<group>"; tabWidth = 2; };
@@ -153,6 +156,7 @@
 			children = (
 				4B6D5968284305DE00642239 /* Snapshots */,
 				4B6D59462842F6F600642239 /* SnapshotTests.swift */,
+				335C7826284F0EDF007ED83E /* Principal.swift */,
 				4B6CD8022851ACB700118D04 /* VisualTests.swift */,
 				4B6CD8062851AE0100118D04 /* VisualTests */,
 				4B6CD8042851AD9800118D04 /* VisualTestKit.swift */,
@@ -340,6 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				335C7827284F0EDF007ED83E /* Principal.swift in Sources */,
 				4BFAB2792845888E00E65405 /* PerceptualDifferencesTest.swift in Sources */,
 				4B6D59472842F6F600642239 /* SnapshotTests.swift in Sources */,
 				4BFAB27728457D4300E65405 /* RenderLayerTest.swift in Sources */,
@@ -550,6 +555,7 @@
 					"$(PROJECT_DIR)/lib/VisualTestKit",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPrincipalClass = "$(PRODUCT_MODULE_NAME).Principal";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.paulz.swiftui-snapshot-test.ViewSnapshots.AppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapshotsExampleApp.app/SnapshotsExampleApp";
@@ -566,6 +572,7 @@
 					"$(PROJECT_DIR)/lib/VisualTestKit",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPrincipalClass = "$(PRODUCT_MODULE_NAME).Principal";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.paulz.swiftui-snapshot-test.ViewSnapshots.AppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapshotsExampleApp.app/SnapshotsExampleApp";

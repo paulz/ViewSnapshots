@@ -39,6 +39,7 @@ struct RainbowGlowView: View {
 struct RainbowGlowView_Previews: PreviewProvider {
     static var previews: some View {
         RainbowGlowView()
+            .background(Color.white)
             .previewLayout(.sizeThatFits)
     }
 }

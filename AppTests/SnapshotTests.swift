@@ -5,12 +5,12 @@ import SwiftUI
 
 class SnapshotTests: XCTestCase {
     func testPreviews() throws {
-        verifySnapshot(ContentView_Previews.self)
-        verifySnapshot(PopularityBadge_Previews.self)
-        verifySnapshot(SettingsForm_Previews.self)
-        verifySnapshot(LayeringShadowsView_Previews.self)
-        verifySnapshot(RainbowGlowView_Previews.self, colorAccuracy: 0.047)
-        verifySnapshot(ToggleView_Previews.self, colorAccuracy: 0.032)
+//        verifySnapshot(ContentView_Previews.self)
+//        verifySnapshot(PopularityBadge_Previews.self)
+//        verifySnapshot(SettingsForm_Previews.self)
+//        verifySnapshot(LayeringShadowsView_Previews.self)
+        verifySnapshot(RainbowGlowView_Previews.self)
+//        verifySnapshot(ToggleView_Previews.self, colorAccuracy: 0.032)
     }
     
     func testXcodeSVGassetNotMatchingPDf() {

@@ -38,7 +38,6 @@ class VisualTests: XCTestCase {
         if name.hasSuffix(commonPreviewSuffix) {
             name.removeLast(commonPreviewSuffix.count)
         }
-        name = name.lowercased()
         
         try! inWindowView(preview.previews) { view in
             VTKAssertView(view, name: name, file: file.description, line: line)

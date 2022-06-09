@@ -20,7 +20,7 @@ extension XCTestCase {
             view,
             identifier: VTKID(name, decorations),
             filePath: file,
-            lineNumber: line
+            lineNumber: UInt64(line)
         )
     }
 }

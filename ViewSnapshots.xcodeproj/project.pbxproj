@@ -51,6 +51,7 @@
 		4B6CD8022851ACB700118D04 /* VisualTests.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = VisualTests.swift; sourceTree = "<group>"; tabWidth = 2; };
 		4B6CD8042851AD9800118D04 /* VisualTestKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualTestKit.swift; sourceTree = "<group>"; };
 		4B6CD8062851AE0100118D04 /* VisualTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = VisualTests; sourceTree = "<group>"; };
+		4B6CD8312851EFEA00118D04 /* Headers */ = {isa = PBXFileReference; lastKnownFileType = text; name = Headers; path = lib/VisualTestKit/VisualTestKit.framework/Headers; sourceTree = SOURCE_ROOT; };
 		4B6D59322842F6F500642239 /* ExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B6D59352842F6F500642239 /* ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleApp.swift; sourceTree = "<group>"; };
 		4B6D59372842F6F500642239 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -150,12 +151,13 @@
 		4B6D59452842F6F600642239 /* AppTests */ = {
 			isa = PBXGroup;
 			children = (
-				4B6CD7FF2851AB0700118D04 /* VisualTestKit.framework */,
 				4B6D5968284305DE00642239 /* Snapshots */,
 				4B6D59462842F6F600642239 /* SnapshotTests.swift */,
 				4B6CD8022851ACB700118D04 /* VisualTests.swift */,
 				4B6CD8062851AE0100118D04 /* VisualTests */,
 				4B6CD8042851AD9800118D04 /* VisualTestKit.swift */,
+				4B6CD7FF2851AB0700118D04 /* VisualTestKit.framework */,
+				4B6CD8312851EFEA00118D04 /* Headers */,
 				4BFAB27628457D4300E65405 /* RenderLayerTest.swift */,
 				4BFAB2782845888E00E65405 /* PerceptualDifferencesTest.swift */,
 			);

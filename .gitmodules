@@ -1,3 +1,6 @@
 [submodule "SwiftUI-snapshot-testing"]
 	path = SwiftUI-snapshot-testing
 	url = https://github.com/paulz/SwiftUI-snapshot-testing
+[submodule "lib/VisualTestKit"]
+	path = lib/VisualTestKit
+	url = https://github.com/paulz/VisualTestKit.framework

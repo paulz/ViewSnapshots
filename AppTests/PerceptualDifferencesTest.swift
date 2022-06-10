@@ -88,4 +88,12 @@ class PerceptualDifferencesTest: XCTestCase {
         let difference = try XCTUnwrap(diff(delta.first, delta.second).outputImage)
         XCTAssertEqual(ImageComparisonResult(difference: difference).maxColorDifference(), 0)
     }
+    
+    func testLabDeltaE() {
+        let deltaFilter = CIFilter.labDeltaE()
+        let description = CIFilter.localizedDescription(forFilterName: deltaFilter.name)
+        XCTAssertEqual(description, "Produces an image with the Lab ∆E difference values "
+                       + "between two images. The result image will contain ∆E 1994 values "
+                       + "between 0.0 and 100.0 where 2.0 is considered a just noticeable difference.")
+    }
 }

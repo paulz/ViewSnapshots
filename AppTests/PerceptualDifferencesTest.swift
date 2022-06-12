@@ -65,7 +65,11 @@ class PerceptualDifferencesTest: XCTestCase {
     
     func testLargeDeltaEvenColorDifferenceIsLessThen2Percent() throws {
         let delta = try calculateDelta("ToggleView")
+#if arch(arm64)
+        XCTAssertEqual(areaMaximum(delta.delta), [137, 137, 137, 137])
+#else
         XCTAssertEqual(areaMaximum(delta.delta), [133, 133, 133, 133])
+#endif
         
         let difference = try XCTUnwrap(diff(delta.first, delta.second).outputImage)
         XCTAssertEqual(ImageComparisonResult(difference: difference).maxColorDifference(), 0.015625)

@@ -27,8 +27,8 @@ class PerceptualDifferencesTest: XCTestCase {
         let m1Image = try XCTUnwrap(CIImage(contentsOf: m1Url, options: options))
 
         let deltaFilter = CIFilter.labDeltaE()
-        deltaFilter.inputImage = intelImage.settingAlphaOne()
-        deltaFilter.image2 = m1Image.settingAlphaOne()
+        deltaFilter.inputImage = intelImage.removeTransparency()
+        deltaFilter.image2 = m1Image.removeTransparency()
         let deltaImage = try XCTUnwrap(deltaFilter.outputImage)
         let deltaUrl = folderUrl().appendingPathComponent("\(name)-labDelta.png")
         try context.writePNGRepresentation(
@@ -65,7 +65,7 @@ class PerceptualDifferencesTest: XCTestCase {
     
     func testLargeDeltaEvenColorDifferenceIsLessThen2Percent() throws {
         let delta = try calculateDelta("ToggleView")
-        XCTAssertEqual(areaMaximum(delta.delta), [255, 255, 255, 255])
+        XCTAssertEqual(areaMaximum(delta.delta), [133, 133, 133, 133])
         
         let difference = try XCTUnwrap(diff(delta.first, delta.second).outputImage)
         XCTAssertEqual(ImageComparisonResult(difference: difference).maxColorDifference(), 0.015625)

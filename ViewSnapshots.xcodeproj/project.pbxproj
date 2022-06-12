@@ -583,6 +583,7 @@
 				INFOPLIST_KEY_NSPrincipalClass = "$(PRODUCT_MODULE_NAME).Principal";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.paulz.swiftui-snapshot-test.ViewSnapshots.AppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapshotsExampleApp.app/SnapshotsExampleApp";
 			};
 			name = Debug;
@@ -600,6 +601,7 @@
 				INFOPLIST_KEY_NSPrincipalClass = "$(PRODUCT_MODULE_NAME).Principal";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.paulz.swiftui-snapshot-test.ViewSnapshots.AppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapshotsExampleApp.app/SnapshotsExampleApp";
 			};
 			name = Release;
@@ -611,6 +613,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.paulz.swiftui-snapshot-test.ExampleApp.UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				TEST_TARGET_NAME = ExampleApp;
 			};
 			name = Debug;
@@ -622,6 +625,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.paulz.swiftui-snapshot-test.ExampleApp.UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				TEST_TARGET_NAME = ExampleApp;
 			};
 			name = Release;

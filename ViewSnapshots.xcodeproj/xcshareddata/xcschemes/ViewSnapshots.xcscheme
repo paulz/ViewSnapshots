@@ -30,11 +30,25 @@
       language = "en"
       region = "US"
       userAttachmentLifetime = "keepAlways">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4B6D59312842F6F500642239"
+            BuildableName = "SnapshotsExampleApp.app"
+            BlueprintName = "ExampleApp"
+            ReferencedContainer = "container:ViewSnapshots.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <EnvironmentVariables>
          <EnvironmentVariable
             key = "VTK_RECORD_MODE"
             value = "1"
             isEnabled = "NO">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "CI_TEAM_ID"
+            value = "$(CI_TEAM_ID)"
+            isEnabled = "YES">
          </EnvironmentVariable>
          <EnvironmentVariable
             key = "CI"

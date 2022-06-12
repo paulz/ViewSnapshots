@@ -8,7 +8,17 @@ class Principal: NSObject {
     }
 }
 
+func runningOnXcodeCloud() -> Bool {
+    ProcessInfo.processInfo.environment["CI_TEAM_ID"] != nil
+}
+
 func configureSnapshots() {
+    if runningOnXcodeCloud() {
+        getSnapshotsFromResources()
+    }
+}
+
+func getSnapshotsFromResources() {
     let testBundle = Bundle(for: Principal.self)
     let snapshotsUrl = testBundle
         .resourceURL!

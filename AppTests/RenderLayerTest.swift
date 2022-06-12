@@ -14,8 +14,8 @@ class RenderLayerTest: XCTestCase {
         XCTAssertNotEqual(withShadowsData, pngData)
         if layerOnlyData != pngData {
             let result = compare(layerOnlyData, pngData)
-            XCTAssertLessThanOrEqual(result.maxColorDifference(), 0.015625)
-            if result.maxColorDifference() > 0.015625 {
+            XCTAssertLessThanOrEqual(result.maxColorDifference(), 0.03125)
+            if result.maxColorDifference() > 0.03125 {
                 try pngData.write(to: layerUrl)
             }
         }

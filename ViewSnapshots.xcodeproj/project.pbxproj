@@ -25,6 +25,7 @@
 		4B6D597828434EF100642239 /* LayeringShadowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D597728434EF100642239 /* LayeringShadowsView.swift */; };
 		4B6D597A2843533600642239 /* RainbowGlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D59792843533600642239 /* RainbowGlowView.swift */; };
 		4B78C07528570C8F007B133E /* CoreAnimationArchiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B78C07428570C8F007B133E /* CoreAnimationArchiveTests.swift */; };
+		4B78C0772857182E007B133E /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B78C0762857182E007B133E /* Data+Extensions.swift */; };
 		4BE8B8E3284DD83B00083A24 /* SnapshotTestingPreviewGroup in Frameworks */ = {isa = PBXBuildFile; productRef = 4BE8B8E2284DD83B00083A24 /* SnapshotTestingPreviewGroup */; };
 		4BFAB27528448E5900E65405 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAB27428448E5900E65405 /* ToggleView.swift */; };
 		4BFAB27728457D4300E65405 /* RenderLayerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAB27628457D4300E65405 /* RenderLayerTest.swift */; };
@@ -73,6 +74,7 @@
 		4B6D597728434EF100642239 /* LayeringShadowsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayeringShadowsView.swift; sourceTree = "<group>"; };
 		4B6D59792843533600642239 /* RainbowGlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowGlowView.swift; sourceTree = "<group>"; };
 		4B78C07428570C8F007B133E /* CoreAnimationArchiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAnimationArchiveTests.swift; sourceTree = "<group>"; };
+		4B78C0762857182E007B133E /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
 		4BFAB27428448E5900E65405 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 		4BFAB27628457D4300E65405 /* RenderLayerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderLayerTest.swift; sourceTree = "<group>"; };
 		4BFAB2782845888E00E65405 /* PerceptualDifferencesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerceptualDifferencesTest.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 				4BFAB27628457D4300E65405 /* RenderLayerTest.swift */,
 				4B78C07428570C8F007B133E /* CoreAnimationArchiveTests.swift */,
 				4BFAB2782845888E00E65405 /* PerceptualDifferencesTest.swift */,
+				4B78C0762857182E007B133E /* Data+Extensions.swift */,
 			);
 			path = AppTests;
 			sourceTree = "<group>";
@@ -377,6 +380,7 @@
 				4B78C07528570C8F007B133E /* CoreAnimationArchiveTests.swift in Sources */,
 				4B6D59472842F6F600642239 /* SnapshotTests.swift in Sources */,
 				4BFAB27728457D4300E65405 /* RenderLayerTest.swift in Sources */,
+				4B78C0772857182E007B133E /* Data+Extensions.swift in Sources */,
 				4B6CD8052851AD9800118D04 /* VisualTestKit.swift in Sources */,
 				4B6CD8032851ACB700118D04 /* VisualTests.swift in Sources */,
 			);

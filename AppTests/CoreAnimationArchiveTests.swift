@@ -28,8 +28,8 @@ class CoreAnimationArchiveTests: XCTestCase {
     func testArchiveXMLAddsInstability() throws {
         let caarData = getArchive(shouldRender: true)
         var format: PropertyListSerialization.PropertyListFormat = .xml
-        let plist1 = try! PropertyListSerialization.propertyList(from: caarData, format: &format)
-        let plist2 = try! PropertyListSerialization.propertyList(from: caarData, format: &format)
+        let plist1 = try PropertyListSerialization.propertyList(from: caarData, format: &format)
+        let plist2 = try PropertyListSerialization.propertyList(from: caarData, format: &format)
         XCTAssertNotEqual(plist1 as? NSDictionary, plist2 as? NSDictionary)
     }
 }

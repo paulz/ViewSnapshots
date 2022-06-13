@@ -19,12 +19,17 @@ extension View {
 
 struct RainbowGlowView: View {
     var fillStyle: some ShapeStyle {
-        AngularGradient(gradient: Gradient(colors: [.red, .yellow, .green, .blue, .purple, .red]), center: .center)
+        AngularGradient(
+            gradient: Gradient(
+                colors: [.red, .yellow, .green, .blue, .purple, .red]
+            ),
+            center: .center
+        )
     }
     var body: some View {
         Text("Hello World")
             .font(
-                .system(.largeTitle,design: .rounded)
+                .system(.largeTitle, design: .rounded)
             )
             .fontWeight(.black)
             .foregroundColor(.white)

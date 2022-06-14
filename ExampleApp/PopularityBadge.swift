@@ -61,6 +61,7 @@ public struct PopularityBadge : View {
                 .foregroundColor(textColor)
             }
             .frame(width: 40, height: 40)
+            .padding(4)
     }
 }
 
@@ -72,7 +73,7 @@ struct PopularityBadge_Previews : PreviewProvider {
             PopularityBadge(score: 10)
             PopularityBadge(score: 30)
             PopularityBadge(score: 50)
-        }
+        }.previewLayout(.sizeThatFits)
     }
 }
 #endif

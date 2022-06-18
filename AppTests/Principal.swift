@@ -31,9 +31,5 @@ func runningOnXcodeCloud() -> Bool {
 }
 
 func getSnapshotsFromResources() {
-    let testBundle = Bundle(for: Principal.self)
-    let snapshotsUrl = testBundle
-        .resourceURL!
-        .appendingPathComponent(snapshotsConfiguration.folderName)
-    snapshotsConfiguration.folderUrl = snapshotsUrl
+    SnapshotsConfiguration.useSnapshots(bundledWith: Principal.self)
 }

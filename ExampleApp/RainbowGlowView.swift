@@ -41,8 +41,8 @@ struct RainbowGlowView: View {
     }
 }
 
-struct RainbowGlowView_Previews: PreviewProvider {
-    static var previews: some View {
+public struct RainbowGlowView_Previews: PreviewProvider {
+    public static var previews: some View {
         RainbowGlowView()
             .previewLayout(.sizeThatFits)
     }

@@ -12,10 +12,20 @@ class CoreAnimationArchiveTests: XCTestCase {
     func getArchive(shouldRender: Bool) -> Data {
         try! inWindowView(RainbowGlowView_Previews.previews) { view -> Data in
             if shouldRender {
-                _ = view.renderLayerAsBitmap()
+                _ = view.renderHierarchyAsPNG()
             }
             return try coreAnimationArchive(view: view)
         }
+    }
+    
+    func testUnarchiveLayer() throws {
+        let archiveData = getArchive(shouldRender: true)
+        let topLevel = try NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(archiveData)
+        let dict = try XCTUnwrap(topLevel as? NSDictionary)
+        XCTAssertEqual(dict.allKeys as? [String], ["rootLayer"])
+        let layer = try XCTUnwrap(dict["rootLayer"] as? CALayer)
+        XCTAssertEqual(layer.bounds, .init(origin: .zero, size: .init(width: 300, height: 200)))
+        XCTAssertEqual(layer.sublayers?.count, 9)
     }
 
     func testCoreAnimationArchiveAfterRenderIsNotStable() {

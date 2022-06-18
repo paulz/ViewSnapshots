@@ -34,6 +34,6 @@ func getSnapshotsFromResources() {
     let testBundle = Bundle(for: Principal.self)
     let snapshotsUrl = testBundle
         .resourceURL!
-        .appendingPathComponent("Snapshots")
+        .appendingPathComponent(snapshotsConfiguration.folderName)
     snapshotsConfiguration.folderUrl = snapshotsUrl
 }

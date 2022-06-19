@@ -35,12 +35,21 @@ class CoreAnimationArchiveTests: XCTestCase {
         XCTAssertNotEqual(archiveData1, archiveData2)
     }
     
-    func testArchiveXMLAddsInstability() throws {
+    func testArchiveXMLHasStableSerialization() throws {
         let caarData = getArchive(shouldRender: true)
         var format: PropertyListSerialization.PropertyListFormat = .xml
         let plist1 = try PropertyListSerialization.propertyList(from: caarData, format: &format)
         let plist2 = try PropertyListSerialization.propertyList(from: caarData, format: &format)
-        XCTAssertNotEqual(plist1 as? NSDictionary, plist2 as? NSDictionary)
+        XCTContext.runActivity(named: "complare plists as dictionaries") {
+            $0.add(.init(plistObject: plist1))
+            $0.add(.init(plistObject: plist2))
+        }
+        XCTAssertNotEqual(plist1 as? NSDictionary, plist2 as? NSDictionary,
+                          "dictionaries are different as some objects are not comparable")
+        
+        let data1 = try PropertyListSerialization.data(fromPropertyList: plist1, format: .xml, options: .zero)
+        let data2 = try PropertyListSerialization.data(fromPropertyList: plist2, format: .xml, options: .zero)
+        XCTAssertEqual(data1, data2, "serialized XML plists are the same")
     }
 }
 

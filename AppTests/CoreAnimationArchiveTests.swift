@@ -35,21 +35,42 @@ class CoreAnimationArchiveTests: XCTestCase {
         XCTAssertNotEqual(archiveData1, archiveData2)
     }
     
+    func plistData(_ plist: Any) throws -> Data {
+        try PropertyListSerialization.data(fromPropertyList: plist, format: .xml, options: .zero)
+    }
+
+    func plistFromData(_ data: Data) throws -> Any {
+        var format: PropertyListSerialization.PropertyListFormat = .xml
+        return try PropertyListSerialization.propertyList(from: data, format: &format)
+    }
+
     func testArchiveXMLHasStableSerialization() throws {
         let caarData = getArchive(shouldRender: true)
-        var format: PropertyListSerialization.PropertyListFormat = .xml
-        let plist1 = try PropertyListSerialization.propertyList(from: caarData, format: &format)
-        let plist2 = try PropertyListSerialization.propertyList(from: caarData, format: &format)
-        XCTContext.runActivity(named: "complare plists as dictionaries") {
-            $0.add(.init(plistObject: plist1))
-            $0.add(.init(plistObject: plist2))
-        }
+        let plist1 = try plistFromData(caarData)
+        let plist2 = try plistFromData(caarData)
         XCTAssertNotEqual(plist1 as? NSDictionary, plist2 as? NSDictionary,
                           "dictionaries are different as some objects are not comparable")
-        
-        let data1 = try PropertyListSerialization.data(fromPropertyList: plist1, format: .xml, options: .zero)
-        let data2 = try PropertyListSerialization.data(fromPropertyList: plist2, format: .xml, options: .zero)
-        XCTAssertEqual(data1, data2, "serialized XML plists are the same")
+
+        try XCTContext.runActivity(named: "same plists") {
+            $0.add(.init(plistObject: plist1))
+            $0.add(.init(plistObject: plist2))
+            let data1 = try plistData(plist1)
+            let data2 = try plistData(plist2)
+            XCTAssertEqual(data1, data2, "serialized XML plists are the same")
+        }
+    }
+    func testSerializedXMLFromSameViewAreDifferent() throws {
+        let caarData1 = getArchive(shouldRender: true)
+        let caarData2 = getArchive(shouldRender: true)
+        let plist1 = try plistFromData(caarData1)
+        let plist2 = try plistFromData(caarData2)
+        try XCTContext.runActivity(named: "different plists") {
+            $0.add(.init(plistObject: plist1))
+            $0.add(.init(plistObject: plist2))
+            let data1 = try plistData(plist1)
+            let data2 = try plistData(plist2)
+            XCTAssertNotEqual(data1, data2, "serialized XML plists are different")
+        }
     }
 }
 

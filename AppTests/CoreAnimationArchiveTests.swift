@@ -87,8 +87,9 @@ class CoreAnimationArchiveTests: XCTestCase {
 }
 
 func coreAnimationArchive(view: UIView) throws -> Data {
-    try NSKeyedArchiver.archivedData(
-        withRootObject: ["rootLayer": view.layer],
-        requiringSecureCoding: false
-    )
+    let archiver = NSKeyedArchiver(requiringSecureCoding: false)
+    archiver.outputFormat = .binary
+    archiver.encode(["rootLayer": view.layer], forKey: NSKeyedArchiveRootObjectKey)
+    archiver.finishEncoding()
+    return archiver.encodedData
 }

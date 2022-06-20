@@ -1,5 +1,3 @@
-//
-
 import SwiftUI
 
 extension View {
@@ -18,10 +16,14 @@ extension View {
 }
 
 struct RainbowGlowView: View {
+    var rainbowColors: [Color] {
+        [.red, .yellow, .orange, .green, .blue, .purple]
+    }
+    
     var fillStyle: some ShapeStyle {
         AngularGradient(
             gradient: Gradient(
-                colors: [.red, .yellow, .green, .blue, .purple, .red]
+                colors: rainbowColors
             ),
             center: .center
         )

@@ -43,7 +43,7 @@ class CoreAnimationArchiveTests: XCTestCase {
     func testCoreAnimationArchiveAfterRenderIsNotStable() {
         let archiveData1 = getArchive(shouldRender: true)
         let archiveData2 = getArchive(shouldRender: true)
-        XCTAssertEqual(archiveData1.count, 19316)
+        XCTAssertEqual(archiveData1.count, 20261)
         XCTAssertNotEqual(archiveData1, archiveData2)
     }
     

@@ -165,9 +165,8 @@
 		4B6D59452842F6F600642239 /* AppTests */ = {
 			isa = PBXGroup;
 			children = (
-				4B6D5968284305DE00642239 /* Snapshots */,
 				4B6D59462842F6F600642239 /* SnapshotTests.swift */,
-				335C7826284F0EDF007ED83E /* Principal.swift */,
+				4B6D5968284305DE00642239 /* Snapshots */,
 				4B6CD8022851ACB700118D04 /* VisualTests.swift */,
 				4B6CD8062851AE0100118D04 /* VisualTests */,
 				4B6CD8042851AD9800118D04 /* VisualTestKit.swift */,
@@ -178,7 +177,7 @@
 				4B78C07428570C8F007B133E /* CoreAnimationArchiveTests.swift */,
 				4BEFB0F228604184000B714C /* HRCoderTests.swift */,
 				4BFAB2782845888E00E65405 /* PerceptualDifferencesTest.swift */,
-				4B78C0762857182E007B133E /* Data+Extensions.swift */,
+				4BEFB0F4286045A2000B714C /* Helpers */,
 			);
 			path = AppTests;
 			sourceTree = "<group>";
@@ -204,6 +203,15 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BEFB0F4286045A2000B714C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4B78C0762857182E007B133E /* Data+Extensions.swift */,
+				335C7826284F0EDF007ED83E /* Principal.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

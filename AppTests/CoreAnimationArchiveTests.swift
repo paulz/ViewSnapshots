@@ -18,12 +18,24 @@ class CoreAnimationArchiveTests: XCTestCase {
         }
     }
     
-    func testUnarchiveLayer() throws {
-        let archiveData = getArchive(shouldRender: true)
-        let topLevel = try NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(archiveData)
+    func getLayer(data: Data) throws -> CALayer {
+        let topLevel = try NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(data)
         let dict = try XCTUnwrap(topLevel as? NSDictionary)
         XCTAssertEqual(dict.allKeys as? [String], ["rootLayer"])
-        let layer = try XCTUnwrap(dict["rootLayer"] as? CALayer)
+        return try XCTUnwrap(dict["rootLayer"] as? CALayer)
+    }
+
+    func testLayersAreNotEqual() throws {
+        let archiveData = getArchive(shouldRender: true)
+        let layer1 = try getLayer(data: archiveData)
+        let layer2 = try getLayer(data: archiveData)
+        XCTAssertNotEqual(layer1, layer2)
+        XCTAssertFalse(layer1.isEqual(layer2))
+    }
+    
+    func testUnarchiveLayer() throws {
+        let archiveData = getArchive(shouldRender: true)
+        let layer = try getLayer(data: archiveData)
         XCTAssertEqual(layer.bounds, .init(origin: .zero, size: .init(width: 300, height: 200)))
         XCTAssertEqual(layer.sublayers?.count, 9)
     }

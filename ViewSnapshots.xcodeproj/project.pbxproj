@@ -28,6 +28,8 @@
 		4B78C0772857182E007B133E /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B78C0762857182E007B133E /* Data+Extensions.swift */; };
 		4B845830285E6D78001C93D4 /* RenderViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B84582F285E6D78001C93D4 /* RenderViewTest.swift */; };
 		4BE8B8E3284DD83B00083A24 /* SnapshotTestingPreviewGroup in Frameworks */ = {isa = PBXBuildFile; productRef = 4BE8B8E2284DD83B00083A24 /* SnapshotTestingPreviewGroup */; };
+		4BEFB0F128603649000B714C /* HRCoder in Frameworks */ = {isa = PBXBuildFile; productRef = 4BEFB0F028603649000B714C /* HRCoder */; };
+		4BEFB0F328604184000B714C /* HRCoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEFB0F228604184000B714C /* HRCoderTests.swift */; };
 		4BFAB27528448E5900E65405 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAB27428448E5900E65405 /* ToggleView.swift */; };
 		4BFAB27728457D4300E65405 /* RenderLayerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAB27628457D4300E65405 /* RenderLayerTest.swift */; };
 		4BFAB2792845888E00E65405 /* PerceptualDifferencesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAB2782845888E00E65405 /* PerceptualDifferencesTest.swift */; };
@@ -77,6 +79,7 @@
 		4B78C07428570C8F007B133E /* CoreAnimationArchiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAnimationArchiveTests.swift; sourceTree = "<group>"; };
 		4B78C0762857182E007B133E /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
 		4B84582F285E6D78001C93D4 /* RenderViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderViewTest.swift; sourceTree = "<group>"; };
+		4BEFB0F228604184000B714C /* HRCoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRCoderTests.swift; sourceTree = "<group>"; };
 		4BFAB27428448E5900E65405 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 		4BFAB27628457D4300E65405 /* RenderLayerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderLayerTest.swift; sourceTree = "<group>"; };
 		4BFAB2782845888E00E65405 /* PerceptualDifferencesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerceptualDifferencesTest.swift; sourceTree = "<group>"; };
@@ -95,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BEFB0F128603649000B714C /* HRCoder in Frameworks */,
 				4B6D5967284305AB00642239 /* SwiftUI_SnapshotTesting in Frameworks */,
 				4B6CD8012851AC0400118D04 /* VisualTestKit.framework in Frameworks */,
 			);
@@ -172,6 +176,7 @@
 				4BFAB27628457D4300E65405 /* RenderLayerTest.swift */,
 				4B84582F285E6D78001C93D4 /* RenderViewTest.swift */,
 				4B78C07428570C8F007B133E /* CoreAnimationArchiveTests.swift */,
+				4BEFB0F228604184000B714C /* HRCoderTests.swift */,
 				4BFAB2782845888E00E65405 /* PerceptualDifferencesTest.swift */,
 				4B78C0762857182E007B133E /* Data+Extensions.swift */,
 			);
@@ -242,6 +247,7 @@
 			name = AppTests;
 			packageProductDependencies = (
 				4B6D5966284305AB00642239 /* SwiftUI_SnapshotTesting */,
+				4BEFB0F028603649000B714C /* HRCoder */,
 			);
 			productName = ViewSnapshotsTests;
 			productReference = 4B6D59422842F6F600642239 /* AppTests.xctest */;
@@ -297,6 +303,9 @@
 				Base,
 			);
 			mainGroup = 4B6D59292842F6F500642239;
+			packageReferences = (
+				4BEFB0EF28603649000B714C /* XCRemoteSwiftPackageReference "HRCoder" */,
+			);
 			productRefGroup = 4B6D59332842F6F500642239 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -381,6 +390,7 @@
 				335C7827284F0EDF007ED83E /* Principal.swift in Sources */,
 				4BFAB2792845888E00E65405 /* PerceptualDifferencesTest.swift in Sources */,
 				4B78C07528570C8F007B133E /* CoreAnimationArchiveTests.swift in Sources */,
+				4BEFB0F328604184000B714C /* HRCoderTests.swift in Sources */,
 				4B6D59472842F6F600642239 /* SnapshotTests.swift in Sources */,
 				4BFAB27728457D4300E65405 /* RenderLayerTest.swift in Sources */,
 				4B78C0772857182E007B133E /* Data+Extensions.swift in Sources */,
@@ -683,6 +693,17 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		4BEFB0EF28603649000B714C /* XCRemoteSwiftPackageReference "HRCoder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/paulz/HRCoder";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		4B6D5963284305A400642239 /* SwiftUI_SnapshotTesting */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -695,6 +716,11 @@
 		4BE8B8E2284DD83B00083A24 /* SnapshotTestingPreviewGroup */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SnapshotTestingPreviewGroup;
+		};
+		4BEFB0F028603649000B714C /* HRCoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4BEFB0EF28603649000B714C /* XCRemoteSwiftPackageReference "HRCoder" */;
+			productName = HRCoder;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

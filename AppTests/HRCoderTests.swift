@@ -38,12 +38,12 @@ class HRCoderTests: XCTestCase {
     }
     
     func testHumanJsonData() throws {
-        let jsonData1 = try getHumanJsonData()
-        let jsonData2 = try getHumanJsonData()
+        let jsonUrl = folderUrl().appendingPathComponent("RainbowGlowView.json")
+        let expectedJsonData = try Data(contentsOf: jsonUrl)
+        let actualJsonData = try getHumanJsonData()
         XCTContext.runActivity(named: "compare json data") {
-            $0.add(.init(data: jsonData1, uniformTypeIdentifier: UTType.json.identifier))
-            $0.add(.init(data: jsonData2, uniformTypeIdentifier: UTType.json.identifier))
-            XCTAssertEqual(jsonData1, jsonData2)
+            $0.add(.init(data: actualJsonData, uniformTypeIdentifier: UTType.json.identifier))
+            XCTAssertEqual(expectedJsonData, actualJsonData)
         }
     }
 }

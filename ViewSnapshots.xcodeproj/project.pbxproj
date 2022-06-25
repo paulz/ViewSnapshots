@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		335C7827284F0EDF007ED83E /* Principal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335C7826284F0EDF007ED83E /* Principal.swift */; };
+		4B37BF962866EA8300D632C8 /* ColorThresholdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B37BF952866EA8300D632C8 /* ColorThresholdTests.swift */; };
 		4B6CD8012851AC0400118D04 /* VisualTestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B6CD7FF2851AB0700118D04 /* VisualTestKit.framework */; };
 		4B6CD8032851ACB700118D04 /* VisualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6CD8022851ACB700118D04 /* VisualTests.swift */; };
 		4B6CD8052851AD9800118D04 /* VisualTestKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6CD8042851AD9800118D04 /* VisualTestKit.swift */; };
@@ -55,6 +56,7 @@
 /* Begin PBXFileReference section */
 		335C7826284F0EDF007ED83E /* Principal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Principal.swift; sourceTree = "<group>"; };
 		335C782A284F2365007ED83E /* ci_scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ci_scripts; sourceTree = "<group>"; };
+		4B37BF952866EA8300D632C8 /* ColorThresholdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorThresholdTests.swift; sourceTree = "<group>"; };
 		4B6CD7FF2851AB0700118D04 /* VisualTestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisualTestKit.framework; path = lib/VisualTestKit/VisualTestKit.framework; sourceTree = SOURCE_ROOT; };
 		4B6CD8022851ACB700118D04 /* VisualTests.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = VisualTests.swift; sourceTree = "<group>"; tabWidth = 2; };
 		4B6CD8042851AD9800118D04 /* VisualTestKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualTestKit.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 				4B78C07428570C8F007B133E /* CoreAnimationArchiveTests.swift */,
 				4BEFB0F228604184000B714C /* HRCoderTests.swift */,
 				4BFAB2782845888E00E65405 /* PerceptualDifferencesTest.swift */,
+				4B37BF952866EA8300D632C8 /* ColorThresholdTests.swift */,
 				4BEFB0F4286045A2000B714C /* Helpers */,
 			);
 			path = AppTests;
@@ -399,6 +402,7 @@
 				4BFAB2792845888E00E65405 /* PerceptualDifferencesTest.swift in Sources */,
 				4B78C07528570C8F007B133E /* CoreAnimationArchiveTests.swift in Sources */,
 				4BEFB0F328604184000B714C /* HRCoderTests.swift in Sources */,
+				4B37BF962866EA8300D632C8 /* ColorThresholdTests.swift in Sources */,
 				4B6D59472842F6F600642239 /* SnapshotTests.swift in Sources */,
 				4BFAB27728457D4300E65405 /* RenderLayerTest.swift in Sources */,
 				4B78C0772857182E007B133E /* Data+Extensions.swift in Sources */,

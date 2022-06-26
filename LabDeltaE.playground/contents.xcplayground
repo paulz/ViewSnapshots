@@ -4,5 +4,6 @@
         <page name='SameColor'/>
         <page name='CloseColors'/>
         <page name='Threshold'/>
+        <page name='Toggle'/>
     </pages>
 </playground>

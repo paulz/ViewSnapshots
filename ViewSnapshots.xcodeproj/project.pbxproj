@@ -81,6 +81,7 @@
 		4B78C07428570C8F007B133E /* CoreAnimationArchiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAnimationArchiveTests.swift; sourceTree = "<group>"; };
 		4B78C0762857182E007B133E /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
 		4B84582F285E6D78001C93D4 /* RenderViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderViewTest.swift; sourceTree = "<group>"; };
+		4BA8188D2867F96B00881F45 /* LabDeltaE.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LabDeltaE.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4BEFB0F228604184000B714C /* HRCoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRCoderTests.swift; sourceTree = "<group>"; };
 		4BFAB27428448E5900E65405 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 		4BFAB27628457D4300E65405 /* RenderLayerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderLayerTest.swift; sourceTree = "<group>"; };
@@ -124,6 +125,7 @@
 				4B6D59602842FEB700642239 /* Packages */,
 				4B6D59342842F6F500642239 /* ExampleApp */,
 				4B6D59452842F6F600642239 /* AppTests */,
+				4BA8188D2867F96B00881F45 /* LabDeltaE.playground */,
 				4B6D594F2842F6F600642239 /* UITests */,
 				4B6D59332842F6F500642239 /* Products */,
 				4B6D5965284305AB00642239 /* Frameworks */,

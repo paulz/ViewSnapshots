@@ -47,6 +47,15 @@ class HRCoderTests: XCTestCase {
         try XCTAssertEqual(getHumanJson(layer: layer1), getHumanJson(layer: layer2))
     }
     
+    func testCATextLayerContainsString() throws {
+        try XCTAssertEqual(getHumanJson(layer: CATextLayer()), getHumanJson(layer: CATextLayer()))
+        let layer1 = CATextLayer()
+        layer1.string = "One"
+        let dict1 = try getHumanJson(layer: layer1)
+        XCTAssertEqual(dict1["string"] as? String, "One")
+        try XCTAssertNotEqual(getHumanJson(layer: layer1), getHumanJson(layer: CATextLayer()))
+    }
+    
     func testHumanJsonData() throws {
         let jsonUrl = folderUrl().appendingPathComponent(".layers/RainbowGlowView.json")
         let expectedJsonData = try Data(contentsOf: jsonUrl)

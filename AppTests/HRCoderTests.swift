@@ -3,10 +3,14 @@ import UniformTypeIdentifiers
 import XCTest
 @testable import ExampleApp
 @testable import ViewSnapshotTesting
+import SwiftUI
 
 class HRCoderTests: XCTestCase {
     func getViewLayer() throws -> CALayer {
-        try inWindowView(RainbowGlowView_Previews.previews) { view -> CALayer in
+        try getViewLayer(RainbowGlowView_Previews.previews)
+    }
+    func getViewLayer<V: View>(_ view: V) throws -> CALayer {
+        try inWindowView(view) { view -> CALayer in
             _ = view.renderHierarchyAsPNG()
             return view.layer
         }
@@ -35,6 +39,12 @@ class HRCoderTests: XCTestCase {
             withJSONObject: json,
             options: [.prettyPrinted, .sortedKeys]
         )
+    }
+    
+    func testTextLayerAreSameWithDifferentContent() throws {
+        let layer1 = try getViewLayer(Text("123").font(.system(.body, design: .monospaced)))
+        let layer2 = try getViewLayer(Text("456").font(.system(.body, design: .monospaced)))
+        try XCTAssertEqual(getHumanJson(layer: layer1), getHumanJson(layer: layer2))
     }
     
     func testHumanJsonData() throws {

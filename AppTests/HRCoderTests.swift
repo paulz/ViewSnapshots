@@ -12,17 +12,17 @@ class HRCoderTests: XCTestCase {
         }
     }
     
-    func getHumanJson() throws -> NSDictionary {
+    func getHumanJson(layer: CALayer) throws -> NSDictionary {
         try XCTUnwrap(
             HRCoder.archivedJSON(
-                withRootObject: getViewLayer()
+                withRootObject: layer
             ) as? NSDictionary
         )
     }
     
     func testHumanCoderProduceStableJsonDictionary() throws {
-        let dict1 = try getHumanJson()
-        let dict2 = try getHumanJson()
+        let dict1 = try getHumanJson(layer: getViewLayer())
+        let dict2 = try getHumanJson(layer: getViewLayer())
         XCTContext.runActivity(named: "compare json objects") {
             $0.add(.init(plistObject: dict1))
             $0.add(.init(plistObject: dict2))
@@ -30,9 +30,9 @@ class HRCoderTests: XCTestCase {
         }
     }
     
-    func getHumanJsonData() throws -> Data {
+    func getJsonData(json: AnyObject) throws -> Data {
         try JSONSerialization.data(
-            withJSONObject: getHumanJson(),
+            withJSONObject: json,
             options: [.prettyPrinted, .sortedKeys]
         )
     }
@@ -40,7 +40,7 @@ class HRCoderTests: XCTestCase {
     func testHumanJsonData() throws {
         let jsonUrl = folderUrl().appendingPathComponent(".layers/RainbowGlowView.json")
         let expectedJsonData = try Data(contentsOf: jsonUrl)
-        let actualJsonData = try getHumanJsonData()
+        let actualJsonData = try getJsonData(json: getHumanJson(layer: getViewLayer()))
         XCTContext.runActivity(named: "compare json data") {
             $0.add(.init(data: actualJsonData, uniformTypeIdentifier: UTType.json.identifier))
             XCTAssertEqual(expectedJsonData, actualJsonData)

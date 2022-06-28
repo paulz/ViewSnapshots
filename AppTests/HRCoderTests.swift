@@ -67,4 +67,18 @@ class HRCoderTests: XCTestCase {
             XCTAssertEqual(expectedJsonData, actualJsonData)
         }
     }
+    
+    func testConvertCoreAnimationArchive() throws {
+        let folderUrl = URL(fileURLWithPath: #filePath).deletingLastPathComponent()
+        let caarUrl = folderUrl.appendingPathComponent("VisualTests/ContentView.caar")
+        let caarData = try Data(contentsOf: caarUrl)
+        let decoded = try NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(caarData)
+        let dict = try XCTUnwrap(decoded as? NSDictionary)
+        let archived = try XCTUnwrap(HRCoder.archivedJSON(withRootObject: dict)  as? NSDictionary)
+        let jsonData = try getJsonData(json: archived)
+        
+        let expectedUrl = folderUrl.appendingPathComponent("ContentView-withTintedImage.json")
+        let expectedData = try Data(contentsOf: expectedUrl)
+        XCTAssertEqual(expectedData, jsonData)
+    }
 }

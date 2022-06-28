@@ -1,0 +1,288 @@
+{
+  "geometryFlipped" : true,
+  "rootLayer" : {
+    "__CACodingContents" : [
+      "UICALayerRenderID",
+      "allowsEdgeAntialiasing",
+      "allowsGroupBlending",
+      "allowsGroupOpacity",
+      "backgroundColor",
+      "bounds",
+      "contentsFormat",
+      "name",
+      "needsDisplayOnBoundsChange",
+      "needsLayoutOnGeometryChange",
+      "opaque",
+      "position",
+      "securityMode",
+      "sublayers"
+    ],
+    "$class" : "CALayer",
+    "allowsEdgeAntialiasing" : false,
+    "allowsGroupBlending" : false,
+    "allowsGroupOpacity" : false,
+    "backgroundColor" : {
+      "$class" : "LKCGColorCodingProxy",
+      "a" : 0,
+      "b" : 0,
+      "g" : 0,
+      "r" : 0
+    },
+    "bounds" : {
+      "$class" : "LKNSValueCodingProxy",
+      "height" : 112.66666412353516,
+      "kind" : 2,
+      "width" : 126.66666412353516,
+      "x" : 0,
+      "y" : 0
+    },
+    "contentsFormat" : "RGBA8",
+    "name" : "VC:_TtGC7SwiftUI19UIHostingControllerGV12PreviewGroup12PreviewGroupGVS_9TupleViewTGVS_15ModifiedContentV10ExampleApp11ContentViewGVS_19_BackgroundModifierVS_5Color__GS4_S6_GS7_S8_______",
+    "needsDisplayOnBoundsChange" : false,
+    "needsLayoutOnGeometryChange" : true,
+    "opaque" : false,
+    "position" : {
+      "$class" : "LKNSValueCodingProxy",
+      "kind" : 0,
+      "x" : 63.333332061767578,
+      "y" : 103.33333587646484
+    },
+    "securityMode" : "insecure",
+    "sublayers" : {
+      "$class" : "LKNSArrayCodingProxy",
+      "array" : [
+        {
+          "__CACodingContents" : [
+            "UICALayerRenderID",
+            "allowsEdgeAntialiasing",
+            "allowsGroupOpacity",
+            "anchorPoint",
+            "backgroundColor",
+            "bounds",
+            "contentsFormat",
+            "name",
+            "opaque",
+            "position"
+          ],
+          "$class" : "CALayer",
+          "allowsEdgeAntialiasing" : false,
+          "allowsGroupOpacity" : true,
+          "anchorPoint" : {
+            "$class" : "LKNSValueCodingProxy",
+            "kind" : 0,
+            "x" : 0,
+            "y" : 0
+          },
+          "backgroundColor" : {
+            "$class" : "LKCGColorCodingProxy",
+            "a" : 1,
+            "b" : 0,
+            "g" : 0.80000001192092896,
+            "r" : 0.99999994039535522
+          },
+          "bounds" : {
+            "$class" : "LKNSValueCodingProxy",
+            "height" : 52.333332061767578,
+            "kind" : 2,
+            "width" : 126.66666412353516,
+            "x" : 0,
+            "y" : 0
+          },
+          "contentsFormat" : "RGBA8",
+          "name" : "SwiftUI._UIGraphicsView (0x7f8333708170)",
+          "opaque" : true,
+          "position" : {
+            "$class" : "LKNSValueCodingProxy",
+            "kind" : 0,
+            "x" : 0,
+            "y" : 0
+          },
+          "UICALayerRenderID" : 12178642380425974190
+        },
+        {
+          "__CACodingContents" : [
+            "UICALayerRenderID",
+            "allowsEdgeAntialiasing",
+            "allowsGroupOpacity",
+            "anchorPoint",
+            "bounds",
+            "contents",
+            "contentsFormat",
+            "contentsGravity",
+            "contentsScale",
+            "name",
+            "needsDisplayOnBoundsChange",
+            "opaque",
+            "position",
+            "rasterizationScale"
+          ],
+          "$class" : "CALayer",
+          "allowsEdgeAntialiasing" : false,
+          "allowsGroupOpacity" : true,
+          "anchorPoint" : {
+            "$class" : "LKNSValueCodingProxy",
+            "kind" : 0,
+            "x" : 0,
+            "y" : 0
+          },
+          "bounds" : {
+            "$class" : "LKNSValueCodingProxy",
+            "height" : 20.333333969116211,
+            "kind" : 2,
+            "width" : 94.666664123535156,
+            "x" : 0,
+            "y" : 0
+          },
+          "contents" : {
+            "$class" : "CATintedImage",
+            "image" : {
+              "$class" : "LKCGImageCodingProxy",
+              "A8asL8" : true,
+              "data" : {
+                "$class" : "NSMutableData",
+                "$data" : "iVBORw0KGgoAAAANSUhEUgAAARwAAAA9CAAAAABaGIkbAAANBGlDQ1BrQ0dDb2xvclNwYWNlR2VuZXJpY0dyYXlHYW1tYTJfMgAAWIWlVwdck9cWv9\/IAJKwp4ywkWVAgQAyIjOA7CG4iEkggRBiBgLiQooVrFscOCoqilpcFYE6UYtW6satD2qpoNRiLS6svpsEEKvte+\/3vvzud\/\/fPefcc8495557A4DuRo5EIkIBAHliuTQikZU+KT2DTroHyMAYaAN3oM3hyiSs+PgYyALE+WI++OR5cQMgyv6am3KuT+n\/+BB4fBkX9idhK+LJuHkAIOMBIJtxJVI5ABqT4LjtLLlEiUsgNshNTgyBeDnkoQzKKh+rCL6YLxVy6RFSThE9gpOXx6F7unvS46X5WULRZ6z+f588kWJYN2wUWW5SNOzdof1lPE6oEvtBfJDLCUuCmAlxb4EwNRbiYABQO4l8QiLEURDzFLkpLIhdIa7PkoanQBwI8R2BIlKJxwGAmRQLktMgNoM4Jjc\/WilrA3GWeEZsnFoX9iVXFpIBsRPELQI+WxkzO4gfS\/MTlTzOAOA0Hj80DGJoB84UytnJg7hcVpAUprYTv14sCIlV6yJQcjhR8RA7QOzAF0UkquchxEjk8co54TehQCyKjVH7RTjHl6n8hd9EslyQHAmxJ8TJcmlyotoeYnmWMJwNcTjEuwXSyES1v8Q+iUiVZ3BNSO4caViEek1IhVJFYoraR9J2vjhFOT\/MEdIDkIpwAB\/kgxnwzQVi0AnoQAaEoECFsgEH5MFGhxa4whYBucSwSSGHDOSqOKSga5g+JKGUcQMSSMsHWZBXBCWHxumAB2dQSypnyYdN+aWcuVs1xh3U6A5biOUOoIBfAtAL6QKIJoIO1UghtDAP9iFwVAFp2RCP1KKWj1dZq7aBPmh\/z6CWfJUtnGG5D7aFQLoYFMMR2ZBvuDHOwMfC5o\/H4AE4QyUlhRxFwE01Pl41NqT1g+dK33qGtc6Eto70fuSKDa3iKSglh98i6KF4cH1k0Jq3UCZ3UPovfi43UzhJJFVLE9jTatUjpdLpQu6lZX2tJUdNAP3GkpPnAX2vTtO5YRvp7XjjlGuU1pJ\/iOqntn0c1biReaPKJN4neQN1Ea4SLhMeEK4DOux\/JrQTuiG6S7gHf7eH7fkQA\/XaDOWE2i4ugg3bwIKaRSpqHmxCFY9sOB4KiOXwnaWSdvtLLCI+8WgkPX9YezZs+X+1YTBj+Cr9nM+uz\/+yQ0asZJZ4uZlEMq22ZIAvUa+HMnb8RbEvYkGpK2M\/o5exnbGX8Zzx4EP8GDcZvzLaGVsh5Qm2CjuMHcOasGasDdDhVzN2CmtSob3YUfg78Dc7IvszO0KZYdzBHaCkygdzcOReGekza0Q0lPxDa5jzN\/k9MoeUa\/nfWTRyno8rCP\/DLqXZ0jxoJJozzYvGoiE0a\/jzpAVDZEuzocXQjCE1kuZIC6WNGpF36oiJBjNI+FE9UFucDqlDmSZWVSMO5FRycAb9\/auP9I+8VHomHJkbCBXmhnBEDflc7aJ\/tNdSoKwQzFLJy1TVQaySk3yU3zJV1YIjyGRVDD9jG9GP6EgMIzp+0EMMJUYSw2HvoRwnjiFGQeyr5MItcQ+cDatbHKDjLNwLDx7E6oo3VPNUUcWDIDUQD8WZyhr50U7g\/kdPR+5CeNeQ8wvlyotBSL6kSCrMFsjpLHgz4tPZYq67K92T4QFPROU9S319eJ6guj8hRm1chbRAPYYrXwSgCe9gBsAUWAJbeKq7QV0+wB+es2HwjIwDyTCy06B1AmiNFK5tCVgAykElWA7WgA1gC9gO6kA9OAiOgKOwKn8PLoDLoB3chSdQF3gC+sALMIAgCAmhIvqIKWKF2CMuiCfCRAKRMCQGSUTSkUwkGxEjCqQEWYhUIiuRDchWpA45gDQhp5DzyBXkNtKJ9CC\/I29QDKWgBqgF6oCOQZkoC41Gk9GpaDY6Ey1Gy9Cl6Dq0Bt2LNqCn0AtoO9qBPkH7MYBpYUaYNeaGMbEQLA7LwLIwKTYXq8CqsBqsHlaBVuwa1oH1Yq9xIq6P03E3GJtIPAXn4jPxufgSfAO+C2\/Az+DX8E68D39HoBLMCS4EPwKbMImQTZhFKCdUEWoJhwlnYdXuIrwgEolGMC98YL6kE3OIs4lLiJuI+4gniVeID4n9JBLJlORCCiDFkTgkOamctJ60l3SCdJXURXpF1iJbkT3J4eQMsphcSq4i7yYfJ18lPyIPaOho2Gv4acRp8DSKNJZpbNdo1rik0aUxoKmr6agZoJmsmaO5QHOdZr3mWc17ms+1tLRstHy1ErSEWvO11mnt1zqn1an1mqJHcaaEUKZQFJSllJ2Uk5TblOdUKtWBGkzNoMqpS6l11NPUB9RXNH2aO41N49Hm0appDbSrtKfaGtr22iztadrF2lXah7QvaffqaOg46ITocHTm6lTrNOnc1OnX1df10I3TzdNdortb97xutx5Jz0EvTI+nV6a3Te+03kN9TN9WP0Sfq79Qf7v+Wf0uA6KBowHbIMeg0uAbg4sGfYZ6huMMUw0LDasNjxl2GGFGDkZsI5HRMqODRjeM3hhbGLOM+caLjeuNrxq\/NBllEmzCN6kw2WfSbvLGlG4aZpprusL0iOl9M9zM2SzBbJbZZrOzZr2jDEb5j+KOqhh1cNQdc9Tc2TzRfLb5NvM2834LS4sIC4nFeovTFr2WRpbBljmWqy2PW\/ZY6VsFWgmtVludsHpMN6Sz6CL6OvoZep+1uXWktcJ6q\/VF6wEbR5sUm1KbfTb3bTVtmbZZtqttW2z77KzsJtqV2O2xu2OvYc+0F9ivtW+1f+ng6JDmsMjhiEO3o4kj27HYcY\/jPSeqU5DTTKcap+ujiaOZo3NHbxp92Rl19nIWOFc7X3JBXbxdhC6bXK64Elx9XcWuNa433ShuLLcCtz1une5G7jHupe5H3J+OsRuTMWbFmNYx7xheDBE83+566HlEeZR6NHv87unsyfWs9rw+ljo2fOy8sY1jn41zGccft3ncLS99r4lei7xavP709vGWetd79\/jY+WT6bPS5yTRgxjOXMM\/5Enwn+M7zPer72s\/bT+530O83fzf\/XP\/d\/t3jHcfzx28f\/zDAJoATsDWgI5AemBn4dWBHkHUQJ6gm6Kdg22BecG3wI9ZoVg5rL+vpBMYE6YTDE16G+IXMCTkZioVGhFaEXgzTC0sJ2xD2INwmPDt8T3hfhFfE7IiTkYTI6MgVkTfZFmwuu47dF+UTNSfqTDQlOil6Q\/RPMc4x0pjmiejEqImrJt6LtY8Vxx6JA3HsuFVx9+Md42fGf5dATIhPqE74JdEjsSSxNUk\/aXrS7qQXyROSlyXfTXFKUaS0pGqnTkmtS32ZFpq2Mq1j0phJcyZdSDdLF6Y3ZpAyUjNqM\/onh01eM7lriteU8ik3pjpOLZx6fprZNNG0Y9O1p3OmH8okZKZl7s58y4nj1HD6Z7BnbJzRxw3hruU+4QXzVvN6+AH8lfxHWQFZK7O6swOyV2X3CIIEVYJeYYhwg\/BZTmTOlpyXuXG5O3Pfi9JE+\/LIeZl5TWI9ca74TL5lfmH+FYmLpFzSMdNv5pqZfdJoaa0MkU2VNcoN4J\/SNoWT4gtFZ0FgQXXBq1mpsw4V6haKC9uKnIsWFz0qDi\/eMRufzZ3dUmJdsqCkcw5rzta5yNwZc1vm2c4rm9c1P2L+rgWaC3IX\/FjKKF1Z+sfCtIXNZRZl88sefhHxxZ5yWrm0\/OYi\/0VbvsS\/FH55cfHYxesXv6vgVfxQyaisqny7hLvkh688vlr31fulWUsvLvNetnk5cbl4+Y0VQSt2rdRdWbzy4aqJqxpW01dXrP5jzfQ156vGVW1Zq7lWsbZjXcy6xvV265evf7tBsKG9ekL1vo3mGxdvfLmJt+nq5uDN9VsstlRuefO18OtbWyO2NtQ41FRtI24r2PbL9tTtrTuYO+pqzWora\/\/cKd7ZsStx15k6n7q63ea7l+1B9yj29OydsvfyN6HfNNa71W\/dZ7Svcj\/Yr9j\/+EDmgRsHow+2HGIeqv\/W\/tuNh\/UPVzQgDUUNfUcERzoa0xuvNEU1tTT7Nx\/+zv27nUetj1YfMzy27Ljm8bLj708Un+g\/KTnZeyr71MOW6S13T086ff1MwpmLZ6PPnvs+\/PvTrazWE+cCzh0973e+6QfmD0cueF9oaPNqO\/yj14+HL3pfbLjkc6nxsu\/l5ivjrxy\/GnT11LXQa99fZ1+\/0B7bfuVGyo1bN6fc7LjFu9V9W3T72Z2COwN358OLfcV9nftVD8wf1Pxr9L\/2dXh3HOsM7Wz7Kemnuw+5D5\/8LPv5bVfZL9Rfqh5ZParr9uw+2hPec\/nx5MddTyRPBnrLf9X9deNTp6ff\/hb8W1vfpL6uZ9Jn739f8tz0+c4\/xv3R0h\/f\/+BF3ouBlxWvTF\/tes183fom7c2jgVlvSW\/X\/Tn6z+Z30e\/uvc97\/\/7fCQ\/4Yk7kYoUAAAA4ZVhJZk1NACoAAAAIAAGHaQAEAAAAAQAAABoAAAAAAAKgAgAEAAAAAQAAARygAwAEAAAAAQAAAD0AAAAAVIZmzQAAChVJREFUeAHtWQtQFtcVPjwEhFhfKE6kgGgKdjRoTBASFWFEqE7QGk3rGI1Gp+2UxjbN1GZax85k0klqOmNam06bx2TSR2aqtVNtxV9RoyS+UGPwgSEqGiBqalTCS15ye869+zi7\/\/7\/vyCKk+yd4d9zvvO4d78997ELgNc8BjwGPAY8BjwGPAY8BjwGPAY8BjwGXDEQ5sorhNMTYwCObVZOXA4RdifNQYd13yIcyq87bs94tgkh3tRSc\/n29NajrEGHNQvHL+L884YTtOI6toH+xgcIn+6Pf6mRtc3YnpK3GEm\/0YPwx2GCRRLejzy+Qi0s1rhZWTmG5gkAnUSCWn88cuwFIXmRDIFHjp0cr3LsjDDdqxxGhl30KsfOCNNZ5citnJlCijEpyV9c+EyE9GMOUYlJkTW1NxjSi2LQ5DFJSVFXj6rV1d5nRGJq66kGO2rZrbpHTkLx0kQ6D7WWveJzyU\/CimWp8gh18Z0\/nfMfih1J\/zciM+oMeOGvAOqzzb5emA9Q+rRuDpD8wxiAn2+GjJ98FwUYeVF3N69hs1dl0QGu7v01Z0xUSqxypF5Mx2c68NlaJuH5Bhj9h1YCVDv9sIEDP5tzGSD2jXY9QIiuzcPMmABS+BX0X2QaN1L4BFOvRPVHmhow+Q10WgKLta7vJXfrsCaeoLSytb8yCCyvD8sJzpZddGMrH1JaHK0NCy\/pux4zlUBS4nvL2QE7rKh8fCBPHe8qRSlH1yBiBomFhj58LIo+pYZIPvdt1rWRQAo5e8YZQL8fl0QZCgmsctxPq\/j30im2pqJmUOpk5DRm4+K\/ExCkfb18BFkvf3i+M2V8Ckop+3OPEBKk+RZycibLei54SQ+YhsK5s1ILkbzfyziZxedXYkbqscZ1qo9mG1w6Vh2ZOmkoZK\/XPigoB7ZbScDVtPobldvJR2WppfyRlGsJKp2lZnn9+sjr3GL5BMOKPiDtpPUxaQnYZUQXeklOCXyeYkT7AN1hPWqvKiVIcppW9UJULv0auobLFY8NK+o05Ty\/RA4rdiXO44ME6G\/lC0gxKwvckFNIMT5jlMs6Uf2HNmbWMyfqKQr5YLh+Y7Hydl7Q1UDXYxj0Hd1YTimEmKPrx1F5VCrBkhM5QuwbrEfhlQ3xOTKeNPhPqyXdJOfbpKTJUHNaPdnCcilxFEN+j\/L5eYbPW+N+CvD486eYh12MeBGRq\/lXdbylqAIn5qp1BqAbrFcfLr85Gu3xkwDW\/aA\/FGiFPxSfaPu75B86ecl858ND\/19ieH3e\/\/Req\/IrLNXM1hzpIiuHCHNq+dLlQTLN1BPiNe4SAmsUwB4Le0S5FPJDFgLfImQ5RxzkHPTROV+IcvpWIao1v7mo75Zy0ORUOS28bnjlFKFRPMM7XkuIMa3kFEmSdre7FR4voHoHS9n8L1TmMcBPXIBI\/Wsc3nYCNYKDtf2NAN8cpjwKsFo\/KgEYdZ\/SaRtTe1XI5JuuB+iEpmjDq9z4kuWUyCrHLTlEwyaeEbaglqEvyRaLptAoSi39wjaE8vSVzykGsQ4qjWnSGIbklMigQuVskhMyeaWK8P+djdDOdo5fO8A1tluZa84GS4B0j9fGBBA5BoFyngOOk5b4mQXjStS9qO3kCHK1Cr8sJlZZQbvmwxvPkQ\/iflw1t0F1VRoUrCevgRm4Act+Qye\/ZE+r6bH0PEutxu1Tmc4qxyTn+\/XMQ4mZBjkJtB\/+lh6X0eQqZqz5BmwI0lRjqFKopd8RIcjZjj7qGIjdt+LyW5IGudFtiE7BOicr5qCfoMm7yMOhyVr\/xGq4wFXHyuEOfrIcTHKyM+6HSkCGfG61XSFVGqy4RTv\/8Tdg\/ODriOGs2ov7Y8kzEDuVatCcVT1ODsOpLzkOElSzqKxyXK45MqWei10HMtkmDiXdVo1Sjbc5+qk+\/NpPhX7PFFpyAMqaJE+SHPl6AdDz5E6R9CCM1v3KaaDY5mojAwkjLgPYKoPbJREDOAIgVRthVg\/SfCuRB1zv8\/AMS+S075oDhT\/D6AcADl+T\/j1P\/gXF24ZFB2mjUeWIm1I11xzD6iQgDzhY64rs5McwGWKrErlDSwNz9BP3tkXLGYSz6sxZspbMgXEjP4WHcbBYVdR6nlzuIHIcKhP9WtQqZE4om8tpJQcTbN82e9IlGTJS19SVNjB1Y1bcqrWUAUzAp1lIexU1+kWmaMlR67HK0aPkkhxbZCJ1ojfR1NTUrBSX5DTTtGRvY3qmINcbV9GYa3UgVdRZMQcNyyNiCoxJVbMKoPaETs51rXh7nryR5lWetdMZVtXQXJIjH948I8qVQMtFAR0BzIa1APvkrDcxB0lt5ujcsldZMVV+ROxDeEBRi4FirefJrZGxVJJOzS05\/8TgB8c7ZQiIbURLwuPcnDkZNYJDtFN4HsqhifRuq\/JEcgY\/lI3rszarVJaeJd+MKYct4iMojuEak92S46Np+GYEi1zd0NBwzvI+y4wk7qAtbm1\/Ew37HdaR2GQCASXkYNIQnINqyQHYj9VWyJacW0le0oHdvhhr9p2w2pRJur\/4e2MY4uZ7zhp6c30DH57WCm+ivkYpzm\/lID+clBjshL9OKV7T4qOp6cns1\/no+A7+jdING\/ALTIUQx3Udgiant\/IlpitJbIjr0Cq2G+zEHyXdfCv\/Bd5Y65NmtBty+uHYhNgzSUUN+zNx0zhEaaxnPoqIwxSyn+YStrFbSKvVzhThdAOXsZIc2yD6lCbEacO4VOriZQOAYMmDkzPgIiU7oA1r5mkhPiYgTuXOoBsTTcNJw6ODu9axbB9OzZwjhw\/VdKWPnUCp2haoE1mgBDeXHcLnk33wwKELnSkZM4iJmytormFLpnleKqTs\/1N\/8BEC9VmFxxshedROOWQLlpzsgVvjyg2YLOvg++XVkaOnTMSvDW\/91\/TOkQtNXKYBuakcgEz6vMVa22w9ZYDKAZhYw\/xRrMdFVjX5SekJXfO7rpZxbIs9QkCTZYkLnDx45QAs7pDptZ\/jcfxfM08rdBYNye2CjK7lmYf4TeyZvpWrjvKxzL0cr8wydps0xEUpN1pk6ddUZmK4X+HmZfmqEji5GeYs\/XUue5v6zyztyKd8d8vDQkM5ad0gB2qzpm2gpR5b687puQeUGPT38vSsv7Qpj64tBeM+MpyJnAp5WjUgLhyll7bdjAs5wwxqlWvA5DyTo7w16dlPlaFiZlGdxeXUs3iLzSvkS6OcyhZrcGVASlJy59kzdYFWC4fouJQk\/F95zQXL4W9XHsBvnnPw7ibkmNxNjsiU0amtlZWN\/r6jH+ko06jzN94RpA6nNvLjNQcG7kFurMurg1OfQ91Zc3pxsLTk7GFLSi+m7sVUfUjOjl68jduTqg\/Jse09t+f+bilr35HzSdUtDfxOBPcdOXf\/rLoT\/Dv0EdYsxGMO+F0GdfcQ2DvDD0vFb593\/WbVO\/fqZfkKMvB\/fS37ZRaOb+oAAAAASUVORK5CYII="
+              }
+            },
+            "tint" : {
+              "$class" : "LKCGColorCodingProxy",
+              "a" : 1,
+              "b" : 0,
+              "g" : 0,
+              "r" : 0
+            }
+          },
+          "contentsFormat" : "Automatic",
+          "contentsGravity" : "bottomLeft",
+          "contentsScale" : 3,
+          "name" : "_TtCOCV7SwiftUI11DisplayList11ViewUpdater8Platform13CGDrawingView (0x7f83337061b0)",
+          "needsDisplayOnBoundsChange" : false,
+          "opaque" : false,
+          "position" : {
+            "$class" : "LKNSValueCodingProxy",
+            "kind" : 0,
+            "x" : 16,
+            "y" : 16
+          },
+          "rasterizationScale" : 3,
+          "UICALayerRenderID" : 12178642380425974750
+        },
+        {
+          "__CACodingContents" : [
+            "UICALayerRenderID",
+            "allowsEdgeAntialiasing",
+            "allowsGroupOpacity",
+            "anchorPoint",
+            "backgroundColor",
+            "bounds",
+            "contentsFormat",
+            "name",
+            "opaque",
+            "position"
+          ],
+          "$class" : "CALayer",
+          "allowsEdgeAntialiasing" : false,
+          "allowsGroupOpacity" : true,
+          "anchorPoint" : {
+            "$class" : "LKNSValueCodingProxy",
+            "kind" : 0,
+            "x" : 0,
+            "y" : 0
+          },
+          "backgroundColor" : {
+            "$class" : "LKCGColorCodingProxy",
+            "a" : 1,
+            "b" : 0.34901958703994751,
+            "g" : 0.78039216995239258,
+            "r" : 0.20392152667045593
+          },
+          "bounds" : {
+            "$class" : "LKNSValueCodingProxy",
+            "height" : 52.333332061767578,
+            "kind" : 2,
+            "width" : 126.66666412353516,
+            "x" : 0,
+            "y" : 0
+          },
+          "contentsFormat" : "RGBA8",
+          "name" : "SwiftUI._UIGraphicsView (0x7f8333707570)",
+          "opaque" : true,
+          "position" : {
+            "$class" : "LKNSValueCodingProxy",
+            "kind" : 0,
+            "x" : 0,
+            "y" : 60.333332061767578
+          },
+          "UICALayerRenderID" : 12178642380425975038
+        },
+        {
+          "__CACodingContents" : [
+            "UICALayerRenderID",
+            "allowsEdgeAntialiasing",
+            "allowsGroupOpacity",
+            "anchorPoint",
+            "bounds",
+            "contents",
+            "contentsFormat",
+            "contentsGravity",
+            "contentsScale",
+            "name",
+            "needsDisplayOnBoundsChange",
+            "opaque",
+            "position",
+            "rasterizationScale"
+          ],
+          "$class" : "CALayer",
+          "allowsEdgeAntialiasing" : false,
+          "allowsGroupOpacity" : true,
+          "anchorPoint" : {
+            "$class" : "LKNSValueCodingProxy",
+            "kind" : 0,
+            "x" : 0,
+            "y" : 0
+          },
+          "bounds" : {
+            "$class" : "LKNSValueCodingProxy",
+            "height" : 20.333333969116211,
+            "kind" : 2,
+            "width" : 94.666664123535156,
+            "x" : 0,
+            "y" : 0
+          },
+          "contents" : {
+            "$class" : "CATintedImage",
+            "image" : {
+              "$class" : "LKCGImageCodingProxy",
+              "A8asL8" : true,
+              "data" : {
+                "$class" : "NSMutableData",
+                "$data" : "iVBORw0KGgoAAAANSUhEUgAAARwAAAA9CAAAAABaGIkbAAANBGlDQ1BrQ0dDb2xvclNwYWNlR2VuZXJpY0dyYXlHYW1tYTJfMgAAWIWlVwdck9cWv9\/IAJKwp4ywkWVAgQAyIjOA7CG4iEkggRBiBgLiQooVrFscOCoqilpcFYE6UYtW6satD2qpoNRiLS6svpsEEKvte+\/3vvzud\/\/fPefcc8495557A4DuRo5EIkIBAHliuTQikZU+KT2DTroHyMAYaAN3oM3hyiSs+PgYyALE+WI++OR5cQMgyv6am3KuT+n\/+BB4fBkX9idhK+LJuHkAIOMBIJtxJVI5ABqT4LjtLLlEiUsgNshNTgyBeDnkoQzKKh+rCL6YLxVy6RFSThE9gpOXx6F7unvS46X5WULRZ6z+f588kWJYN2wUWW5SNOzdof1lPE6oEvtBfJDLCUuCmAlxb4EwNRbiYABQO4l8QiLEURDzFLkpLIhdIa7PkoanQBwI8R2BIlKJxwGAmRQLktMgNoM4Jjc\/WilrA3GWeEZsnFoX9iVXFpIBsRPELQI+WxkzO4gfS\/MTlTzOAOA0Hj80DGJoB84UytnJg7hcVpAUprYTv14sCIlV6yJQcjhR8RA7QOzAF0UkquchxEjk8co54TehQCyKjVH7RTjHl6n8hd9EslyQHAmxJ8TJcmlyotoeYnmWMJwNcTjEuwXSyES1v8Q+iUiVZ3BNSO4caViEek1IhVJFYoraR9J2vjhFOT\/MEdIDkIpwAB\/kgxnwzQVi0AnoQAaEoECFsgEH5MFGhxa4whYBucSwSSGHDOSqOKSga5g+JKGUcQMSSMsHWZBXBCWHxumAB2dQSypnyYdN+aWcuVs1xh3U6A5biOUOoIBfAtAL6QKIJoIO1UghtDAP9iFwVAFp2RCP1KKWj1dZq7aBPmh\/z6CWfJUtnGG5D7aFQLoYFMMR2ZBvuDHOwMfC5o\/H4AE4QyUlhRxFwE01Pl41NqT1g+dK33qGtc6Eto70fuSKDa3iKSglh98i6KF4cH1k0Jq3UCZ3UPovfi43UzhJJFVLE9jTatUjpdLpQu6lZX2tJUdNAP3GkpPnAX2vTtO5YRvp7XjjlGuU1pJ\/iOqntn0c1biReaPKJN4neQN1Ea4SLhMeEK4DOux\/JrQTuiG6S7gHf7eH7fkQA\/XaDOWE2i4ugg3bwIKaRSpqHmxCFY9sOB4KiOXwnaWSdvtLLCI+8WgkPX9YezZs+X+1YTBj+Cr9nM+uz\/+yQ0asZJZ4uZlEMq22ZIAvUa+HMnb8RbEvYkGpK2M\/o5exnbGX8Zzx4EP8GDcZvzLaGVsh5Qm2CjuMHcOasGasDdDhVzN2CmtSob3YUfg78Dc7IvszO0KZYdzBHaCkygdzcOReGekza0Q0lPxDa5jzN\/k9MoeUa\/nfWTRyno8rCP\/DLqXZ0jxoJJozzYvGoiE0a\/jzpAVDZEuzocXQjCE1kuZIC6WNGpF36oiJBjNI+FE9UFucDqlDmSZWVSMO5FRycAb9\/auP9I+8VHomHJkbCBXmhnBEDflc7aJ\/tNdSoKwQzFLJy1TVQaySk3yU3zJV1YIjyGRVDD9jG9GP6EgMIzp+0EMMJUYSw2HvoRwnjiFGQeyr5MItcQ+cDatbHKDjLNwLDx7E6oo3VPNUUcWDIDUQD8WZyhr50U7g\/kdPR+5CeNeQ8wvlyotBSL6kSCrMFsjpLHgz4tPZYq67K92T4QFPROU9S319eJ6guj8hRm1chbRAPYYrXwSgCe9gBsAUWAJbeKq7QV0+wB+es2HwjIwDyTCy06B1AmiNFK5tCVgAykElWA7WgA1gC9gO6kA9OAiOgKOwKn8PLoDLoB3chSdQF3gC+sALMIAgCAmhIvqIKWKF2CMuiCfCRAKRMCQGSUTSkUwkGxEjCqQEWYhUIiuRDchWpA45gDQhp5DzyBXkNtKJ9CC\/I29QDKWgBqgF6oCOQZkoC41Gk9GpaDY6Ey1Gy9Cl6Dq0Bt2LNqCn0AtoO9qBPkH7MYBpYUaYNeaGMbEQLA7LwLIwKTYXq8CqsBqsHlaBVuwa1oH1Yq9xIq6P03E3GJtIPAXn4jPxufgSfAO+C2\/Az+DX8E68D39HoBLMCS4EPwKbMImQTZhFKCdUEWoJhwlnYdXuIrwgEolGMC98YL6kE3OIs4lLiJuI+4gniVeID4n9JBLJlORCCiDFkTgkOamctJ60l3SCdJXURXpF1iJbkT3J4eQMsphcSq4i7yYfJ18lPyIPaOho2Gv4acRp8DSKNJZpbNdo1rik0aUxoKmr6agZoJmsmaO5QHOdZr3mWc17ms+1tLRstHy1ErSEWvO11mnt1zqn1an1mqJHcaaEUKZQFJSllJ2Uk5TblOdUKtWBGkzNoMqpS6l11NPUB9RXNH2aO41N49Hm0appDbSrtKfaGtr22iztadrF2lXah7QvaffqaOg46ITocHTm6lTrNOnc1OnX1df10I3TzdNdortb97xutx5Jz0EvTI+nV6a3Te+03kN9TN9WP0Sfq79Qf7v+Wf0uA6KBowHbIMeg0uAbg4sGfYZ6huMMUw0LDasNjxl2GGFGDkZsI5HRMqODRjeM3hhbGLOM+caLjeuNrxq\/NBllEmzCN6kw2WfSbvLGlG4aZpprusL0iOl9M9zM2SzBbJbZZrOzZr2jDEb5j+KOqhh1cNQdc9Tc2TzRfLb5NvM2834LS4sIC4nFeovTFr2WRpbBljmWqy2PW\/ZY6VsFWgmtVludsHpMN6Sz6CL6OvoZep+1uXWktcJ6q\/VF6wEbR5sUm1KbfTb3bTVtmbZZtqttW2z77KzsJtqV2O2xu2OvYc+0F9ivtW+1f+ng6JDmsMjhiEO3o4kj27HYcY\/jPSeqU5DTTKcap+ujiaOZo3NHbxp92Rl19nIWOFc7X3JBXbxdhC6bXK64Elx9XcWuNa433ShuLLcCtz1une5G7jHupe5H3J+OsRuTMWbFmNYx7xheDBE83+566HlEeZR6NHv87unsyfWs9rw+ljo2fOy8sY1jn41zGccft3ncLS99r4lei7xavP709vGWetd79\/jY+WT6bPS5yTRgxjOXMM\/5Enwn+M7zPer72s\/bT+530O83fzf\/XP\/d\/t3jHcfzx28f\/zDAJoATsDWgI5AemBn4dWBHkHUQJ6gm6Kdg22BecG3wI9ZoVg5rL+vpBMYE6YTDE16G+IXMCTkZioVGhFaEXgzTC0sJ2xD2INwmPDt8T3hfhFfE7IiTkYTI6MgVkTfZFmwuu47dF+UTNSfqTDQlOil6Q\/RPMc4x0pjmiejEqImrJt6LtY8Vxx6JA3HsuFVx9+Md42fGf5dATIhPqE74JdEjsSSxNUk\/aXrS7qQXyROSlyXfTXFKUaS0pGqnTkmtS32ZFpq2Mq1j0phJcyZdSDdLF6Y3ZpAyUjNqM\/onh01eM7lriteU8ik3pjpOLZx6fprZNNG0Y9O1p3OmH8okZKZl7s58y4nj1HD6Z7BnbJzRxw3hruU+4QXzVvN6+AH8lfxHWQFZK7O6swOyV2X3CIIEVYJeYYhwg\/BZTmTOlpyXuXG5O3Pfi9JE+\/LIeZl5TWI9ca74TL5lfmH+FYmLpFzSMdNv5pqZfdJoaa0MkU2VNcoN4J\/SNoWT4gtFZ0FgQXXBq1mpsw4V6haKC9uKnIsWFz0qDi\/eMRufzZ3dUmJdsqCkcw5rzta5yNwZc1vm2c4rm9c1P2L+rgWaC3IX\/FjKKF1Z+sfCtIXNZRZl88sefhHxxZ5yWrm0\/OYi\/0VbvsS\/FH55cfHYxesXv6vgVfxQyaisqny7hLvkh688vlr31fulWUsvLvNetnk5cbl4+Y0VQSt2rdRdWbzy4aqJqxpW01dXrP5jzfQ156vGVW1Zq7lWsbZjXcy6xvV265evf7tBsKG9ekL1vo3mGxdvfLmJt+nq5uDN9VsstlRuefO18OtbWyO2NtQ41FRtI24r2PbL9tTtrTuYO+pqzWora\/\/cKd7ZsStx15k6n7q63ea7l+1B9yj29OydsvfyN6HfNNa71W\/dZ7Svcj\/Yr9j\/+EDmgRsHow+2HGIeqv\/W\/tuNh\/UPVzQgDUUNfUcERzoa0xuvNEU1tTT7Nx\/+zv27nUetj1YfMzy27Ljm8bLj708Un+g\/KTnZeyr71MOW6S13T086ff1MwpmLZ6PPnvs+\/PvTrazWE+cCzh0973e+6QfmD0cueF9oaPNqO\/yj14+HL3pfbLjkc6nxsu\/l5ivjrxy\/GnT11LXQa99fZ1+\/0B7bfuVGyo1bN6fc7LjFu9V9W3T72Z2COwN358OLfcV9nftVD8wf1Pxr9L\/2dXh3HOsM7Wz7Kemnuw+5D5\/8LPv5bVfZL9Rfqh5ZParr9uw+2hPec\/nx5MddTyRPBnrLf9X9deNTp6ff\/hb8W1vfpL6uZ9Jn739f8tz0+c4\/xv3R0h\/f\/+BF3ouBlxWvTF\/tes183fom7c2jgVlvSW\/X\/Tn6z+Z30e\/uvc97\/\/7fCQ\/4Yk7kYoUAAAA4ZVhJZk1NACoAAAAIAAGHaQAEAAAAAQAAABoAAAAAAAKgAgAEAAAAAQAAARygAwAEAAAAAQAAAD0AAAAAVIZmzQAAChVJREFUeAHtWQtQFtcVPjwEhFhfKE6kgGgKdjRoTBASFWFEqE7QGk3rGI1Gp+2UxjbN1GZax85k0klqOmNam06bx2TSR2aqtVNtxV9RoyS+UGPwgSEqGiBqalTCS15ye869+zi7\/\/7\/vyCKk+yd4d9zvvO4d78997ELgNc8BjwGPAY8BjwGPAY8BjwGPAY8BjwGXDEQ5sorhNMTYwCObVZOXA4RdifNQYd13yIcyq87bs94tgkh3tRSc\/n29NajrEGHNQvHL+L884YTtOI6toH+xgcIn+6Pf6mRtc3YnpK3GEm\/0YPwx2GCRRLejzy+Qi0s1rhZWTmG5gkAnUSCWn88cuwFIXmRDIFHjp0cr3LsjDDdqxxGhl30KsfOCNNZ5citnJlCijEpyV9c+EyE9GMOUYlJkTW1NxjSi2LQ5DFJSVFXj6rV1d5nRGJq66kGO2rZrbpHTkLx0kQ6D7WWveJzyU\/CimWp8gh18Z0\/nfMfih1J\/zciM+oMeOGvAOqzzb5emA9Q+rRuDpD8wxiAn2+GjJ98FwUYeVF3N69hs1dl0QGu7v01Z0xUSqxypF5Mx2c68NlaJuH5Bhj9h1YCVDv9sIEDP5tzGSD2jXY9QIiuzcPMmABS+BX0X2QaN1L4BFOvRPVHmhow+Q10WgKLta7vJXfrsCaeoLSytb8yCCyvD8sJzpZddGMrH1JaHK0NCy\/pux4zlUBS4nvL2QE7rKh8fCBPHe8qRSlH1yBiBomFhj58LIo+pYZIPvdt1rWRQAo5e8YZQL8fl0QZCgmsctxPq\/j30im2pqJmUOpk5DRm4+K\/ExCkfb18BFkvf3i+M2V8Ckop+3OPEBKk+RZycibLei54SQ+YhsK5s1ILkbzfyziZxedXYkbqscZ1qo9mG1w6Vh2ZOmkoZK\/XPigoB7ZbScDVtPobldvJR2WppfyRlGsJKp2lZnn9+sjr3GL5BMOKPiDtpPUxaQnYZUQXeklOCXyeYkT7AN1hPWqvKiVIcppW9UJULv0auobLFY8NK+o05Ty\/RA4rdiXO44ME6G\/lC0gxKwvckFNIMT5jlMs6Uf2HNmbWMyfqKQr5YLh+Y7Hydl7Q1UDXYxj0Hd1YTimEmKPrx1F5VCrBkhM5QuwbrEfhlQ3xOTKeNPhPqyXdJOfbpKTJUHNaPdnCcilxFEN+j\/L5eYbPW+N+CvD486eYh12MeBGRq\/lXdbylqAIn5qp1BqAbrFcfLr85Gu3xkwDW\/aA\/FGiFPxSfaPu75B86ecl858ND\/19ieH3e\/\/Req\/IrLNXM1hzpIiuHCHNq+dLlQTLN1BPiNe4SAmsUwB4Le0S5FPJDFgLfImQ5RxzkHPTROV+IcvpWIao1v7mo75Zy0ORUOS28bnjlFKFRPMM7XkuIMa3kFEmSdre7FR4voHoHS9n8L1TmMcBPXIBI\/Wsc3nYCNYKDtf2NAN8cpjwKsFo\/KgEYdZ\/SaRtTe1XI5JuuB+iEpmjDq9z4kuWUyCrHLTlEwyaeEbaglqEvyRaLptAoSi39wjaE8vSVzykGsQ4qjWnSGIbklMigQuVskhMyeaWK8P+djdDOdo5fO8A1tluZa84GS4B0j9fGBBA5BoFyngOOk5b4mQXjStS9qO3kCHK1Cr8sJlZZQbvmwxvPkQ\/iflw1t0F1VRoUrCevgRm4Act+Qye\/ZE+r6bH0PEutxu1Tmc4qxyTn+\/XMQ4mZBjkJtB\/+lh6X0eQqZqz5BmwI0lRjqFKopd8RIcjZjj7qGIjdt+LyW5IGudFtiE7BOicr5qCfoMm7yMOhyVr\/xGq4wFXHyuEOfrIcTHKyM+6HSkCGfG61XSFVGqy4RTv\/8Tdg\/ODriOGs2ov7Y8kzEDuVatCcVT1ODsOpLzkOElSzqKxyXK45MqWei10HMtkmDiXdVo1Sjbc5+qk+\/NpPhX7PFFpyAMqaJE+SHPl6AdDz5E6R9CCM1v3KaaDY5mojAwkjLgPYKoPbJREDOAIgVRthVg\/SfCuRB1zv8\/AMS+S075oDhT\/D6AcADl+T\/j1P\/gXF24ZFB2mjUeWIm1I11xzD6iQgDzhY64rs5McwGWKrErlDSwNz9BP3tkXLGYSz6sxZspbMgXEjP4WHcbBYVdR6nlzuIHIcKhP9WtQqZE4om8tpJQcTbN82e9IlGTJS19SVNjB1Y1bcqrWUAUzAp1lIexU1+kWmaMlR67HK0aPkkhxbZCJ1ojfR1NTUrBSX5DTTtGRvY3qmINcbV9GYa3UgVdRZMQcNyyNiCoxJVbMKoPaETs51rXh7nryR5lWetdMZVtXQXJIjH948I8qVQMtFAR0BzIa1APvkrDcxB0lt5ujcsldZMVV+ROxDeEBRi4FirefJrZGxVJJOzS05\/8TgB8c7ZQiIbURLwuPcnDkZNYJDtFN4HsqhifRuq\/JEcgY\/lI3rszarVJaeJd+MKYct4iMojuEak92S46Np+GYEi1zd0NBwzvI+y4wk7qAtbm1\/Ew37HdaR2GQCASXkYNIQnINqyQHYj9VWyJacW0le0oHdvhhr9p2w2pRJur\/4e2MY4uZ7zhp6c30DH57WCm+ivkYpzm\/lID+clBjshL9OKV7T4qOp6cns1\/no+A7+jdING\/ALTIUQx3Udgiant\/IlpitJbIjr0Cq2G+zEHyXdfCv\/Bd5Y65NmtBty+uHYhNgzSUUN+zNx0zhEaaxnPoqIwxSyn+YStrFbSKvVzhThdAOXsZIc2yD6lCbEacO4VOriZQOAYMmDkzPgIiU7oA1r5mkhPiYgTuXOoBsTTcNJw6ODu9axbB9OzZwjhw\/VdKWPnUCp2haoE1mgBDeXHcLnk33wwKELnSkZM4iJmytormFLpnleKqTs\/1N\/8BEC9VmFxxshedROOWQLlpzsgVvjyg2YLOvg++XVkaOnTMSvDW\/91\/TOkQtNXKYBuakcgEz6vMVa22w9ZYDKAZhYw\/xRrMdFVjX5SekJXfO7rpZxbIs9QkCTZYkLnDx45QAs7pDptZ\/jcfxfM08rdBYNye2CjK7lmYf4TeyZvpWrjvKxzL0cr8wydps0xEUpN1pk6ddUZmK4X+HmZfmqEji5GeYs\/XUue5v6zyztyKd8d8vDQkM5ad0gB2qzpm2gpR5b687puQeUGPT38vSsv7Qpj64tBeM+MpyJnAp5WjUgLhyll7bdjAs5wwxqlWvA5DyTo7w16dlPlaFiZlGdxeXUs3iLzSvkS6OcyhZrcGVASlJy59kzdYFWC4fouJQk\/F95zQXL4W9XHsBvnnPw7ibkmNxNjsiU0amtlZWN\/r6jH+ko06jzN94RpA6nNvLjNQcG7kFurMurg1OfQ91Zc3pxsLTk7GFLSi+m7sVUfUjOjl68jduTqg\/Jse09t+f+bilr35HzSdUtDfxOBPcdOXf\/rLoT\/Dv0EdYsxGMO+F0GdfcQ2DvDD0vFb593\/WbVO\/fqZfkKMvB\/fS37ZRaOb+oAAAAASUVORK5CYII="
+              }
+            },
+            "tint" : {
+              "$class" : "LKCGColorCodingProxy",
+              "a" : 1,
+              "b" : 0,
+              "g" : 0,
+              "r" : 0
+            }
+          },
+          "contentsFormat" : "Automatic",
+          "contentsGravity" : "bottomLeft",
+          "contentsScale" : 3,
+          "name" : "_TtCOCV7SwiftUI11DisplayList11ViewUpdater8Platform13CGDrawingView (0x7f8333706af0)",
+          "needsDisplayOnBoundsChange" : false,
+          "opaque" : false,
+          "position" : {
+            "$class" : "LKNSValueCodingProxy",
+            "kind" : 0,
+            "x" : 16,
+            "y" : 76.333335876464844
+          },
+          "rasterizationScale" : 3,
+          "UICALayerRenderID" : 12178642380425975326
+        }
+      ]
+    },
+    "UICALayerRenderID" : 12178642380422828238
+  }
+}

@@ -13,6 +13,7 @@
 		4B4F48E6286ADBD200563D3C /* RainbowGlowView.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4B4F48E5286ADBD200563D3C /* RainbowGlowView.xml */; };
 		4B4F48ED286AE74B00563D3C /* AEXML in Frameworks */ = {isa = PBXBuildFile; productRef = 4B4F48EC286AE74B00563D3C /* AEXML */; };
 		4B4F48EF286AF16800563D3C /* CAPackageViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4F48EE286AF16800563D3C /* CAPackageViewTest.swift */; };
+		4B4F48F1286AF71300563D3C /* ContentView-withTintedImage.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B4F48F0286AF71300563D3C /* ContentView-withTintedImage.json */; };
 		4B6CD8012851AC0400118D04 /* VisualTestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B6CD7FF2851AB0700118D04 /* VisualTestKit.framework */; };
 		4B6CD8032851ACB700118D04 /* VisualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6CD8022851ACB700118D04 /* VisualTests.swift */; };
 		4B6CD8052851AD9800118D04 /* VisualTestKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6CD8042851AD9800118D04 /* VisualTestKit.swift */; };
@@ -65,6 +66,7 @@
 		4B4F48E3286ADA8E00563D3C /* CAMLWriterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAMLWriterTests.swift; sourceTree = "<group>"; };
 		4B4F48E5286ADBD200563D3C /* RainbowGlowView.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = RainbowGlowView.xml; sourceTree = "<group>"; };
 		4B4F48EE286AF16800563D3C /* CAPackageViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAPackageViewTest.swift; sourceTree = "<group>"; };
+		4B4F48F0286AF71300563D3C /* ContentView-withTintedImage.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "ContentView-withTintedImage.json"; sourceTree = "<group>"; };
 		4B6CD7FF2851AB0700118D04 /* VisualTestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisualTestKit.framework; path = lib/VisualTestKit/VisualTestKit.framework; sourceTree = SOURCE_ROOT; };
 		4B6CD8022851ACB700118D04 /* VisualTests.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = VisualTests.swift; sourceTree = "<group>"; tabWidth = 2; };
 		4B6CD8042851AD9800118D04 /* VisualTestKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualTestKit.swift; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 				4B84582F285E6D78001C93D4 /* RenderViewTest.swift */,
 				4B78C07428570C8F007B133E /* CoreAnimationArchiveTests.swift */,
 				4BEFB0F228604184000B714C /* HRCoderTests.swift */,
+				4B4F48F0286AF71300563D3C /* ContentView-withTintedImage.json */,
 				4B4F48E3286ADA8E00563D3C /* CAMLWriterTests.swift */,
 				4B4F48EE286AF16800563D3C /* CAPackageViewTest.swift */,
 				4B4F48E5286ADBD200563D3C /* RainbowGlowView.xml */,
@@ -363,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B4F48E6286ADBD200563D3C /* RainbowGlowView.xml in Resources */,
+				4B4F48F1286AF71300563D3C /* ContentView-withTintedImage.json in Resources */,
 				4B6CD8072851AE0100118D04 /* VisualTests in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

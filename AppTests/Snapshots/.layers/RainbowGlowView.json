@@ -1,88 +1,56 @@
 {
-  "__CACodingContents" : [
-    "allowsEdgeAntialiasing",
-    "allowsGroupBlending",
-    "allowsGroupOpacity",
-    "backgroundColor",
-    "bounds",
-    "contentsFormat",
-    "delegate",
-    "name",
-    "needsDisplayOnBoundsChange",
-    "needsLayoutOnGeometryChange",
-    "opaque",
-    "position",
-    "securityMode",
-    "sublayers"
-  ],
-  "$class" : "CALayer",
-  "allowsEdgeAntialiasing" : false,
-  "allowsGroupBlending" : false,
-  "allowsGroupOpacity" : false,
-  "backgroundColor" : {
-    "$class" : "LKCGColorCodingProxy",
-    "a" : 0,
-    "b" : 0,
-    "g" : 0,
-    "r" : 0
-  },
-  "bounds" : {
-    "$class" : "LKNSValueCodingProxy",
-    "height" : 200,
-    "kind" : 2,
-    "width" : 300,
-    "x" : 0,
-    "y" : 0
-  },
-  "contentsFormat" : "RGBA8",
-  "name" : "VC:_TtGC7SwiftUI19UIHostingControllerGVS_15ModifiedContentV10ExampleApp15RainbowGlowViewGVS_21_TraitWritingModifierVS_21PreviewLayoutTraitKey___",
-  "needsDisplayOnBoundsChange" : false,
-  "needsLayoutOnGeometryChange" : true,
-  "opaque" : false,
-  "position" : {
-    "$class" : "LKNSValueCodingProxy",
-    "kind" : 0,
-    "x" : 150,
-    "y" : 147
-  },
-  "securityMode" : "insecure",
-  "sublayers" : {
-    "$class" : "LKNSArrayCodingProxy",
-    "array" : [
-      {
-        "__CACodingContents" : [
-          "allowsEdgeAntialiasing",
-          "allowsGroupBlending",
-          "allowsGroupOpacity",
-          "anchorPoint",
-          "bounds",
-          "contentsFormat",
-          "delegate",
-          "mask",
-          "opaque",
-          "position",
-          "sublayers"
-        ],
-        "$class" : "CALayer",
-        "allowsEdgeAntialiasing" : false,
-        "allowsGroupBlending" : false,
-        "allowsGroupOpacity" : false,
-        "anchorPoint" : {
-          "$class" : "LKNSValueCodingProxy",
-          "kind" : 0,
-          "x" : 0,
-          "y" : 0
-        },
-        "bounds" : {
-          "$class" : "LKNSValueCodingProxy",
-          "height" : 300,
-          "kind" : 2,
-          "width" : 400,
-          "x" : 0,
-          "y" : 0
-        },
-        "contentsFormat" : "RGBA8",
-        "mask" : {
+  "rootLayer" : {
+    "__CACodingContents" : [
+      "allowsEdgeAntialiasing",
+      "allowsGroupBlending",
+      "allowsGroupOpacity",
+      "backgroundColor",
+      "bounds",
+      "contentsFormat",
+      "delegate",
+      "name",
+      "needsDisplayOnBoundsChange",
+      "needsLayoutOnGeometryChange",
+      "opaque",
+      "position",
+      "securityMode",
+      "sublayers"
+    ],
+    "$class" : "CALayer",
+    "allowsEdgeAntialiasing" : false,
+    "allowsGroupBlending" : false,
+    "allowsGroupOpacity" : false,
+    "backgroundColor" : {
+      "$class" : "LKCGColorCodingProxy",
+      "a" : 0,
+      "b" : 0,
+      "g" : 0,
+      "r" : 0
+    },
+    "bounds" : {
+      "$class" : "LKNSValueCodingProxy",
+      "height" : 200,
+      "kind" : 2,
+      "width" : 300,
+      "x" : 0,
+      "y" : 0
+    },
+    "contentsFormat" : "RGBA8",
+    "name" : "VC:_TtGC7SwiftUI19UIHostingControllerGVS_15ModifiedContentV10ExampleApp15RainbowGlowViewGVS_21_TraitWritingModifierVS_21PreviewLayoutTraitKey___",
+    "needsDisplayOnBoundsChange" : false,
+    "needsLayoutOnGeometryChange" : true,
+    "opaque" : false,
+    "position" : {
+      "$class" : "LKNSValueCodingProxy",
+      "kind" : 0,
+      "x" : 150,
+      "y" : 147
+    },
+    "securityMode" : "insecure",
+    "sublayers" : {
+      "$class" : "LKNSArrayCodingProxy",
+      "array" : [
+        {
           "__CACodingContents" : [
             "allowsEdgeAntialiasing",
             "allowsGroupBlending",
@@ -91,6 +59,7 @@
             "bounds",
             "contentsFormat",
             "delegate",
+            "mask",
             "opaque",
             "position",
             "sublayers"
@@ -114,12 +83,185 @@
             "y" : 0
           },
           "contentsFormat" : "RGBA8",
+          "mask" : {
+            "__CACodingContents" : [
+              "allowsEdgeAntialiasing",
+              "allowsGroupBlending",
+              "allowsGroupOpacity",
+              "anchorPoint",
+              "bounds",
+              "contentsFormat",
+              "delegate",
+              "opaque",
+              "position",
+              "sublayers"
+            ],
+            "$class" : "CALayer",
+            "allowsEdgeAntialiasing" : false,
+            "allowsGroupBlending" : false,
+            "allowsGroupOpacity" : false,
+            "anchorPoint" : {
+              "$class" : "LKNSValueCodingProxy",
+              "kind" : 0,
+              "x" : 0,
+              "y" : 0
+            },
+            "bounds" : {
+              "$class" : "LKNSValueCodingProxy",
+              "height" : 300,
+              "kind" : 2,
+              "width" : 400,
+              "x" : 0,
+              "y" : 0
+            },
+            "contentsFormat" : "RGBA8",
+            "opaque" : true,
+            "position" : {
+              "$class" : "LKNSValueCodingProxy",
+              "kind" : 0,
+              "x" : 0,
+              "y" : 0
+            },
+            "sublayers" : {
+              "$class" : "LKNSArrayCodingProxy",
+              "array" : [
+                {
+                  "__CACodingContents" : [
+                    "allowsEdgeAntialiasing",
+                    "allowsGroupBlending",
+                    "allowsGroupOpacity",
+                    "anchorPoint",
+                    "bounds",
+                    "contentsFormat",
+                    "delegate",
+                    "filters",
+                    "opaque",
+                    "position",
+                    "sublayers"
+                  ],
+                  "$class" : "CALayer",
+                  "allowsEdgeAntialiasing" : false,
+                  "allowsGroupBlending" : false,
+                  "allowsGroupOpacity" : false,
+                  "anchorPoint" : {
+                    "$class" : "LKNSValueCodingProxy",
+                    "kind" : 0,
+                    "x" : 0,
+                    "y" : 0
+                  },
+                  "bounds" : {
+                    "$class" : "LKNSValueCodingProxy",
+                    "height" : 40.666667938232422,
+                    "kind" : 2,
+                    "width" : 195.33332824707031,
+                    "x" : 0,
+                    "y" : 0
+                  },
+                  "contentsFormat" : "RGBA8",
+                  "filters" : {
+                    "$class" : "LKNSArrayCodingProxy",
+                    "array" : [
+                      {
+                        "$class" : "CAFilter",
+                        "CAFilterInputs" : {
+                          "$class" : "LKNSDictionaryCodingProxy",
+                          "dict" : {
+                            "inputDither" : false,
+                            "inputNormalizeEdges" : false,
+                            "inputRadius" : 20
+                          }
+                        },
+                        "CAFilterName" : "gaussianBlur",
+                        "CAFilterType" : "gaussianBlur"
+                      }
+                    ]
+                  },
+                  "opaque" : true,
+                  "position" : {
+                    "$class" : "LKNSValueCodingProxy",
+                    "kind" : 0,
+                    "x" : 102.33333587646484,
+                    "y" : 129.66667175292969
+                  },
+                  "sublayers" : {
+                    "$class" : "LKNSArrayCodingProxy",
+                    "array" : [
+                      {
+                        "__CACodingContents" : [
+                          "allowsEdgeAntialiasing",
+                          "allowsGroupOpacity",
+                          "anchorPoint",
+                          "bounds",
+                          "contentsFormat",
+                          "contentsGravity",
+                          "contentsScale",
+                          "delegate",
+                          "needsDisplayOnBoundsChange",
+                          "opaque",
+                          "position",
+                          "rasterizationScale",
+                          "shadowColor",
+                          "shadowOffset",
+                          "shadowOpacity",
+                          "shadowRadius"
+                        ],
+                        "$class" : "CALayer",
+                        "allowsEdgeAntialiasing" : false,
+                        "allowsGroupOpacity" : true,
+                        "anchorPoint" : {
+                          "$class" : "LKNSValueCodingProxy",
+                          "kind" : 0,
+                          "x" : 0,
+                          "y" : 0
+                        },
+                        "bounds" : {
+                          "$class" : "LKNSValueCodingProxy",
+                          "height" : 40.666667938232422,
+                          "kind" : 2,
+                          "width" : 195.33332824707031,
+                          "x" : 0,
+                          "y" : 0
+                        },
+                        "contentsFormat" : "Automatic",
+                        "contentsGravity" : "bottomLeft",
+                        "contentsScale" : 3,
+                        "needsDisplayOnBoundsChange" : false,
+                        "opaque" : false,
+                        "position" : {
+                          "$class" : "LKNSValueCodingProxy",
+                          "kind" : 0,
+                          "x" : 0,
+                          "y" : 0
+                        },
+                        "rasterizationScale" : 3,
+                        "shadowColor" : {
+                          "$class" : "LKCGColorCodingProxy",
+                          "a" : 0.33000001311302185,
+                          "b" : 0,
+                          "g" : 0,
+                          "r" : 0
+                        },
+                        "shadowOffset" : {
+                          "$class" : "LKNSValueCodingProxy",
+                          "height" : 0,
+                          "kind" : 1,
+                          "width" : 0
+                        },
+                        "shadowOpacity" : 1,
+                        "shadowRadius" : 2
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
           "opaque" : true,
           "position" : {
             "$class" : "LKNSValueCodingProxy",
             "kind" : 0,
-            "x" : 0,
-            "y" : 0
+            "x" : -50,
+            "y" : -50
           },
           "sublayers" : {
             "$class" : "LKNSArrayCodingProxy",
@@ -127,21 +269,285 @@
               {
                 "__CACodingContents" : [
                   "allowsEdgeAntialiasing",
-                  "allowsGroupBlending",
                   "allowsGroupOpacity",
                   "anchorPoint",
                   "bounds",
                   "contentsFormat",
+                  "continuousCorners",
                   "delegate",
-                  "filters",
-                  "opaque",
+                  "masksToBounds",
                   "position",
                   "sublayers"
                 ],
+                "$class" : "SwiftUI.GradientLayer",
+                "allowsEdgeAntialiasing" : true,
+                "allowsGroupOpacity" : true,
+                "anchorPoint" : {
+                  "$class" : "LKNSValueCodingProxy",
+                  "kind" : 0,
+                  "x" : 0,
+                  "y" : 0
+                },
+                "bounds" : {
+                  "$class" : "LKNSValueCodingProxy",
+                  "height" : 300,
+                  "kind" : 2,
+                  "width" : 400,
+                  "x" : 0,
+                  "y" : 0
+                },
+                "contentsFormat" : "RGBA8",
+                "continuousCorners" : false,
+                "masksToBounds" : true,
+                "position" : {
+                  "$class" : "LKNSValueCodingProxy",
+                  "kind" : 0,
+                  "x" : 0,
+                  "y" : 0
+                },
+                "sublayers" : {
+                  "$class" : "LKNSArrayCodingProxy",
+                  "array" : [
+                    {
+                      "__CACodingContents" : [
+                        "allowsEdgeAntialiasing",
+                        "allowsGroupOpacity",
+                        "anchorPoint",
+                        "bounds",
+                        "colors",
+                        "contentsFormat",
+                        "delegate",
+                        "endPoint",
+                        "locations",
+                        "position",
+                        "startPoint",
+                        "type"
+                      ],
+                      "$class" : "CAGradientLayer",
+                      "allowsEdgeAntialiasing" : false,
+                      "allowsGroupOpacity" : true,
+                      "anchorPoint" : {
+                        "$class" : "LKNSValueCodingProxy",
+                        "kind" : 0,
+                        "x" : 0,
+                        "y" : 0
+                      },
+                      "bounds" : {
+                        "$class" : "LKNSValueCodingProxy",
+                        "height" : 400,
+                        "kind" : 2,
+                        "width" : 400,
+                        "x" : 0,
+                        "y" : 0
+                      },
+                      "colors" : {
+                        "$class" : "LKNSArrayCodingProxy",
+                        "array" : [
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0,
+                            "g" : 0,
+                            "r" : 0.99999994039535522
+                          },
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0,
+                            "g" : 0.54545456171035767,
+                            "r" : 0.99999994039535522
+                          },
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0,
+                            "g" : 0.99999994039535522,
+                            "r" : 0.90909093618392944
+                          },
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0,
+                            "g" : 0.99999994039535522,
+                            "r" : 0.36363634467124939
+                          },
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0.18181818723678589,
+                            "g" : 0.99999994039535522,
+                            "r" : 0
+                          },
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0.72727274894714355,
+                            "g" : 0.99999994039535522,
+                            "r" : 0
+                          },
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0.99999994039535522,
+                            "g" : 0.72727274894714355,
+                            "r" : 0
+                          },
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0.99999994039535522,
+                            "g" : 0.18181818723678589,
+                            "r" : 0
+                          },
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0.99999994039535522,
+                            "g" : 0,
+                            "r" : 0.36363634467124939
+                          },
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0.99999994039535522,
+                            "g" : 0,
+                            "r" : 0.90909093618392944
+                          },
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0.54545456171035767,
+                            "g" : 0,
+                            "r" : 0.99999994039535522
+                          }
+                        ]
+                      },
+                      "contentsFormat" : "RGBA8",
+                      "endPoint" : {
+                        "$class" : "LKNSValueCodingProxy",
+                        "kind" : 0,
+                        "x" : 1.5,
+                        "y" : 0.375
+                      },
+                      "locations" : {
+                        "$class" : "LKNSArrayCodingProxy",
+                        "array" : [
+                          0,
+                          0.10000000000000001,
+                          0.20000000000000001,
+                          0.30000000000000004,
+                          0.40000000000000002,
+                          0.5,
+                          0.60000000000000009,
+                          0.70000000000000007,
+                          0.80000000000000004,
+                          0.90000000000000002,
+                          1
+                        ]
+                      },
+                      "position" : {
+                        "$class" : "LKNSValueCodingProxy",
+                        "kind" : 0,
+                        "x" : 0,
+                        "y" : 0
+                      },
+                      "startPoint" : {
+                        "$class" : "LKNSValueCodingProxy",
+                        "kind" : 0,
+                        "x" : 0.5,
+                        "y" : 0.375
+                      },
+                      "type" : "conic"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "__CACodingContents" : [
+            "allowsEdgeAntialiasing",
+            "allowsGroupBlending",
+            "allowsGroupOpacity",
+            "anchorPoint",
+            "bounds",
+            "contentsFormat",
+            "delegate",
+            "filters",
+            "opaque",
+            "position",
+            "sublayers"
+          ],
+          "$class" : "CALayer",
+          "allowsEdgeAntialiasing" : false,
+          "allowsGroupBlending" : false,
+          "allowsGroupOpacity" : false,
+          "anchorPoint" : {
+            "$class" : "LKNSValueCodingProxy",
+            "kind" : 0,
+            "x" : 0,
+            "y" : 0
+          },
+          "bounds" : {
+            "$class" : "LKNSValueCodingProxy",
+            "height" : 40.666667938232422,
+            "kind" : 2,
+            "width" : 195.33332824707031,
+            "x" : 0,
+            "y" : 0
+          },
+          "contentsFormat" : "RGBA8",
+          "filters" : {
+            "$class" : "LKNSArrayCodingProxy",
+            "array" : [
+              {
+                "$class" : "CAFilter",
+                "CAFilterInputs" : {
+                  "$class" : "LKNSDictionaryCodingProxy",
+                  "dict" : {
+                    "inputDither" : false,
+                    "inputNormalizeEdges" : false,
+                    "inputRadius" : 5
+                  }
+                },
+                "CAFilterName" : "gaussianBlur",
+                "CAFilterType" : "gaussianBlur"
+              }
+            ]
+          },
+          "opaque" : true,
+          "position" : {
+            "$class" : "LKNSValueCodingProxy",
+            "kind" : 0,
+            "x" : 52.333332061767578,
+            "y" : 79.666664123535156
+          },
+          "sublayers" : {
+            "$class" : "LKNSArrayCodingProxy",
+            "array" : [
+              {
+                "__CACodingContents" : [
+                  "allowsEdgeAntialiasing",
+                  "allowsGroupOpacity",
+                  "anchorPoint",
+                  "bounds",
+                  "contentsFormat",
+                  "contentsGravity",
+                  "contentsScale",
+                  "delegate",
+                  "needsDisplayOnBoundsChange",
+                  "opaque",
+                  "position",
+                  "rasterizationScale",
+                  "shadowColor",
+                  "shadowOffset",
+                  "shadowOpacity",
+                  "shadowRadius"
+                ],
                 "$class" : "CALayer",
                 "allowsEdgeAntialiasing" : false,
-                "allowsGroupBlending" : false,
-                "allowsGroupOpacity" : false,
+                "allowsGroupOpacity" : true,
                 "anchorPoint" : {
                   "$class" : "LKNSValueCodingProxy",
                   "kind" : 0,
@@ -156,540 +562,102 @@
                   "x" : 0,
                   "y" : 0
                 },
-                "contentsFormat" : "RGBA8",
-                "filters" : {
-                  "$class" : "LKNSArrayCodingProxy",
-                  "array" : [
-                    {
-                      "$class" : "CAFilter",
-                      "CAFilterInputs" : {
-                        "$class" : "LKNSDictionaryCodingProxy",
-                        "dict" : {
-                          "inputDither" : false,
-                          "inputNormalizeEdges" : false,
-                          "inputRadius" : 20
-                        }
-                      },
-                      "CAFilterName" : "gaussianBlur",
-                      "CAFilterType" : "gaussianBlur"
-                    }
-                  ]
-                },
-                "opaque" : true,
+                "contentsFormat" : "Automatic",
+                "contentsGravity" : "bottomLeft",
+                "contentsScale" : 3,
+                "needsDisplayOnBoundsChange" : false,
+                "opaque" : false,
                 "position" : {
                   "$class" : "LKNSValueCodingProxy",
                   "kind" : 0,
-                  "x" : 102.33333587646484,
-                  "y" : 129.66667175292969
+                  "x" : 0,
+                  "y" : 0
                 },
-                "sublayers" : {
-                  "$class" : "LKNSArrayCodingProxy",
-                  "array" : [
-                    {
-                      "__CACodingContents" : [
-                        "allowsEdgeAntialiasing",
-                        "allowsGroupOpacity",
-                        "anchorPoint",
-                        "bounds",
-                        "contentsFormat",
-                        "contentsGravity",
-                        "contentsScale",
-                        "delegate",
-                        "needsDisplayOnBoundsChange",
-                        "opaque",
-                        "position",
-                        "rasterizationScale",
-                        "shadowColor",
-                        "shadowOffset",
-                        "shadowOpacity",
-                        "shadowRadius"
-                      ],
-                      "$class" : "CALayer",
-                      "allowsEdgeAntialiasing" : false,
-                      "allowsGroupOpacity" : true,
-                      "anchorPoint" : {
-                        "$class" : "LKNSValueCodingProxy",
-                        "kind" : 0,
-                        "x" : 0,
-                        "y" : 0
-                      },
-                      "bounds" : {
-                        "$class" : "LKNSValueCodingProxy",
-                        "height" : 40.666667938232422,
-                        "kind" : 2,
-                        "width" : 195.33332824707031,
-                        "x" : 0,
-                        "y" : 0
-                      },
-                      "contentsFormat" : "Automatic",
-                      "contentsGravity" : "bottomLeft",
-                      "contentsScale" : 3,
-                      "needsDisplayOnBoundsChange" : false,
-                      "opaque" : false,
-                      "position" : {
-                        "$class" : "LKNSValueCodingProxy",
-                        "kind" : 0,
-                        "x" : 0,
-                        "y" : 0
-                      },
-                      "rasterizationScale" : 3,
-                      "shadowColor" : {
-                        "$class" : "LKCGColorCodingProxy",
-                        "a" : 0.33000001311302185,
-                        "b" : 0,
-                        "g" : 0,
-                        "r" : 0
-                      },
-                      "shadowOffset" : {
-                        "$class" : "LKNSValueCodingProxy",
-                        "height" : 0,
-                        "kind" : 1,
-                        "width" : 0
-                      },
-                      "shadowOpacity" : 1,
-                      "shadowRadius" : 2
-                    }
-                  ]
-                }
+                "rasterizationScale" : 3,
+                "shadowColor" : {
+                  "$class" : "LKCGColorCodingProxy",
+                  "a" : 0.33000001311302185,
+                  "b" : 0,
+                  "g" : 0,
+                  "r" : 0
+                },
+                "shadowOffset" : {
+                  "$class" : "LKNSValueCodingProxy",
+                  "height" : 0,
+                  "kind" : 1,
+                  "width" : 0
+                },
+                "shadowOpacity" : 1,
+                "shadowRadius" : 2
               }
             ]
           }
         },
-        "opaque" : true,
-        "position" : {
-          "$class" : "LKNSValueCodingProxy",
-          "kind" : 0,
-          "x" : -50,
-          "y" : -50
+        {
+          "__CACodingContents" : [
+            "allowsEdgeAntialiasing",
+            "allowsGroupOpacity",
+            "anchorPoint",
+            "bounds",
+            "contentsFormat",
+            "contentsGravity",
+            "contentsScale",
+            "delegate",
+            "needsDisplayOnBoundsChange",
+            "opaque",
+            "position",
+            "rasterizationScale",
+            "shadowColor",
+            "shadowOffset",
+            "shadowOpacity",
+            "shadowRadius"
+          ],
+          "$class" : "CALayer",
+          "allowsEdgeAntialiasing" : false,
+          "allowsGroupOpacity" : true,
+          "anchorPoint" : {
+            "$class" : "LKNSValueCodingProxy",
+            "kind" : 0,
+            "x" : 0,
+            "y" : 0
+          },
+          "bounds" : {
+            "$class" : "LKNSValueCodingProxy",
+            "height" : 40.666667938232422,
+            "kind" : 2,
+            "width" : 195.33332824707031,
+            "x" : 0,
+            "y" : 0
+          },
+          "contentsFormat" : "Automatic",
+          "contentsGravity" : "bottomLeft",
+          "contentsScale" : 3,
+          "needsDisplayOnBoundsChange" : false,
+          "opaque" : false,
+          "position" : {
+            "$class" : "LKNSValueCodingProxy",
+            "kind" : 0,
+            "x" : 52.333332061767578,
+            "y" : 79.666664123535156
+          },
+          "rasterizationScale" : 3,
+          "shadowColor" : {
+            "$class" : "LKCGColorCodingProxy",
+            "a" : 0.33000001311302185,
+            "b" : 0,
+            "g" : 0,
+            "r" : 0
+          },
+          "shadowOffset" : {
+            "$class" : "LKNSValueCodingProxy",
+            "height" : 0,
+            "kind" : 1,
+            "width" : 0
+          },
+          "shadowOpacity" : 1,
+          "shadowRadius" : 2
         },
-        "sublayers" : {
-          "$class" : "LKNSArrayCodingProxy",
-          "array" : [
-            {
-              "__CACodingContents" : [
-                "allowsEdgeAntialiasing",
-                "allowsGroupOpacity",
-                "anchorPoint",
-                "bounds",
-                "contentsFormat",
-                "continuousCorners",
-                "delegate",
-                "masksToBounds",
-                "position",
-                "sublayers"
-              ],
-              "$class" : "SwiftUI.GradientLayer",
-              "allowsEdgeAntialiasing" : true,
-              "allowsGroupOpacity" : true,
-              "anchorPoint" : {
-                "$class" : "LKNSValueCodingProxy",
-                "kind" : 0,
-                "x" : 0,
-                "y" : 0
-              },
-              "bounds" : {
-                "$class" : "LKNSValueCodingProxy",
-                "height" : 300,
-                "kind" : 2,
-                "width" : 400,
-                "x" : 0,
-                "y" : 0
-              },
-              "contentsFormat" : "RGBA8",
-              "continuousCorners" : false,
-              "masksToBounds" : true,
-              "position" : {
-                "$class" : "LKNSValueCodingProxy",
-                "kind" : 0,
-                "x" : 0,
-                "y" : 0
-              },
-              "sublayers" : {
-                "$class" : "LKNSArrayCodingProxy",
-                "array" : [
-                  {
-                    "__CACodingContents" : [
-                      "allowsEdgeAntialiasing",
-                      "allowsGroupOpacity",
-                      "anchorPoint",
-                      "bounds",
-                      "colors",
-                      "contentsFormat",
-                      "delegate",
-                      "endPoint",
-                      "locations",
-                      "position",
-                      "startPoint",
-                      "type"
-                    ],
-                    "$class" : "CAGradientLayer",
-                    "allowsEdgeAntialiasing" : false,
-                    "allowsGroupOpacity" : true,
-                    "anchorPoint" : {
-                      "$class" : "LKNSValueCodingProxy",
-                      "kind" : 0,
-                      "x" : 0,
-                      "y" : 0
-                    },
-                    "bounds" : {
-                      "$class" : "LKNSValueCodingProxy",
-                      "height" : 400,
-                      "kind" : 2,
-                      "width" : 400,
-                      "x" : 0,
-                      "y" : 0
-                    },
-                    "colors" : {
-                      "$class" : "LKNSArrayCodingProxy",
-                      "array" : [
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0,
-                          "g" : 0,
-                          "r" : 0.99999994039535522
-                        },
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0,
-                          "g" : 0.54545456171035767,
-                          "r" : 0.99999994039535522
-                        },
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0,
-                          "g" : 0.99999994039535522,
-                          "r" : 0.90909093618392944
-                        },
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0,
-                          "g" : 0.99999994039535522,
-                          "r" : 0.36363634467124939
-                        },
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0.18181818723678589,
-                          "g" : 0.99999994039535522,
-                          "r" : 0
-                        },
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0.72727274894714355,
-                          "g" : 0.99999994039535522,
-                          "r" : 0
-                        },
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0.99999994039535522,
-                          "g" : 0.72727274894714355,
-                          "r" : 0
-                        },
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0.99999994039535522,
-                          "g" : 0.18181818723678589,
-                          "r" : 0
-                        },
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0.99999994039535522,
-                          "g" : 0,
-                          "r" : 0.36363634467124939
-                        },
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0.99999994039535522,
-                          "g" : 0,
-                          "r" : 0.90909093618392944
-                        },
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0.54545456171035767,
-                          "g" : 0,
-                          "r" : 0.99999994039535522
-                        }
-                      ]
-                    },
-                    "contentsFormat" : "RGBA8",
-                    "endPoint" : {
-                      "$class" : "LKNSValueCodingProxy",
-                      "kind" : 0,
-                      "x" : 1.5,
-                      "y" : 0.375
-                    },
-                    "locations" : {
-                      "$class" : "LKNSArrayCodingProxy",
-                      "array" : [
-                        0,
-                        0.10000000000000001,
-                        0.20000000000000001,
-                        0.30000000000000004,
-                        0.40000000000000002,
-                        0.5,
-                        0.60000000000000009,
-                        0.70000000000000007,
-                        0.80000000000000004,
-                        0.90000000000000002,
-                        1
-                      ]
-                    },
-                    "position" : {
-                      "$class" : "LKNSValueCodingProxy",
-                      "kind" : 0,
-                      "x" : 0,
-                      "y" : 0
-                    },
-                    "startPoint" : {
-                      "$class" : "LKNSValueCodingProxy",
-                      "kind" : 0,
-                      "x" : 0.5,
-                      "y" : 0.375
-                    },
-                    "type" : "conic"
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      },
-      {
-        "__CACodingContents" : [
-          "allowsEdgeAntialiasing",
-          "allowsGroupBlending",
-          "allowsGroupOpacity",
-          "anchorPoint",
-          "bounds",
-          "contentsFormat",
-          "delegate",
-          "filters",
-          "opaque",
-          "position",
-          "sublayers"
-        ],
-        "$class" : "CALayer",
-        "allowsEdgeAntialiasing" : false,
-        "allowsGroupBlending" : false,
-        "allowsGroupOpacity" : false,
-        "anchorPoint" : {
-          "$class" : "LKNSValueCodingProxy",
-          "kind" : 0,
-          "x" : 0,
-          "y" : 0
-        },
-        "bounds" : {
-          "$class" : "LKNSValueCodingProxy",
-          "height" : 40.666667938232422,
-          "kind" : 2,
-          "width" : 195.33332824707031,
-          "x" : 0,
-          "y" : 0
-        },
-        "contentsFormat" : "RGBA8",
-        "filters" : {
-          "$class" : "LKNSArrayCodingProxy",
-          "array" : [
-            {
-              "$class" : "CAFilter",
-              "CAFilterInputs" : {
-                "$class" : "LKNSDictionaryCodingProxy",
-                "dict" : {
-                  "inputDither" : false,
-                  "inputNormalizeEdges" : false,
-                  "inputRadius" : 5
-                }
-              },
-              "CAFilterName" : "gaussianBlur",
-              "CAFilterType" : "gaussianBlur"
-            }
-          ]
-        },
-        "opaque" : true,
-        "position" : {
-          "$class" : "LKNSValueCodingProxy",
-          "kind" : 0,
-          "x" : 52.333332061767578,
-          "y" : 79.666664123535156
-        },
-        "sublayers" : {
-          "$class" : "LKNSArrayCodingProxy",
-          "array" : [
-            {
-              "__CACodingContents" : [
-                "allowsEdgeAntialiasing",
-                "allowsGroupOpacity",
-                "anchorPoint",
-                "bounds",
-                "contentsFormat",
-                "contentsGravity",
-                "contentsScale",
-                "delegate",
-                "needsDisplayOnBoundsChange",
-                "opaque",
-                "position",
-                "rasterizationScale",
-                "shadowColor",
-                "shadowOffset",
-                "shadowOpacity",
-                "shadowRadius"
-              ],
-              "$class" : "CALayer",
-              "allowsEdgeAntialiasing" : false,
-              "allowsGroupOpacity" : true,
-              "anchorPoint" : {
-                "$class" : "LKNSValueCodingProxy",
-                "kind" : 0,
-                "x" : 0,
-                "y" : 0
-              },
-              "bounds" : {
-                "$class" : "LKNSValueCodingProxy",
-                "height" : 40.666667938232422,
-                "kind" : 2,
-                "width" : 195.33332824707031,
-                "x" : 0,
-                "y" : 0
-              },
-              "contentsFormat" : "Automatic",
-              "contentsGravity" : "bottomLeft",
-              "contentsScale" : 3,
-              "needsDisplayOnBoundsChange" : false,
-              "opaque" : false,
-              "position" : {
-                "$class" : "LKNSValueCodingProxy",
-                "kind" : 0,
-                "x" : 0,
-                "y" : 0
-              },
-              "rasterizationScale" : 3,
-              "shadowColor" : {
-                "$class" : "LKCGColorCodingProxy",
-                "a" : 0.33000001311302185,
-                "b" : 0,
-                "g" : 0,
-                "r" : 0
-              },
-              "shadowOffset" : {
-                "$class" : "LKNSValueCodingProxy",
-                "height" : 0,
-                "kind" : 1,
-                "width" : 0
-              },
-              "shadowOpacity" : 1,
-              "shadowRadius" : 2
-            }
-          ]
-        }
-      },
-      {
-        "__CACodingContents" : [
-          "allowsEdgeAntialiasing",
-          "allowsGroupOpacity",
-          "anchorPoint",
-          "bounds",
-          "contentsFormat",
-          "contentsGravity",
-          "contentsScale",
-          "delegate",
-          "needsDisplayOnBoundsChange",
-          "opaque",
-          "position",
-          "rasterizationScale",
-          "shadowColor",
-          "shadowOffset",
-          "shadowOpacity",
-          "shadowRadius"
-        ],
-        "$class" : "CALayer",
-        "allowsEdgeAntialiasing" : false,
-        "allowsGroupOpacity" : true,
-        "anchorPoint" : {
-          "$class" : "LKNSValueCodingProxy",
-          "kind" : 0,
-          "x" : 0,
-          "y" : 0
-        },
-        "bounds" : {
-          "$class" : "LKNSValueCodingProxy",
-          "height" : 40.666667938232422,
-          "kind" : 2,
-          "width" : 195.33332824707031,
-          "x" : 0,
-          "y" : 0
-        },
-        "contentsFormat" : "Automatic",
-        "contentsGravity" : "bottomLeft",
-        "contentsScale" : 3,
-        "needsDisplayOnBoundsChange" : false,
-        "opaque" : false,
-        "position" : {
-          "$class" : "LKNSValueCodingProxy",
-          "kind" : 0,
-          "x" : 52.333332061767578,
-          "y" : 79.666664123535156
-        },
-        "rasterizationScale" : 3,
-        "shadowColor" : {
-          "$class" : "LKCGColorCodingProxy",
-          "a" : 0.33000001311302185,
-          "b" : 0,
-          "g" : 0,
-          "r" : 0
-        },
-        "shadowOffset" : {
-          "$class" : "LKNSValueCodingProxy",
-          "height" : 0,
-          "kind" : 1,
-          "width" : 0
-        },
-        "shadowOpacity" : 1,
-        "shadowRadius" : 2
-      },
-      {
-        "__CACodingContents" : [
-          "allowsEdgeAntialiasing",
-          "allowsGroupBlending",
-          "allowsGroupOpacity",
-          "anchorPoint",
-          "bounds",
-          "contentsFormat",
-          "delegate",
-          "mask",
-          "opaque",
-          "position",
-          "sublayers"
-        ],
-        "$class" : "CALayer",
-        "allowsEdgeAntialiasing" : false,
-        "allowsGroupBlending" : false,
-        "allowsGroupOpacity" : false,
-        "anchorPoint" : {
-          "$class" : "LKNSValueCodingProxy",
-          "kind" : 0,
-          "x" : 0,
-          "y" : 0
-        },
-        "bounds" : {
-          "$class" : "LKNSValueCodingProxy",
-          "height" : 300,
-          "kind" : 2,
-          "width" : 400,
-          "x" : 0,
-          "y" : 0
-        },
-        "contentsFormat" : "RGBA8",
-        "mask" : {
+        {
           "__CACodingContents" : [
             "allowsEdgeAntialiasing",
             "allowsGroupBlending",
@@ -698,6 +666,7 @@
             "bounds",
             "contentsFormat",
             "delegate",
+            "mask",
             "opaque",
             "position",
             "sublayers"
@@ -721,12 +690,185 @@
             "y" : 0
           },
           "contentsFormat" : "RGBA8",
+          "mask" : {
+            "__CACodingContents" : [
+              "allowsEdgeAntialiasing",
+              "allowsGroupBlending",
+              "allowsGroupOpacity",
+              "anchorPoint",
+              "bounds",
+              "contentsFormat",
+              "delegate",
+              "opaque",
+              "position",
+              "sublayers"
+            ],
+            "$class" : "CALayer",
+            "allowsEdgeAntialiasing" : false,
+            "allowsGroupBlending" : false,
+            "allowsGroupOpacity" : false,
+            "anchorPoint" : {
+              "$class" : "LKNSValueCodingProxy",
+              "kind" : 0,
+              "x" : 0,
+              "y" : 0
+            },
+            "bounds" : {
+              "$class" : "LKNSValueCodingProxy",
+              "height" : 300,
+              "kind" : 2,
+              "width" : 400,
+              "x" : 0,
+              "y" : 0
+            },
+            "contentsFormat" : "RGBA8",
+            "opaque" : true,
+            "position" : {
+              "$class" : "LKNSValueCodingProxy",
+              "kind" : 0,
+              "x" : 0,
+              "y" : 0
+            },
+            "sublayers" : {
+              "$class" : "LKNSArrayCodingProxy",
+              "array" : [
+                {
+                  "__CACodingContents" : [
+                    "allowsEdgeAntialiasing",
+                    "allowsGroupBlending",
+                    "allowsGroupOpacity",
+                    "anchorPoint",
+                    "bounds",
+                    "contentsFormat",
+                    "delegate",
+                    "filters",
+                    "opaque",
+                    "position",
+                    "sublayers"
+                  ],
+                  "$class" : "CALayer",
+                  "allowsEdgeAntialiasing" : false,
+                  "allowsGroupBlending" : false,
+                  "allowsGroupOpacity" : false,
+                  "anchorPoint" : {
+                    "$class" : "LKNSValueCodingProxy",
+                    "kind" : 0,
+                    "x" : 0,
+                    "y" : 0
+                  },
+                  "bounds" : {
+                    "$class" : "LKNSValueCodingProxy",
+                    "height" : 40.666667938232422,
+                    "kind" : 2,
+                    "width" : 195.33332824707031,
+                    "x" : 0,
+                    "y" : 0
+                  },
+                  "contentsFormat" : "RGBA8",
+                  "filters" : {
+                    "$class" : "LKNSArrayCodingProxy",
+                    "array" : [
+                      {
+                        "$class" : "CAFilter",
+                        "CAFilterInputs" : {
+                          "$class" : "LKNSDictionaryCodingProxy",
+                          "dict" : {
+                            "inputDither" : false,
+                            "inputNormalizeEdges" : false,
+                            "inputRadius" : 20
+                          }
+                        },
+                        "CAFilterName" : "gaussianBlur",
+                        "CAFilterType" : "gaussianBlur"
+                      }
+                    ]
+                  },
+                  "opaque" : true,
+                  "position" : {
+                    "$class" : "LKNSValueCodingProxy",
+                    "kind" : 0,
+                    "x" : 102.33333587646484,
+                    "y" : 129.66667175292969
+                  },
+                  "sublayers" : {
+                    "$class" : "LKNSArrayCodingProxy",
+                    "array" : [
+                      {
+                        "__CACodingContents" : [
+                          "allowsEdgeAntialiasing",
+                          "allowsGroupOpacity",
+                          "anchorPoint",
+                          "bounds",
+                          "contentsFormat",
+                          "contentsGravity",
+                          "contentsScale",
+                          "delegate",
+                          "needsDisplayOnBoundsChange",
+                          "opaque",
+                          "position",
+                          "rasterizationScale",
+                          "shadowColor",
+                          "shadowOffset",
+                          "shadowOpacity",
+                          "shadowRadius"
+                        ],
+                        "$class" : "CALayer",
+                        "allowsEdgeAntialiasing" : false,
+                        "allowsGroupOpacity" : true,
+                        "anchorPoint" : {
+                          "$class" : "LKNSValueCodingProxy",
+                          "kind" : 0,
+                          "x" : 0,
+                          "y" : 0
+                        },
+                        "bounds" : {
+                          "$class" : "LKNSValueCodingProxy",
+                          "height" : 40.666667938232422,
+                          "kind" : 2,
+                          "width" : 195.33332824707031,
+                          "x" : 0,
+                          "y" : 0
+                        },
+                        "contentsFormat" : "Automatic",
+                        "contentsGravity" : "bottomLeft",
+                        "contentsScale" : 3,
+                        "needsDisplayOnBoundsChange" : false,
+                        "opaque" : false,
+                        "position" : {
+                          "$class" : "LKNSValueCodingProxy",
+                          "kind" : 0,
+                          "x" : 0,
+                          "y" : 0
+                        },
+                        "rasterizationScale" : 3,
+                        "shadowColor" : {
+                          "$class" : "LKCGColorCodingProxy",
+                          "a" : 0.33000001311302185,
+                          "b" : 0,
+                          "g" : 0,
+                          "r" : 0
+                        },
+                        "shadowOffset" : {
+                          "$class" : "LKNSValueCodingProxy",
+                          "height" : 0,
+                          "kind" : 1,
+                          "width" : 0
+                        },
+                        "shadowOpacity" : 1,
+                        "shadowRadius" : 2
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
           "opaque" : true,
           "position" : {
             "$class" : "LKNSValueCodingProxy",
             "kind" : 0,
-            "x" : 0,
-            "y" : 0
+            "x" : -50,
+            "y" : -50
           },
           "sublayers" : {
             "$class" : "LKNSArrayCodingProxy",
@@ -734,21 +876,349 @@
               {
                 "__CACodingContents" : [
                   "allowsEdgeAntialiasing",
-                  "allowsGroupBlending",
                   "allowsGroupOpacity",
                   "anchorPoint",
                   "bounds",
                   "contentsFormat",
+                  "continuousCorners",
                   "delegate",
-                  "filters",
-                  "opaque",
+                  "masksToBounds",
                   "position",
                   "sublayers"
                 ],
+                "$class" : "SwiftUI.GradientLayer",
+                "allowsEdgeAntialiasing" : true,
+                "allowsGroupOpacity" : true,
+                "anchorPoint" : {
+                  "$class" : "LKNSValueCodingProxy",
+                  "kind" : 0,
+                  "x" : 0,
+                  "y" : 0
+                },
+                "bounds" : {
+                  "$class" : "LKNSValueCodingProxy",
+                  "height" : 300,
+                  "kind" : 2,
+                  "width" : 400,
+                  "x" : 0,
+                  "y" : 0
+                },
+                "contentsFormat" : "RGBA8",
+                "continuousCorners" : false,
+                "masksToBounds" : true,
+                "position" : {
+                  "$class" : "LKNSValueCodingProxy",
+                  "kind" : 0,
+                  "x" : 0,
+                  "y" : 0
+                },
+                "sublayers" : {
+                  "$class" : "LKNSArrayCodingProxy",
+                  "array" : [
+                    {
+                      "__CACodingContents" : [
+                        "allowsEdgeAntialiasing",
+                        "allowsGroupOpacity",
+                        "anchorPoint",
+                        "bounds",
+                        "colors",
+                        "contentsFormat",
+                        "delegate",
+                        "endPoint",
+                        "locations",
+                        "position",
+                        "startPoint",
+                        "type"
+                      ],
+                      "$class" : "CAGradientLayer",
+                      "allowsEdgeAntialiasing" : false,
+                      "allowsGroupOpacity" : true,
+                      "anchorPoint" : {
+                        "$class" : "LKNSValueCodingProxy",
+                        "kind" : 0,
+                        "x" : 0,
+                        "y" : 0
+                      },
+                      "bounds" : {
+                        "$class" : "LKNSValueCodingProxy",
+                        "height" : 400,
+                        "kind" : 2,
+                        "width" : 400,
+                        "x" : 0,
+                        "y" : 0
+                      },
+                      "colors" : {
+                        "$class" : "LKNSArrayCodingProxy",
+                        "array" : [
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0,
+                            "g" : 0,
+                            "r" : 0.99999994039535522
+                          },
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0,
+                            "g" : 0.54545456171035767,
+                            "r" : 0.99999994039535522
+                          },
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0,
+                            "g" : 0.99999994039535522,
+                            "r" : 0.90909093618392944
+                          },
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0,
+                            "g" : 0.99999994039535522,
+                            "r" : 0.36363634467124939
+                          },
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0.18181818723678589,
+                            "g" : 0.99999994039535522,
+                            "r" : 0
+                          },
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0.72727274894714355,
+                            "g" : 0.99999994039535522,
+                            "r" : 0
+                          },
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0.99999994039535522,
+                            "g" : 0.72727274894714355,
+                            "r" : 0
+                          },
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0.99999994039535522,
+                            "g" : 0.18181818723678589,
+                            "r" : 0
+                          },
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0.99999994039535522,
+                            "g" : 0,
+                            "r" : 0.36363634467124939
+                          },
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0.99999994039535522,
+                            "g" : 0,
+                            "r" : 0.90909093618392944
+                          },
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0.54545456171035767,
+                            "g" : 0,
+                            "r" : 0.99999994039535522
+                          }
+                        ]
+                      },
+                      "contentsFormat" : "RGBA8",
+                      "endPoint" : {
+                        "$class" : "LKNSValueCodingProxy",
+                        "kind" : 0,
+                        "x" : 1.5,
+                        "y" : 0.375
+                      },
+                      "locations" : {
+                        "$class" : "LKNSArrayCodingProxy",
+                        "array" : [
+                          0,
+                          0.10000000000000001,
+                          0.20000000000000001,
+                          0.30000000000000004,
+                          0.40000000000000002,
+                          0.5,
+                          0.60000000000000009,
+                          0.70000000000000007,
+                          0.80000000000000004,
+                          0.90000000000000002,
+                          1
+                        ]
+                      },
+                      "position" : {
+                        "$class" : "LKNSValueCodingProxy",
+                        "kind" : 0,
+                        "x" : 0,
+                        "y" : 0
+                      },
+                      "startPoint" : {
+                        "$class" : "LKNSValueCodingProxy",
+                        "kind" : 0,
+                        "x" : 0.5,
+                        "y" : 0.375
+                      },
+                      "type" : "conic"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "__CACodingContents" : [
+            "allowsEdgeAntialiasing",
+            "allowsGroupOpacity",
+            "anchorPoint",
+            "bounds",
+            "contentsFormat",
+            "contentsGravity",
+            "contentsScale",
+            "delegate",
+            "needsDisplayOnBoundsChange",
+            "opaque",
+            "position",
+            "rasterizationScale",
+            "shadowColor",
+            "shadowOffset",
+            "shadowOpacity",
+            "shadowRadius"
+          ],
+          "$class" : "CALayer",
+          "allowsEdgeAntialiasing" : false,
+          "allowsGroupOpacity" : true,
+          "anchorPoint" : {
+            "$class" : "LKNSValueCodingProxy",
+            "kind" : 0,
+            "x" : 0,
+            "y" : 0
+          },
+          "bounds" : {
+            "$class" : "LKNSValueCodingProxy",
+            "height" : 40.666667938232422,
+            "kind" : 2,
+            "width" : 195.33332824707031,
+            "x" : 0,
+            "y" : 0
+          },
+          "contentsFormat" : "Automatic",
+          "contentsGravity" : "bottomLeft",
+          "contentsScale" : 3,
+          "needsDisplayOnBoundsChange" : false,
+          "opaque" : false,
+          "position" : {
+            "$class" : "LKNSValueCodingProxy",
+            "kind" : 0,
+            "x" : 52.333332061767578,
+            "y" : 79.666664123535156
+          },
+          "rasterizationScale" : 3,
+          "shadowColor" : {
+            "$class" : "LKCGColorCodingProxy",
+            "a" : 0.33000001311302185,
+            "b" : 0,
+            "g" : 0,
+            "r" : 0
+          },
+          "shadowOffset" : {
+            "$class" : "LKNSValueCodingProxy",
+            "height" : 0,
+            "kind" : 1,
+            "width" : 0
+          },
+          "shadowOpacity" : 1,
+          "shadowRadius" : 2
+        },
+        {
+          "__CACodingContents" : [
+            "allowsEdgeAntialiasing",
+            "allowsGroupBlending",
+            "allowsGroupOpacity",
+            "anchorPoint",
+            "bounds",
+            "contentsFormat",
+            "delegate",
+            "filters",
+            "opaque",
+            "position",
+            "sublayers"
+          ],
+          "$class" : "CALayer",
+          "allowsEdgeAntialiasing" : false,
+          "allowsGroupBlending" : false,
+          "allowsGroupOpacity" : false,
+          "anchorPoint" : {
+            "$class" : "LKNSValueCodingProxy",
+            "kind" : 0,
+            "x" : 0,
+            "y" : 0
+          },
+          "bounds" : {
+            "$class" : "LKNSValueCodingProxy",
+            "height" : 40.666667938232422,
+            "kind" : 2,
+            "width" : 195.33332824707031,
+            "x" : 0,
+            "y" : 0
+          },
+          "contentsFormat" : "RGBA8",
+          "filters" : {
+            "$class" : "LKNSArrayCodingProxy",
+            "array" : [
+              {
+                "$class" : "CAFilter",
+                "CAFilterInputs" : {
+                  "$class" : "LKNSDictionaryCodingProxy",
+                  "dict" : {
+                    "inputDither" : false,
+                    "inputNormalizeEdges" : false,
+                    "inputRadius" : 1
+                  }
+                },
+                "CAFilterName" : "gaussianBlur",
+                "CAFilterType" : "gaussianBlur"
+              }
+            ]
+          },
+          "opaque" : true,
+          "position" : {
+            "$class" : "LKNSValueCodingProxy",
+            "kind" : 0,
+            "x" : 52.333332061767578,
+            "y" : 79.666664123535156
+          },
+          "sublayers" : {
+            "$class" : "LKNSArrayCodingProxy",
+            "array" : [
+              {
+                "__CACodingContents" : [
+                  "allowsEdgeAntialiasing",
+                  "allowsGroupOpacity",
+                  "anchorPoint",
+                  "bounds",
+                  "contentsFormat",
+                  "contentsGravity",
+                  "contentsScale",
+                  "delegate",
+                  "needsDisplayOnBoundsChange",
+                  "opaque",
+                  "position",
+                  "rasterizationScale",
+                  "shadowColor",
+                  "shadowOffset",
+                  "shadowOpacity",
+                  "shadowRadius"
+                ],
                 "$class" : "CALayer",
                 "allowsEdgeAntialiasing" : false,
-                "allowsGroupBlending" : false,
-                "allowsGroupOpacity" : false,
+                "allowsGroupOpacity" : true,
                 "anchorPoint" : {
                   "$class" : "LKNSValueCodingProxy",
                   "kind" : 0,
@@ -763,540 +1233,38 @@
                   "x" : 0,
                   "y" : 0
                 },
-                "contentsFormat" : "RGBA8",
-                "filters" : {
-                  "$class" : "LKNSArrayCodingProxy",
-                  "array" : [
-                    {
-                      "$class" : "CAFilter",
-                      "CAFilterInputs" : {
-                        "$class" : "LKNSDictionaryCodingProxy",
-                        "dict" : {
-                          "inputDither" : false,
-                          "inputNormalizeEdges" : false,
-                          "inputRadius" : 20
-                        }
-                      },
-                      "CAFilterName" : "gaussianBlur",
-                      "CAFilterType" : "gaussianBlur"
-                    }
-                  ]
-                },
-                "opaque" : true,
+                "contentsFormat" : "Automatic",
+                "contentsGravity" : "bottomLeft",
+                "contentsScale" : 3,
+                "needsDisplayOnBoundsChange" : false,
+                "opaque" : false,
                 "position" : {
                   "$class" : "LKNSValueCodingProxy",
                   "kind" : 0,
-                  "x" : 102.33333587646484,
-                  "y" : 129.66667175292969
+                  "x" : 0,
+                  "y" : 0
                 },
-                "sublayers" : {
-                  "$class" : "LKNSArrayCodingProxy",
-                  "array" : [
-                    {
-                      "__CACodingContents" : [
-                        "allowsEdgeAntialiasing",
-                        "allowsGroupOpacity",
-                        "anchorPoint",
-                        "bounds",
-                        "contentsFormat",
-                        "contentsGravity",
-                        "contentsScale",
-                        "delegate",
-                        "needsDisplayOnBoundsChange",
-                        "opaque",
-                        "position",
-                        "rasterizationScale",
-                        "shadowColor",
-                        "shadowOffset",
-                        "shadowOpacity",
-                        "shadowRadius"
-                      ],
-                      "$class" : "CALayer",
-                      "allowsEdgeAntialiasing" : false,
-                      "allowsGroupOpacity" : true,
-                      "anchorPoint" : {
-                        "$class" : "LKNSValueCodingProxy",
-                        "kind" : 0,
-                        "x" : 0,
-                        "y" : 0
-                      },
-                      "bounds" : {
-                        "$class" : "LKNSValueCodingProxy",
-                        "height" : 40.666667938232422,
-                        "kind" : 2,
-                        "width" : 195.33332824707031,
-                        "x" : 0,
-                        "y" : 0
-                      },
-                      "contentsFormat" : "Automatic",
-                      "contentsGravity" : "bottomLeft",
-                      "contentsScale" : 3,
-                      "needsDisplayOnBoundsChange" : false,
-                      "opaque" : false,
-                      "position" : {
-                        "$class" : "LKNSValueCodingProxy",
-                        "kind" : 0,
-                        "x" : 0,
-                        "y" : 0
-                      },
-                      "rasterizationScale" : 3,
-                      "shadowColor" : {
-                        "$class" : "LKCGColorCodingProxy",
-                        "a" : 0.33000001311302185,
-                        "b" : 0,
-                        "g" : 0,
-                        "r" : 0
-                      },
-                      "shadowOffset" : {
-                        "$class" : "LKNSValueCodingProxy",
-                        "height" : 0,
-                        "kind" : 1,
-                        "width" : 0
-                      },
-                      "shadowOpacity" : 1,
-                      "shadowRadius" : 2
-                    }
-                  ]
-                }
+                "rasterizationScale" : 3,
+                "shadowColor" : {
+                  "$class" : "LKCGColorCodingProxy",
+                  "a" : 0.33000001311302185,
+                  "b" : 0,
+                  "g" : 0,
+                  "r" : 0
+                },
+                "shadowOffset" : {
+                  "$class" : "LKNSValueCodingProxy",
+                  "height" : 0,
+                  "kind" : 1,
+                  "width" : 0
+                },
+                "shadowOpacity" : 1,
+                "shadowRadius" : 2
               }
             ]
           }
         },
-        "opaque" : true,
-        "position" : {
-          "$class" : "LKNSValueCodingProxy",
-          "kind" : 0,
-          "x" : -50,
-          "y" : -50
-        },
-        "sublayers" : {
-          "$class" : "LKNSArrayCodingProxy",
-          "array" : [
-            {
-              "__CACodingContents" : [
-                "allowsEdgeAntialiasing",
-                "allowsGroupOpacity",
-                "anchorPoint",
-                "bounds",
-                "contentsFormat",
-                "continuousCorners",
-                "delegate",
-                "masksToBounds",
-                "position",
-                "sublayers"
-              ],
-              "$class" : "SwiftUI.GradientLayer",
-              "allowsEdgeAntialiasing" : true,
-              "allowsGroupOpacity" : true,
-              "anchorPoint" : {
-                "$class" : "LKNSValueCodingProxy",
-                "kind" : 0,
-                "x" : 0,
-                "y" : 0
-              },
-              "bounds" : {
-                "$class" : "LKNSValueCodingProxy",
-                "height" : 300,
-                "kind" : 2,
-                "width" : 400,
-                "x" : 0,
-                "y" : 0
-              },
-              "contentsFormat" : "RGBA8",
-              "continuousCorners" : false,
-              "masksToBounds" : true,
-              "position" : {
-                "$class" : "LKNSValueCodingProxy",
-                "kind" : 0,
-                "x" : 0,
-                "y" : 0
-              },
-              "sublayers" : {
-                "$class" : "LKNSArrayCodingProxy",
-                "array" : [
-                  {
-                    "__CACodingContents" : [
-                      "allowsEdgeAntialiasing",
-                      "allowsGroupOpacity",
-                      "anchorPoint",
-                      "bounds",
-                      "colors",
-                      "contentsFormat",
-                      "delegate",
-                      "endPoint",
-                      "locations",
-                      "position",
-                      "startPoint",
-                      "type"
-                    ],
-                    "$class" : "CAGradientLayer",
-                    "allowsEdgeAntialiasing" : false,
-                    "allowsGroupOpacity" : true,
-                    "anchorPoint" : {
-                      "$class" : "LKNSValueCodingProxy",
-                      "kind" : 0,
-                      "x" : 0,
-                      "y" : 0
-                    },
-                    "bounds" : {
-                      "$class" : "LKNSValueCodingProxy",
-                      "height" : 400,
-                      "kind" : 2,
-                      "width" : 400,
-                      "x" : 0,
-                      "y" : 0
-                    },
-                    "colors" : {
-                      "$class" : "LKNSArrayCodingProxy",
-                      "array" : [
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0,
-                          "g" : 0,
-                          "r" : 0.99999994039535522
-                        },
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0,
-                          "g" : 0.54545456171035767,
-                          "r" : 0.99999994039535522
-                        },
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0,
-                          "g" : 0.99999994039535522,
-                          "r" : 0.90909093618392944
-                        },
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0,
-                          "g" : 0.99999994039535522,
-                          "r" : 0.36363634467124939
-                        },
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0.18181818723678589,
-                          "g" : 0.99999994039535522,
-                          "r" : 0
-                        },
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0.72727274894714355,
-                          "g" : 0.99999994039535522,
-                          "r" : 0
-                        },
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0.99999994039535522,
-                          "g" : 0.72727274894714355,
-                          "r" : 0
-                        },
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0.99999994039535522,
-                          "g" : 0.18181818723678589,
-                          "r" : 0
-                        },
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0.99999994039535522,
-                          "g" : 0,
-                          "r" : 0.36363634467124939
-                        },
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0.99999994039535522,
-                          "g" : 0,
-                          "r" : 0.90909093618392944
-                        },
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0.54545456171035767,
-                          "g" : 0,
-                          "r" : 0.99999994039535522
-                        }
-                      ]
-                    },
-                    "contentsFormat" : "RGBA8",
-                    "endPoint" : {
-                      "$class" : "LKNSValueCodingProxy",
-                      "kind" : 0,
-                      "x" : 1.5,
-                      "y" : 0.375
-                    },
-                    "locations" : {
-                      "$class" : "LKNSArrayCodingProxy",
-                      "array" : [
-                        0,
-                        0.10000000000000001,
-                        0.20000000000000001,
-                        0.30000000000000004,
-                        0.40000000000000002,
-                        0.5,
-                        0.60000000000000009,
-                        0.70000000000000007,
-                        0.80000000000000004,
-                        0.90000000000000002,
-                        1
-                      ]
-                    },
-                    "position" : {
-                      "$class" : "LKNSValueCodingProxy",
-                      "kind" : 0,
-                      "x" : 0,
-                      "y" : 0
-                    },
-                    "startPoint" : {
-                      "$class" : "LKNSValueCodingProxy",
-                      "kind" : 0,
-                      "x" : 0.5,
-                      "y" : 0.375
-                    },
-                    "type" : "conic"
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      },
-      {
-        "__CACodingContents" : [
-          "allowsEdgeAntialiasing",
-          "allowsGroupOpacity",
-          "anchorPoint",
-          "bounds",
-          "contentsFormat",
-          "contentsGravity",
-          "contentsScale",
-          "delegate",
-          "needsDisplayOnBoundsChange",
-          "opaque",
-          "position",
-          "rasterizationScale",
-          "shadowColor",
-          "shadowOffset",
-          "shadowOpacity",
-          "shadowRadius"
-        ],
-        "$class" : "CALayer",
-        "allowsEdgeAntialiasing" : false,
-        "allowsGroupOpacity" : true,
-        "anchorPoint" : {
-          "$class" : "LKNSValueCodingProxy",
-          "kind" : 0,
-          "x" : 0,
-          "y" : 0
-        },
-        "bounds" : {
-          "$class" : "LKNSValueCodingProxy",
-          "height" : 40.666667938232422,
-          "kind" : 2,
-          "width" : 195.33332824707031,
-          "x" : 0,
-          "y" : 0
-        },
-        "contentsFormat" : "Automatic",
-        "contentsGravity" : "bottomLeft",
-        "contentsScale" : 3,
-        "needsDisplayOnBoundsChange" : false,
-        "opaque" : false,
-        "position" : {
-          "$class" : "LKNSValueCodingProxy",
-          "kind" : 0,
-          "x" : 52.333332061767578,
-          "y" : 79.666664123535156
-        },
-        "rasterizationScale" : 3,
-        "shadowColor" : {
-          "$class" : "LKCGColorCodingProxy",
-          "a" : 0.33000001311302185,
-          "b" : 0,
-          "g" : 0,
-          "r" : 0
-        },
-        "shadowOffset" : {
-          "$class" : "LKNSValueCodingProxy",
-          "height" : 0,
-          "kind" : 1,
-          "width" : 0
-        },
-        "shadowOpacity" : 1,
-        "shadowRadius" : 2
-      },
-      {
-        "__CACodingContents" : [
-          "allowsEdgeAntialiasing",
-          "allowsGroupBlending",
-          "allowsGroupOpacity",
-          "anchorPoint",
-          "bounds",
-          "contentsFormat",
-          "delegate",
-          "filters",
-          "opaque",
-          "position",
-          "sublayers"
-        ],
-        "$class" : "CALayer",
-        "allowsEdgeAntialiasing" : false,
-        "allowsGroupBlending" : false,
-        "allowsGroupOpacity" : false,
-        "anchorPoint" : {
-          "$class" : "LKNSValueCodingProxy",
-          "kind" : 0,
-          "x" : 0,
-          "y" : 0
-        },
-        "bounds" : {
-          "$class" : "LKNSValueCodingProxy",
-          "height" : 40.666667938232422,
-          "kind" : 2,
-          "width" : 195.33332824707031,
-          "x" : 0,
-          "y" : 0
-        },
-        "contentsFormat" : "RGBA8",
-        "filters" : {
-          "$class" : "LKNSArrayCodingProxy",
-          "array" : [
-            {
-              "$class" : "CAFilter",
-              "CAFilterInputs" : {
-                "$class" : "LKNSDictionaryCodingProxy",
-                "dict" : {
-                  "inputDither" : false,
-                  "inputNormalizeEdges" : false,
-                  "inputRadius" : 1
-                }
-              },
-              "CAFilterName" : "gaussianBlur",
-              "CAFilterType" : "gaussianBlur"
-            }
-          ]
-        },
-        "opaque" : true,
-        "position" : {
-          "$class" : "LKNSValueCodingProxy",
-          "kind" : 0,
-          "x" : 52.333332061767578,
-          "y" : 79.666664123535156
-        },
-        "sublayers" : {
-          "$class" : "LKNSArrayCodingProxy",
-          "array" : [
-            {
-              "__CACodingContents" : [
-                "allowsEdgeAntialiasing",
-                "allowsGroupOpacity",
-                "anchorPoint",
-                "bounds",
-                "contentsFormat",
-                "contentsGravity",
-                "contentsScale",
-                "delegate",
-                "needsDisplayOnBoundsChange",
-                "opaque",
-                "position",
-                "rasterizationScale",
-                "shadowColor",
-                "shadowOffset",
-                "shadowOpacity",
-                "shadowRadius"
-              ],
-              "$class" : "CALayer",
-              "allowsEdgeAntialiasing" : false,
-              "allowsGroupOpacity" : true,
-              "anchorPoint" : {
-                "$class" : "LKNSValueCodingProxy",
-                "kind" : 0,
-                "x" : 0,
-                "y" : 0
-              },
-              "bounds" : {
-                "$class" : "LKNSValueCodingProxy",
-                "height" : 40.666667938232422,
-                "kind" : 2,
-                "width" : 195.33332824707031,
-                "x" : 0,
-                "y" : 0
-              },
-              "contentsFormat" : "Automatic",
-              "contentsGravity" : "bottomLeft",
-              "contentsScale" : 3,
-              "needsDisplayOnBoundsChange" : false,
-              "opaque" : false,
-              "position" : {
-                "$class" : "LKNSValueCodingProxy",
-                "kind" : 0,
-                "x" : 0,
-                "y" : 0
-              },
-              "rasterizationScale" : 3,
-              "shadowColor" : {
-                "$class" : "LKCGColorCodingProxy",
-                "a" : 0.33000001311302185,
-                "b" : 0,
-                "g" : 0,
-                "r" : 0
-              },
-              "shadowOffset" : {
-                "$class" : "LKNSValueCodingProxy",
-                "height" : 0,
-                "kind" : 1,
-                "width" : 0
-              },
-              "shadowOpacity" : 1,
-              "shadowRadius" : 2
-            }
-          ]
-        }
-      },
-      {
-        "__CACodingContents" : [
-          "allowsEdgeAntialiasing",
-          "allowsGroupBlending",
-          "allowsGroupOpacity",
-          "anchorPoint",
-          "bounds",
-          "contentsFormat",
-          "delegate",
-          "mask",
-          "opaque",
-          "position",
-          "sublayers"
-        ],
-        "$class" : "CALayer",
-        "allowsEdgeAntialiasing" : false,
-        "allowsGroupBlending" : false,
-        "allowsGroupOpacity" : false,
-        "anchorPoint" : {
-          "$class" : "LKNSValueCodingProxy",
-          "kind" : 0,
-          "x" : 0,
-          "y" : 0
-        },
-        "bounds" : {
-          "$class" : "LKNSValueCodingProxy",
-          "height" : 300,
-          "kind" : 2,
-          "width" : 400,
-          "x" : 0,
-          "y" : 0
-        },
-        "contentsFormat" : "RGBA8",
-        "mask" : {
+        {
           "__CACodingContents" : [
             "allowsEdgeAntialiasing",
             "allowsGroupBlending",
@@ -1305,6 +1273,7 @@
             "bounds",
             "contentsFormat",
             "delegate",
+            "mask",
             "opaque",
             "position",
             "sublayers"
@@ -1328,12 +1297,185 @@
             "y" : 0
           },
           "contentsFormat" : "RGBA8",
+          "mask" : {
+            "__CACodingContents" : [
+              "allowsEdgeAntialiasing",
+              "allowsGroupBlending",
+              "allowsGroupOpacity",
+              "anchorPoint",
+              "bounds",
+              "contentsFormat",
+              "delegate",
+              "opaque",
+              "position",
+              "sublayers"
+            ],
+            "$class" : "CALayer",
+            "allowsEdgeAntialiasing" : false,
+            "allowsGroupBlending" : false,
+            "allowsGroupOpacity" : false,
+            "anchorPoint" : {
+              "$class" : "LKNSValueCodingProxy",
+              "kind" : 0,
+              "x" : 0,
+              "y" : 0
+            },
+            "bounds" : {
+              "$class" : "LKNSValueCodingProxy",
+              "height" : 300,
+              "kind" : 2,
+              "width" : 400,
+              "x" : 0,
+              "y" : 0
+            },
+            "contentsFormat" : "RGBA8",
+            "opaque" : true,
+            "position" : {
+              "$class" : "LKNSValueCodingProxy",
+              "kind" : 0,
+              "x" : 0,
+              "y" : 0
+            },
+            "sublayers" : {
+              "$class" : "LKNSArrayCodingProxy",
+              "array" : [
+                {
+                  "__CACodingContents" : [
+                    "allowsEdgeAntialiasing",
+                    "allowsGroupBlending",
+                    "allowsGroupOpacity",
+                    "anchorPoint",
+                    "bounds",
+                    "contentsFormat",
+                    "delegate",
+                    "filters",
+                    "opaque",
+                    "position",
+                    "sublayers"
+                  ],
+                  "$class" : "CALayer",
+                  "allowsEdgeAntialiasing" : false,
+                  "allowsGroupBlending" : false,
+                  "allowsGroupOpacity" : false,
+                  "anchorPoint" : {
+                    "$class" : "LKNSValueCodingProxy",
+                    "kind" : 0,
+                    "x" : 0,
+                    "y" : 0
+                  },
+                  "bounds" : {
+                    "$class" : "LKNSValueCodingProxy",
+                    "height" : 40.666667938232422,
+                    "kind" : 2,
+                    "width" : 195.33332824707031,
+                    "x" : 0,
+                    "y" : 0
+                  },
+                  "contentsFormat" : "RGBA8",
+                  "filters" : {
+                    "$class" : "LKNSArrayCodingProxy",
+                    "array" : [
+                      {
+                        "$class" : "CAFilter",
+                        "CAFilterInputs" : {
+                          "$class" : "LKNSDictionaryCodingProxy",
+                          "dict" : {
+                            "inputDither" : false,
+                            "inputNormalizeEdges" : false,
+                            "inputRadius" : 20
+                          }
+                        },
+                        "CAFilterName" : "gaussianBlur",
+                        "CAFilterType" : "gaussianBlur"
+                      }
+                    ]
+                  },
+                  "opaque" : true,
+                  "position" : {
+                    "$class" : "LKNSValueCodingProxy",
+                    "kind" : 0,
+                    "x" : 102.33333587646484,
+                    "y" : 129.66667175292969
+                  },
+                  "sublayers" : {
+                    "$class" : "LKNSArrayCodingProxy",
+                    "array" : [
+                      {
+                        "__CACodingContents" : [
+                          "allowsEdgeAntialiasing",
+                          "allowsGroupOpacity",
+                          "anchorPoint",
+                          "bounds",
+                          "contentsFormat",
+                          "contentsGravity",
+                          "contentsScale",
+                          "delegate",
+                          "needsDisplayOnBoundsChange",
+                          "opaque",
+                          "position",
+                          "rasterizationScale",
+                          "shadowColor",
+                          "shadowOffset",
+                          "shadowOpacity",
+                          "shadowRadius"
+                        ],
+                        "$class" : "CALayer",
+                        "allowsEdgeAntialiasing" : false,
+                        "allowsGroupOpacity" : true,
+                        "anchorPoint" : {
+                          "$class" : "LKNSValueCodingProxy",
+                          "kind" : 0,
+                          "x" : 0,
+                          "y" : 0
+                        },
+                        "bounds" : {
+                          "$class" : "LKNSValueCodingProxy",
+                          "height" : 40.666667938232422,
+                          "kind" : 2,
+                          "width" : 195.33332824707031,
+                          "x" : 0,
+                          "y" : 0
+                        },
+                        "contentsFormat" : "Automatic",
+                        "contentsGravity" : "bottomLeft",
+                        "contentsScale" : 3,
+                        "needsDisplayOnBoundsChange" : false,
+                        "opaque" : false,
+                        "position" : {
+                          "$class" : "LKNSValueCodingProxy",
+                          "kind" : 0,
+                          "x" : 0,
+                          "y" : 0
+                        },
+                        "rasterizationScale" : 3,
+                        "shadowColor" : {
+                          "$class" : "LKCGColorCodingProxy",
+                          "a" : 0.33000001311302185,
+                          "b" : 0,
+                          "g" : 0,
+                          "r" : 0
+                        },
+                        "shadowOffset" : {
+                          "$class" : "LKNSValueCodingProxy",
+                          "height" : 0,
+                          "kind" : 1,
+                          "width" : 0
+                        },
+                        "shadowOpacity" : 1,
+                        "shadowRadius" : 2
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
           "opaque" : true,
           "position" : {
             "$class" : "LKNSValueCodingProxy",
             "kind" : 0,
-            "x" : 0,
-            "y" : 0
+            "x" : -50,
+            "y" : -50
           },
           "sublayers" : {
             "$class" : "LKNSArrayCodingProxy",
@@ -1341,21 +1483,349 @@
               {
                 "__CACodingContents" : [
                   "allowsEdgeAntialiasing",
-                  "allowsGroupBlending",
                   "allowsGroupOpacity",
                   "anchorPoint",
                   "bounds",
                   "contentsFormat",
+                  "continuousCorners",
                   "delegate",
-                  "filters",
-                  "opaque",
+                  "masksToBounds",
                   "position",
                   "sublayers"
                 ],
+                "$class" : "SwiftUI.GradientLayer",
+                "allowsEdgeAntialiasing" : true,
+                "allowsGroupOpacity" : true,
+                "anchorPoint" : {
+                  "$class" : "LKNSValueCodingProxy",
+                  "kind" : 0,
+                  "x" : 0,
+                  "y" : 0
+                },
+                "bounds" : {
+                  "$class" : "LKNSValueCodingProxy",
+                  "height" : 300,
+                  "kind" : 2,
+                  "width" : 400,
+                  "x" : 0,
+                  "y" : 0
+                },
+                "contentsFormat" : "RGBA8",
+                "continuousCorners" : false,
+                "masksToBounds" : true,
+                "position" : {
+                  "$class" : "LKNSValueCodingProxy",
+                  "kind" : 0,
+                  "x" : 0,
+                  "y" : 0
+                },
+                "sublayers" : {
+                  "$class" : "LKNSArrayCodingProxy",
+                  "array" : [
+                    {
+                      "__CACodingContents" : [
+                        "allowsEdgeAntialiasing",
+                        "allowsGroupOpacity",
+                        "anchorPoint",
+                        "bounds",
+                        "colors",
+                        "contentsFormat",
+                        "delegate",
+                        "endPoint",
+                        "locations",
+                        "position",
+                        "startPoint",
+                        "type"
+                      ],
+                      "$class" : "CAGradientLayer",
+                      "allowsEdgeAntialiasing" : false,
+                      "allowsGroupOpacity" : true,
+                      "anchorPoint" : {
+                        "$class" : "LKNSValueCodingProxy",
+                        "kind" : 0,
+                        "x" : 0,
+                        "y" : 0
+                      },
+                      "bounds" : {
+                        "$class" : "LKNSValueCodingProxy",
+                        "height" : 400,
+                        "kind" : 2,
+                        "width" : 400,
+                        "x" : 0,
+                        "y" : 0
+                      },
+                      "colors" : {
+                        "$class" : "LKNSArrayCodingProxy",
+                        "array" : [
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0,
+                            "g" : 0,
+                            "r" : 0.99999994039535522
+                          },
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0,
+                            "g" : 0.54545456171035767,
+                            "r" : 0.99999994039535522
+                          },
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0,
+                            "g" : 0.99999994039535522,
+                            "r" : 0.90909093618392944
+                          },
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0,
+                            "g" : 0.99999994039535522,
+                            "r" : 0.36363634467124939
+                          },
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0.18181818723678589,
+                            "g" : 0.99999994039535522,
+                            "r" : 0
+                          },
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0.72727274894714355,
+                            "g" : 0.99999994039535522,
+                            "r" : 0
+                          },
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0.99999994039535522,
+                            "g" : 0.72727274894714355,
+                            "r" : 0
+                          },
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0.99999994039535522,
+                            "g" : 0.18181818723678589,
+                            "r" : 0
+                          },
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0.99999994039535522,
+                            "g" : 0,
+                            "r" : 0.36363634467124939
+                          },
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0.99999994039535522,
+                            "g" : 0,
+                            "r" : 0.90909093618392944
+                          },
+                          {
+                            "$class" : "LKCGColorCodingProxy",
+                            "a" : 1,
+                            "b" : 0.54545456171035767,
+                            "g" : 0,
+                            "r" : 0.99999994039535522
+                          }
+                        ]
+                      },
+                      "contentsFormat" : "RGBA8",
+                      "endPoint" : {
+                        "$class" : "LKNSValueCodingProxy",
+                        "kind" : 0,
+                        "x" : 1.5,
+                        "y" : 0.375
+                      },
+                      "locations" : {
+                        "$class" : "LKNSArrayCodingProxy",
+                        "array" : [
+                          0,
+                          0.10000000000000001,
+                          0.20000000000000001,
+                          0.30000000000000004,
+                          0.40000000000000002,
+                          0.5,
+                          0.60000000000000009,
+                          0.70000000000000007,
+                          0.80000000000000004,
+                          0.90000000000000002,
+                          1
+                        ]
+                      },
+                      "position" : {
+                        "$class" : "LKNSValueCodingProxy",
+                        "kind" : 0,
+                        "x" : 0,
+                        "y" : 0
+                      },
+                      "startPoint" : {
+                        "$class" : "LKNSValueCodingProxy",
+                        "kind" : 0,
+                        "x" : 0.5,
+                        "y" : 0.375
+                      },
+                      "type" : "conic"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "__CACodingContents" : [
+            "allowsEdgeAntialiasing",
+            "allowsGroupOpacity",
+            "anchorPoint",
+            "bounds",
+            "contentsFormat",
+            "contentsGravity",
+            "contentsScale",
+            "delegate",
+            "needsDisplayOnBoundsChange",
+            "opaque",
+            "position",
+            "rasterizationScale",
+            "shadowColor",
+            "shadowOffset",
+            "shadowOpacity",
+            "shadowRadius"
+          ],
+          "$class" : "CALayer",
+          "allowsEdgeAntialiasing" : false,
+          "allowsGroupOpacity" : true,
+          "anchorPoint" : {
+            "$class" : "LKNSValueCodingProxy",
+            "kind" : 0,
+            "x" : 0,
+            "y" : 0
+          },
+          "bounds" : {
+            "$class" : "LKNSValueCodingProxy",
+            "height" : 40.666667938232422,
+            "kind" : 2,
+            "width" : 195.33332824707031,
+            "x" : 0,
+            "y" : 0
+          },
+          "contentsFormat" : "Automatic",
+          "contentsGravity" : "bottomLeft",
+          "contentsScale" : 3,
+          "needsDisplayOnBoundsChange" : false,
+          "opaque" : false,
+          "position" : {
+            "$class" : "LKNSValueCodingProxy",
+            "kind" : 0,
+            "x" : 52.333332061767578,
+            "y" : 79.666664123535156
+          },
+          "rasterizationScale" : 3,
+          "shadowColor" : {
+            "$class" : "LKCGColorCodingProxy",
+            "a" : 0.33000001311302185,
+            "b" : 0,
+            "g" : 0,
+            "r" : 0
+          },
+          "shadowOffset" : {
+            "$class" : "LKNSValueCodingProxy",
+            "height" : 0,
+            "kind" : 1,
+            "width" : 0
+          },
+          "shadowOpacity" : 1,
+          "shadowRadius" : 2
+        },
+        {
+          "__CACodingContents" : [
+            "allowsEdgeAntialiasing",
+            "allowsGroupBlending",
+            "allowsGroupOpacity",
+            "anchorPoint",
+            "bounds",
+            "contentsFormat",
+            "delegate",
+            "filters",
+            "opaque",
+            "position",
+            "sublayers"
+          ],
+          "$class" : "CALayer",
+          "allowsEdgeAntialiasing" : false,
+          "allowsGroupBlending" : false,
+          "allowsGroupOpacity" : false,
+          "anchorPoint" : {
+            "$class" : "LKNSValueCodingProxy",
+            "kind" : 0,
+            "x" : 0,
+            "y" : 0
+          },
+          "bounds" : {
+            "$class" : "LKNSValueCodingProxy",
+            "height" : 40.666667938232422,
+            "kind" : 2,
+            "width" : 195.33332824707031,
+            "x" : 0,
+            "y" : 0
+          },
+          "contentsFormat" : "RGBA8",
+          "filters" : {
+            "$class" : "LKNSArrayCodingProxy",
+            "array" : [
+              {
+                "$class" : "CAFilter",
+                "CAFilterInputs" : {
+                  "$class" : "LKNSDictionaryCodingProxy",
+                  "dict" : {
+                    "inputDither" : false,
+                    "inputNormalizeEdges" : false,
+                    "inputRadius" : 2
+                  }
+                },
+                "CAFilterName" : "gaussianBlur",
+                "CAFilterType" : "gaussianBlur"
+              }
+            ]
+          },
+          "opaque" : true,
+          "position" : {
+            "$class" : "LKNSValueCodingProxy",
+            "kind" : 0,
+            "x" : 52.333332061767578,
+            "y" : 79.666664123535156
+          },
+          "sublayers" : {
+            "$class" : "LKNSArrayCodingProxy",
+            "array" : [
+              {
+                "__CACodingContents" : [
+                  "allowsEdgeAntialiasing",
+                  "allowsGroupOpacity",
+                  "anchorPoint",
+                  "bounds",
+                  "contentsFormat",
+                  "contentsGravity",
+                  "contentsScale",
+                  "delegate",
+                  "needsDisplayOnBoundsChange",
+                  "opaque",
+                  "position",
+                  "rasterizationScale",
+                  "shadowColor",
+                  "shadowOffset",
+                  "shadowOpacity",
+                  "shadowRadius"
+                ],
                 "$class" : "CALayer",
                 "allowsEdgeAntialiasing" : false,
-                "allowsGroupBlending" : false,
-                "allowsGroupOpacity" : false,
+                "allowsGroupOpacity" : true,
                 "anchorPoint" : {
                   "$class" : "LKNSValueCodingProxy",
                   "kind" : 0,
@@ -1370,506 +1840,38 @@
                   "x" : 0,
                   "y" : 0
                 },
-                "contentsFormat" : "RGBA8",
-                "filters" : {
-                  "$class" : "LKNSArrayCodingProxy",
-                  "array" : [
-                    {
-                      "$class" : "CAFilter",
-                      "CAFilterInputs" : {
-                        "$class" : "LKNSDictionaryCodingProxy",
-                        "dict" : {
-                          "inputDither" : false,
-                          "inputNormalizeEdges" : false,
-                          "inputRadius" : 20
-                        }
-                      },
-                      "CAFilterName" : "gaussianBlur",
-                      "CAFilterType" : "gaussianBlur"
-                    }
-                  ]
-                },
-                "opaque" : true,
+                "contentsFormat" : "Automatic",
+                "contentsGravity" : "bottomLeft",
+                "contentsScale" : 3,
+                "needsDisplayOnBoundsChange" : false,
+                "opaque" : false,
                 "position" : {
                   "$class" : "LKNSValueCodingProxy",
                   "kind" : 0,
-                  "x" : 102.33333587646484,
-                  "y" : 129.66667175292969
+                  "x" : 0,
+                  "y" : 0
                 },
-                "sublayers" : {
-                  "$class" : "LKNSArrayCodingProxy",
-                  "array" : [
-                    {
-                      "__CACodingContents" : [
-                        "allowsEdgeAntialiasing",
-                        "allowsGroupOpacity",
-                        "anchorPoint",
-                        "bounds",
-                        "contentsFormat",
-                        "contentsGravity",
-                        "contentsScale",
-                        "delegate",
-                        "needsDisplayOnBoundsChange",
-                        "opaque",
-                        "position",
-                        "rasterizationScale",
-                        "shadowColor",
-                        "shadowOffset",
-                        "shadowOpacity",
-                        "shadowRadius"
-                      ],
-                      "$class" : "CALayer",
-                      "allowsEdgeAntialiasing" : false,
-                      "allowsGroupOpacity" : true,
-                      "anchorPoint" : {
-                        "$class" : "LKNSValueCodingProxy",
-                        "kind" : 0,
-                        "x" : 0,
-                        "y" : 0
-                      },
-                      "bounds" : {
-                        "$class" : "LKNSValueCodingProxy",
-                        "height" : 40.666667938232422,
-                        "kind" : 2,
-                        "width" : 195.33332824707031,
-                        "x" : 0,
-                        "y" : 0
-                      },
-                      "contentsFormat" : "Automatic",
-                      "contentsGravity" : "bottomLeft",
-                      "contentsScale" : 3,
-                      "needsDisplayOnBoundsChange" : false,
-                      "opaque" : false,
-                      "position" : {
-                        "$class" : "LKNSValueCodingProxy",
-                        "kind" : 0,
-                        "x" : 0,
-                        "y" : 0
-                      },
-                      "rasterizationScale" : 3,
-                      "shadowColor" : {
-                        "$class" : "LKCGColorCodingProxy",
-                        "a" : 0.33000001311302185,
-                        "b" : 0,
-                        "g" : 0,
-                        "r" : 0
-                      },
-                      "shadowOffset" : {
-                        "$class" : "LKNSValueCodingProxy",
-                        "height" : 0,
-                        "kind" : 1,
-                        "width" : 0
-                      },
-                      "shadowOpacity" : 1,
-                      "shadowRadius" : 2
-                    }
-                  ]
-                }
+                "rasterizationScale" : 3,
+                "shadowColor" : {
+                  "$class" : "LKCGColorCodingProxy",
+                  "a" : 0.33000001311302185,
+                  "b" : 0,
+                  "g" : 0,
+                  "r" : 0
+                },
+                "shadowOffset" : {
+                  "$class" : "LKNSValueCodingProxy",
+                  "height" : 0,
+                  "kind" : 1,
+                  "width" : 0
+                },
+                "shadowOpacity" : 1,
+                "shadowRadius" : 2
               }
             ]
           }
-        },
-        "opaque" : true,
-        "position" : {
-          "$class" : "LKNSValueCodingProxy",
-          "kind" : 0,
-          "x" : -50,
-          "y" : -50
-        },
-        "sublayers" : {
-          "$class" : "LKNSArrayCodingProxy",
-          "array" : [
-            {
-              "__CACodingContents" : [
-                "allowsEdgeAntialiasing",
-                "allowsGroupOpacity",
-                "anchorPoint",
-                "bounds",
-                "contentsFormat",
-                "continuousCorners",
-                "delegate",
-                "masksToBounds",
-                "position",
-                "sublayers"
-              ],
-              "$class" : "SwiftUI.GradientLayer",
-              "allowsEdgeAntialiasing" : true,
-              "allowsGroupOpacity" : true,
-              "anchorPoint" : {
-                "$class" : "LKNSValueCodingProxy",
-                "kind" : 0,
-                "x" : 0,
-                "y" : 0
-              },
-              "bounds" : {
-                "$class" : "LKNSValueCodingProxy",
-                "height" : 300,
-                "kind" : 2,
-                "width" : 400,
-                "x" : 0,
-                "y" : 0
-              },
-              "contentsFormat" : "RGBA8",
-              "continuousCorners" : false,
-              "masksToBounds" : true,
-              "position" : {
-                "$class" : "LKNSValueCodingProxy",
-                "kind" : 0,
-                "x" : 0,
-                "y" : 0
-              },
-              "sublayers" : {
-                "$class" : "LKNSArrayCodingProxy",
-                "array" : [
-                  {
-                    "__CACodingContents" : [
-                      "allowsEdgeAntialiasing",
-                      "allowsGroupOpacity",
-                      "anchorPoint",
-                      "bounds",
-                      "colors",
-                      "contentsFormat",
-                      "delegate",
-                      "endPoint",
-                      "locations",
-                      "position",
-                      "startPoint",
-                      "type"
-                    ],
-                    "$class" : "CAGradientLayer",
-                    "allowsEdgeAntialiasing" : false,
-                    "allowsGroupOpacity" : true,
-                    "anchorPoint" : {
-                      "$class" : "LKNSValueCodingProxy",
-                      "kind" : 0,
-                      "x" : 0,
-                      "y" : 0
-                    },
-                    "bounds" : {
-                      "$class" : "LKNSValueCodingProxy",
-                      "height" : 400,
-                      "kind" : 2,
-                      "width" : 400,
-                      "x" : 0,
-                      "y" : 0
-                    },
-                    "colors" : {
-                      "$class" : "LKNSArrayCodingProxy",
-                      "array" : [
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0,
-                          "g" : 0,
-                          "r" : 0.99999994039535522
-                        },
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0,
-                          "g" : 0.54545456171035767,
-                          "r" : 0.99999994039535522
-                        },
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0,
-                          "g" : 0.99999994039535522,
-                          "r" : 0.90909093618392944
-                        },
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0,
-                          "g" : 0.99999994039535522,
-                          "r" : 0.36363634467124939
-                        },
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0.18181818723678589,
-                          "g" : 0.99999994039535522,
-                          "r" : 0
-                        },
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0.72727274894714355,
-                          "g" : 0.99999994039535522,
-                          "r" : 0
-                        },
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0.99999994039535522,
-                          "g" : 0.72727274894714355,
-                          "r" : 0
-                        },
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0.99999994039535522,
-                          "g" : 0.18181818723678589,
-                          "r" : 0
-                        },
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0.99999994039535522,
-                          "g" : 0,
-                          "r" : 0.36363634467124939
-                        },
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0.99999994039535522,
-                          "g" : 0,
-                          "r" : 0.90909093618392944
-                        },
-                        {
-                          "$class" : "LKCGColorCodingProxy",
-                          "a" : 1,
-                          "b" : 0.54545456171035767,
-                          "g" : 0,
-                          "r" : 0.99999994039535522
-                        }
-                      ]
-                    },
-                    "contentsFormat" : "RGBA8",
-                    "endPoint" : {
-                      "$class" : "LKNSValueCodingProxy",
-                      "kind" : 0,
-                      "x" : 1.5,
-                      "y" : 0.375
-                    },
-                    "locations" : {
-                      "$class" : "LKNSArrayCodingProxy",
-                      "array" : [
-                        0,
-                        0.10000000000000001,
-                        0.20000000000000001,
-                        0.30000000000000004,
-                        0.40000000000000002,
-                        0.5,
-                        0.60000000000000009,
-                        0.70000000000000007,
-                        0.80000000000000004,
-                        0.90000000000000002,
-                        1
-                      ]
-                    },
-                    "position" : {
-                      "$class" : "LKNSValueCodingProxy",
-                      "kind" : 0,
-                      "x" : 0,
-                      "y" : 0
-                    },
-                    "startPoint" : {
-                      "$class" : "LKNSValueCodingProxy",
-                      "kind" : 0,
-                      "x" : 0.5,
-                      "y" : 0.375
-                    },
-                    "type" : "conic"
-                  }
-                ]
-              }
-            }
-          ]
         }
-      },
-      {
-        "__CACodingContents" : [
-          "allowsEdgeAntialiasing",
-          "allowsGroupOpacity",
-          "anchorPoint",
-          "bounds",
-          "contentsFormat",
-          "contentsGravity",
-          "contentsScale",
-          "delegate",
-          "needsDisplayOnBoundsChange",
-          "opaque",
-          "position",
-          "rasterizationScale",
-          "shadowColor",
-          "shadowOffset",
-          "shadowOpacity",
-          "shadowRadius"
-        ],
-        "$class" : "CALayer",
-        "allowsEdgeAntialiasing" : false,
-        "allowsGroupOpacity" : true,
-        "anchorPoint" : {
-          "$class" : "LKNSValueCodingProxy",
-          "kind" : 0,
-          "x" : 0,
-          "y" : 0
-        },
-        "bounds" : {
-          "$class" : "LKNSValueCodingProxy",
-          "height" : 40.666667938232422,
-          "kind" : 2,
-          "width" : 195.33332824707031,
-          "x" : 0,
-          "y" : 0
-        },
-        "contentsFormat" : "Automatic",
-        "contentsGravity" : "bottomLeft",
-        "contentsScale" : 3,
-        "needsDisplayOnBoundsChange" : false,
-        "opaque" : false,
-        "position" : {
-          "$class" : "LKNSValueCodingProxy",
-          "kind" : 0,
-          "x" : 52.333332061767578,
-          "y" : 79.666664123535156
-        },
-        "rasterizationScale" : 3,
-        "shadowColor" : {
-          "$class" : "LKCGColorCodingProxy",
-          "a" : 0.33000001311302185,
-          "b" : 0,
-          "g" : 0,
-          "r" : 0
-        },
-        "shadowOffset" : {
-          "$class" : "LKNSValueCodingProxy",
-          "height" : 0,
-          "kind" : 1,
-          "width" : 0
-        },
-        "shadowOpacity" : 1,
-        "shadowRadius" : 2
-      },
-      {
-        "__CACodingContents" : [
-          "allowsEdgeAntialiasing",
-          "allowsGroupBlending",
-          "allowsGroupOpacity",
-          "anchorPoint",
-          "bounds",
-          "contentsFormat",
-          "delegate",
-          "filters",
-          "opaque",
-          "position",
-          "sublayers"
-        ],
-        "$class" : "CALayer",
-        "allowsEdgeAntialiasing" : false,
-        "allowsGroupBlending" : false,
-        "allowsGroupOpacity" : false,
-        "anchorPoint" : {
-          "$class" : "LKNSValueCodingProxy",
-          "kind" : 0,
-          "x" : 0,
-          "y" : 0
-        },
-        "bounds" : {
-          "$class" : "LKNSValueCodingProxy",
-          "height" : 40.666667938232422,
-          "kind" : 2,
-          "width" : 195.33332824707031,
-          "x" : 0,
-          "y" : 0
-        },
-        "contentsFormat" : "RGBA8",
-        "filters" : {
-          "$class" : "LKNSArrayCodingProxy",
-          "array" : [
-            {
-              "$class" : "CAFilter",
-              "CAFilterInputs" : {
-                "$class" : "LKNSDictionaryCodingProxy",
-                "dict" : {
-                  "inputDither" : false,
-                  "inputNormalizeEdges" : false,
-                  "inputRadius" : 2
-                }
-              },
-              "CAFilterName" : "gaussianBlur",
-              "CAFilterType" : "gaussianBlur"
-            }
-          ]
-        },
-        "opaque" : true,
-        "position" : {
-          "$class" : "LKNSValueCodingProxy",
-          "kind" : 0,
-          "x" : 52.333332061767578,
-          "y" : 79.666664123535156
-        },
-        "sublayers" : {
-          "$class" : "LKNSArrayCodingProxy",
-          "array" : [
-            {
-              "__CACodingContents" : [
-                "allowsEdgeAntialiasing",
-                "allowsGroupOpacity",
-                "anchorPoint",
-                "bounds",
-                "contentsFormat",
-                "contentsGravity",
-                "contentsScale",
-                "delegate",
-                "needsDisplayOnBoundsChange",
-                "opaque",
-                "position",
-                "rasterizationScale",
-                "shadowColor",
-                "shadowOffset",
-                "shadowOpacity",
-                "shadowRadius"
-              ],
-              "$class" : "CALayer",
-              "allowsEdgeAntialiasing" : false,
-              "allowsGroupOpacity" : true,
-              "anchorPoint" : {
-                "$class" : "LKNSValueCodingProxy",
-                "kind" : 0,
-                "x" : 0,
-                "y" : 0
-              },
-              "bounds" : {
-                "$class" : "LKNSValueCodingProxy",
-                "height" : 40.666667938232422,
-                "kind" : 2,
-                "width" : 195.33332824707031,
-                "x" : 0,
-                "y" : 0
-              },
-              "contentsFormat" : "Automatic",
-              "contentsGravity" : "bottomLeft",
-              "contentsScale" : 3,
-              "needsDisplayOnBoundsChange" : false,
-              "opaque" : false,
-              "position" : {
-                "$class" : "LKNSValueCodingProxy",
-                "kind" : 0,
-                "x" : 0,
-                "y" : 0
-              },
-              "rasterizationScale" : 3,
-              "shadowColor" : {
-                "$class" : "LKCGColorCodingProxy",
-                "a" : 0.33000001311302185,
-                "b" : 0,
-                "g" : 0,
-                "r" : 0
-              },
-              "shadowOffset" : {
-                "$class" : "LKNSValueCodingProxy",
-                "height" : 0,
-                "kind" : 1,
-                "width" : 0
-              },
-              "shadowOpacity" : 1,
-              "shadowRadius" : 2
-            }
-          ]
-        }
-      }
-    ]
+      ]
+    }
   }
 }

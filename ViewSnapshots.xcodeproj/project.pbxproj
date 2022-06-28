@@ -31,6 +31,7 @@
 		4BE8B8E3284DD83B00083A24 /* SnapshotTestingPreviewGroup in Frameworks */ = {isa = PBXBuildFile; productRef = 4BE8B8E2284DD83B00083A24 /* SnapshotTestingPreviewGroup */; };
 		4BEFB0F128603649000B714C /* HRCoder in Frameworks */ = {isa = PBXBuildFile; productRef = 4BEFB0F028603649000B714C /* HRCoder */; };
 		4BEFB0F328604184000B714C /* HRCoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEFB0F228604184000B714C /* HRCoderTests.swift */; };
+		4BFA8E00286AC082008AC581 /* Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 4BFA8DFF286AC082008AC581 /* Dynamic */; };
 		4BFAB27528448E5900E65405 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAB27428448E5900E65405 /* ToggleView.swift */; };
 		4BFAB27728457D4300E65405 /* RenderLayerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAB27628457D4300E65405 /* RenderLayerTest.swift */; };
 		4BFAB2792845888E00E65405 /* PerceptualDifferencesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAB2782845888E00E65405 /* PerceptualDifferencesTest.swift */; };
@@ -101,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BFA8E00286AC082008AC581 /* Dynamic in Frameworks */,
 				4BEFB0F128603649000B714C /* HRCoder in Frameworks */,
 				4B6D5967284305AB00642239 /* SwiftUI_SnapshotTesting in Frameworks */,
 				4B6CD8012851AC0400118D04 /* VisualTestKit.framework in Frameworks */,
@@ -261,6 +263,7 @@
 			packageProductDependencies = (
 				4B6D5966284305AB00642239 /* SwiftUI_SnapshotTesting */,
 				4BEFB0F028603649000B714C /* HRCoder */,
+				4BFA8DFF286AC082008AC581 /* Dynamic */,
 			);
 			productName = ViewSnapshotsTests;
 			productReference = 4B6D59422842F6F600642239 /* AppTests.xctest */;
@@ -318,6 +321,7 @@
 			mainGroup = 4B6D59292842F6F500642239;
 			packageReferences = (
 				4BEFB0EF28603649000B714C /* XCRemoteSwiftPackageReference "HRCoder" */,
+				4BFA8DFE286AC082008AC581 /* XCRemoteSwiftPackageReference "Dynamic" */,
 			);
 			productRefGroup = 4B6D59332842F6F500642239 /* Products */;
 			projectDirPath = "";
@@ -716,6 +720,14 @@
 				minimumVersion = 2.0.0;
 			};
 		};
+		4BFA8DFE286AC082008AC581 /* XCRemoteSwiftPackageReference "Dynamic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mhdhejazi/Dynamic.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -735,6 +747,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4BEFB0EF28603649000B714C /* XCRemoteSwiftPackageReference "HRCoder" */;
 			productName = HRCoder;
+		};
+		4BFA8DFF286AC082008AC581 /* Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4BFA8DFE286AC082008AC581 /* XCRemoteSwiftPackageReference "Dynamic" */;
+			productName = Dynamic;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

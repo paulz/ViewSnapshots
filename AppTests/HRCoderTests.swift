@@ -4,18 +4,20 @@ import XCTest
 @testable import ExampleApp
 @testable import ViewSnapshotTesting
 import SwiftUI
+import Dynamic
+import QuartzCore
+
+func getViewLayer<V: View>(_ view: V) throws -> (Data, CALayer) {
+    try inWindowView(view) { view -> (Data, CALayer) in
+        (view.renderHierarchyAsPNG(), view.layer)
+    }
+}
+
+func getViewLayer() throws -> CALayer {
+    try getViewLayer(RainbowGlowView_Previews.previews).1
+}
 
 class HRCoderTests: XCTestCase {
-    func getViewLayer() throws -> CALayer {
-        try getViewLayer(RainbowGlowView_Previews.previews)
-    }
-    func getViewLayer<V: View>(_ view: V) throws -> CALayer {
-        try inWindowView(view) { view -> CALayer in
-            _ = view.renderHierarchyAsPNG()
-            return view.layer
-        }
-    }
-    
     func getHumanJson(layer: CALayer) throws -> NSDictionary {
         try XCTUnwrap(
             HRCoder.archivedJSON(
@@ -42,8 +44,8 @@ class HRCoderTests: XCTestCase {
     }
     
     func testTextLayerAreSameWithDifferentContent() throws {
-        let layer1 = try getViewLayer(Text("123").font(.system(.body, design: .monospaced)))
-        let layer2 = try getViewLayer(Text("456").font(.system(.body, design: .monospaced)))
+        let layer1 = try getViewLayer(Text("123").font(.system(.body, design: .monospaced))).1
+        let layer2 = try getViewLayer(Text("456").font(.system(.body, design: .monospaced))).1
         try XCTAssertEqual(getHumanJson(layer: layer1), getHumanJson(layer: layer2))
     }
     

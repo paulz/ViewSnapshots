@@ -1,6 +1,15 @@
 {
   "pins" : [
     {
+      "identity" : "aexml",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tadija/AEXML",
+      "state" : {
+        "revision" : "38f7d00b23ecd891e1ee656fa6aeebd6ba04ecc3",
+        "version" : "4.6.1"
+      }
+    },
+    {
       "identity" : "dynamic",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/mhdhejazi/Dynamic.git",

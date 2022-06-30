@@ -33,6 +33,7 @@
 		4B78C07528570C8F007B133E /* CoreAnimationArchiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B78C07428570C8F007B133E /* CoreAnimationArchiveTests.swift */; };
 		4B78C0772857182E007B133E /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B78C0762857182E007B133E /* Data+Extensions.swift */; };
 		4B845830285E6D78001C93D4 /* RenderViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B84582F285E6D78001C93D4 /* RenderViewTest.swift */; };
+		4B8C7E27286D575000FE2BF5 /* EncodeLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8C7E26286D575000FE2BF5 /* EncodeLayerTests.swift */; };
 		4BE8B8E3284DD83B00083A24 /* SnapshotTestingPreviewGroup in Frameworks */ = {isa = PBXBuildFile; productRef = 4BE8B8E2284DD83B00083A24 /* SnapshotTestingPreviewGroup */; };
 		4BEFB0F128603649000B714C /* HRCoder in Frameworks */ = {isa = PBXBuildFile; productRef = 4BEFB0F028603649000B714C /* HRCoder */; };
 		4BEFB0F328604184000B714C /* HRCoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEFB0F228604184000B714C /* HRCoderTests.swift */; };
@@ -88,9 +89,13 @@
 		4B6D596B2843311000642239 /* SettingsForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsForm.swift; sourceTree = "<group>"; };
 		4B6D597728434EF100642239 /* LayeringShadowsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayeringShadowsView.swift; sourceTree = "<group>"; };
 		4B6D59792843533600642239 /* RainbowGlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowGlowView.swift; sourceTree = "<group>"; };
+		4B6DC06B286C19BE00E4262A /* AppTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		4B6DC06C286C19BF00E4262A /* QuartzCore-Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QuartzCore-Private.h"; sourceTree = "<group>"; };
 		4B78C07428570C8F007B133E /* CoreAnimationArchiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAnimationArchiveTests.swift; sourceTree = "<group>"; };
 		4B78C0762857182E007B133E /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
 		4B84582F285E6D78001C93D4 /* RenderViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderViewTest.swift; sourceTree = "<group>"; };
+		4B8C7E26286D575000FE2BF5 /* EncodeLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodeLayerTests.swift; sourceTree = "<group>"; };
+		4B8C7E28286D5A9500FE2BF5 /* ContentView.ca */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ContentView.ca; sourceTree = "<group>"; };
 		4BA8188D2867F96B00881F45 /* LabDeltaE.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LabDeltaE.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4BEFB0F228604184000B714C /* HRCoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRCoderTests.swift; sourceTree = "<group>"; };
 		4BFAB27428448E5900E65405 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
@@ -181,6 +186,7 @@
 		4B6D59452842F6F600642239 /* AppTests */ = {
 			isa = PBXGroup;
 			children = (
+				4B6DC06C286C19BF00E4262A /* QuartzCore-Private.h */,
 				4B6D59462842F6F600642239 /* SnapshotTests.swift */,
 				4B6D5968284305DE00642239 /* Snapshots */,
 				4B6CD8022851ACB700118D04 /* VisualTests.swift */,
@@ -194,11 +200,14 @@
 				4BEFB0F228604184000B714C /* HRCoderTests.swift */,
 				4B4F48F0286AF71300563D3C /* ContentView-withTintedImage.json */,
 				4B4F48E3286ADA8E00563D3C /* CAMLWriterTests.swift */,
+				4B8C7E26286D575000FE2BF5 /* EncodeLayerTests.swift */,
+				4B8C7E28286D5A9500FE2BF5 /* ContentView.ca */,
 				4B4F48EE286AF16800563D3C /* CAPackageViewTest.swift */,
 				4B4F48E5286ADBD200563D3C /* RainbowGlowView.xml */,
 				4BFAB2782845888E00E65405 /* PerceptualDifferencesTest.swift */,
 				4B37BF952866EA8300D632C8 /* ColorThresholdTests.swift */,
 				4BEFB0F4286045A2000B714C /* Helpers */,
+				4B6DC06B286C19BE00E4262A /* AppTests-Bridging-Header.h */,
 			);
 			path = AppTests;
 			sourceTree = "<group>";
@@ -317,6 +326,7 @@
 					};
 					4B6D59412842F6F600642239 = {
 						CreatedOnToolsVersion = 13.4;
+						LastSwiftMigration = 1340;
 						TestTargetID = 4B6D59312842F6F500642239;
 					};
 					4B6D594B2842F6F600642239 = {
@@ -431,6 +441,7 @@
 				4B6D59472842F6F600642239 /* SnapshotTests.swift in Sources */,
 				4BFAB27728457D4300E65405 /* RenderLayerTest.swift in Sources */,
 				4B78C0772857182E007B133E /* Data+Extensions.swift in Sources */,
+				4B8C7E27286D575000FE2BF5 /* EncodeLayerTests.swift in Sources */,
 				4B845830285E6D78001C93D4 /* RenderViewTest.swift in Sources */,
 				4B4F48E4286ADA8E00563D3C /* CAMLWriterTests.swift in Sources */,
 				4B6CD8052851AD9800118D04 /* VisualTestKit.swift in Sources */,
@@ -635,15 +646,24 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/lib/VisualTestKit",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSPrincipalClass = "$(PRODUCT_MODULE_NAME).Principal";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.paulz.swiftui-snapshot-test.ViewSnapshots.AppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "AppTests/AppTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapshotsExampleApp.app/SnapshotsExampleApp";
 			};
 			name = Debug;
@@ -653,15 +673,23 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/lib/VisualTestKit",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSPrincipalClass = "$(PRODUCT_MODULE_NAME).Principal";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.paulz.swiftui-snapshot-test.ViewSnapshots.AppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "AppTests/AppTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapshotsExampleApp.app/SnapshotsExampleApp";
 			};
 			name = Release;

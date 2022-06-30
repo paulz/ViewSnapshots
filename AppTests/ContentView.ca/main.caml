@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<caml xmlns="http://www.apple.com/CoreAnimation/1.0">
+  <CALayer allowsEdgeAntialiasing="0" allowsGroupBlending="0" allowsGroupOpacity="0" bounds="0 0 126.666664123535 112.666664123535" contentsFormat="RGBA8" name="VC:_TtGC7SwiftUI19UIHostingControllerGV12PreviewGroup12PreviewGroupGVS_9TupleViewTGVS_15ModifiedContentV10ExampleApp11ContentViewGVS_19_BackgroundModifierVS_5Color__GS4_S6_GS7_S8_______" needsDisplayOnBoundsChange="0" needsLayoutOnGeometryChange="1" opaque="0" position="63.333332061768 103.333335876465" securityMode="insecure">
+    <backgroundColor opacity="0" value="0 0 0"/>
+    <sublayers>
+      <CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" anchorPoint="0 0" backgroundColor="1 0.8 0" bounds="0 0 126.666664123535 52.333332061768" contentsFormat="RGBA8" name="SwiftUI._UIGraphicsView (0x7f8333708170)" opaque="1" position="0 0">
+	<UICALayerRenderID type="real" value="1.217864238043e19"/>
+      </CALayer>
+      <CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" anchorPoint="0 0" bounds="0 0 94.666664123535 20.333333969116" contentsFormat="Automatic" contentsGravity="bottomLeft" contentsScale="3" name="_TtCOCV7SwiftUI11DisplayList11ViewUpdater8Platform13CGDrawingView (0x7f83337061b0)" needsDisplayOnBoundsChange="0" opaque="0" position="16 16" rasterizationScale="3">
+	<contents type="CATintedImage" tint="0 0 0">
+	  <image src="assets/image0.png" A8asL8="1"/>
+	</contents>
+	<UICALayerRenderID type="real" value="1.217864238043e19"/>
+      </CALayer>
+      <CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" anchorPoint="0 0" backgroundColor="0.2039 0.7804 0.349" bounds="0 0 126.666664123535 52.333332061768" contentsFormat="RGBA8" name="SwiftUI._UIGraphicsView (0x7f8333707570)" opaque="1" position="0 60.333332061768">
+	<UICALayerRenderID type="real" value="1.217864238043e19"/>
+      </CALayer>
+      <CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" anchorPoint="0 0" bounds="0 0 94.666664123535 20.333333969116" contentsFormat="Automatic" contentsGravity="bottomLeft" contentsScale="3" name="_TtCOCV7SwiftUI11DisplayList11ViewUpdater8Platform13CGDrawingView (0x7f8333706af0)" needsDisplayOnBoundsChange="0" opaque="0" position="16 76.333335876465" rasterizationScale="3">
+	<contents type="CATintedImage" tint="0 0 0">
+	  <image src="assets/image1.png" A8asL8="1"/>
+	</contents>
+	<UICALayerRenderID type="real" value="1.217864238043e19"/>
+      </CALayer>
+    </sublayers>
+    <UICALayerRenderID type="real" value="1.217864238042e19"/>
+  </CALayer>
+</caml>

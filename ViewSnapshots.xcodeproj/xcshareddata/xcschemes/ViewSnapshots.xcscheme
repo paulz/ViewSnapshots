@@ -46,6 +46,11 @@
             isEnabled = "NO">
          </EnvironmentVariable>
          <EnvironmentVariable
+            key = "CA_LOG_TRIPLE_BUFFERING"
+            value = "1"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
             key = "CI_TEAM_ID"
             value = "$(CI_TEAM_ID)"
             isEnabled = "YES">

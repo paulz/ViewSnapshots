@@ -13,6 +13,11 @@ class CAPackageViewTest: XCTestCase {
         let packageView = PackageView(view: uiView)
         verifySnapshot(packageView.frame(width: 300, height: 200), "PackageView")
     }
+    
+    func testPackageTypes() {
+        XCTAssertEqual(kCAPackageTypeCAMLBundle, "com.apple.coreanimation-bundle")
+        XCTAssertEqual(kCAPackageTypeArchive, "com.apple.coreanimation-archive")
+    }
 }
 
 struct PackageView: UIViewRepresentable {

@@ -14,3 +14,6 @@ extern BOOL CAEncodeIOSurfacesAsCGImages;
 extern BOOL CAEncodeBackingStores;
 
 extern BOOL CALayerEncodeAllAnimations;
+
+extern NSString *__nonnull kCAPackageTypeCAMLBundle;
+extern NSString *__nonnull kCAPackageTypeArchive;

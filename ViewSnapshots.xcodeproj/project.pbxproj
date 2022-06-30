@@ -63,6 +63,7 @@
 /* Begin PBXFileReference section */
 		335C7826284F0EDF007ED83E /* Principal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Principal.swift; sourceTree = "<group>"; };
 		335C782A284F2365007ED83E /* ci_scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ci_scripts; sourceTree = "<group>"; };
+		4B1B4FF7286D970700763D40 /* ToggleView-fromSnapshot.ca */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "ToggleView-fromSnapshot.ca"; sourceTree = "<group>"; };
 		4B37BF952866EA8300D632C8 /* ColorThresholdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorThresholdTests.swift; sourceTree = "<group>"; };
 		4B4F48E3286ADA8E00563D3C /* CAMLWriterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAMLWriterTests.swift; sourceTree = "<group>"; };
 		4B4F48E5286ADBD200563D3C /* RainbowGlowView.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = RainbowGlowView.xml; sourceTree = "<group>"; };
@@ -204,6 +205,7 @@
 				4B8C7E26286D575000FE2BF5 /* EncodeLayerTests.swift */,
 				4B8C7E28286D5A9500FE2BF5 /* ContentView-fromCAAR.ca */,
 				4B8C7E29286D910700FE2BF5 /* ContentView-fromSnapshot.ca */,
+				4B1B4FF7286D970700763D40 /* ToggleView-fromSnapshot.ca */,
 				4B4F48EE286AF16800563D3C /* CAPackageViewTest.swift */,
 				4B4F48E5286ADBD200563D3C /* RainbowGlowView.xml */,
 				4BFAB2782845888E00E65405 /* PerceptualDifferencesTest.swift */,

@@ -64,4 +64,18 @@ class EncodeLayerTests: XCTestCase {
         let same = fileManager.contentsEqual(atPath: tempBundlePath, andPath: bundleUrl.path)
         XCTAssertTrue(same, "exported bundle match expected")
     }
+    
+    func testCAMLEncodeToggleView() throws {
+        let viewName = "ToggleView-fromSnapshot"
+        let bundleName = viewName + ".ca"
+        let tempBundlePath = "/tmp/" + bundleName
+
+        try inWindowView(ToggleView_Previews.previews) { view  in
+            view.vtk_Snapshot()
+            CAMLEncodeLayerTreeToPathWithInfo(view.layer, tempBundlePath, nil)
+        }
+        let bundleUrl = folderUrl.appendingPathComponent(bundleName)
+        let same = fileManager.contentsEqual(atPath: tempBundlePath, andPath: bundleUrl.path)
+        XCTAssertTrue(same, "exported bundle match expected")
+    }
 }

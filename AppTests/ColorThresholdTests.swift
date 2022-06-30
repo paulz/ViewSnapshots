@@ -30,7 +30,7 @@ class ColorThresholdTests: XCTestCase {
         let thresholdImage = deltaImage.threshold(2.0)
         XCTAssertEqual([0, 0, 0, 255], getColor(thresholdImage))
 
-        XCTAssertEqual([255, 255, 255, 255], getColor(deltaImage.threshold(1.0 - Float.leastNonzeroMagnitude)))
+        XCTAssertEqual([255, 255, 255, 255], getColor(deltaImage.threshold(0.99999)))
         XCTAssertEqual([0, 0, 0, 255], getColor(deltaImage.threshold(1.00001)))
     }
 

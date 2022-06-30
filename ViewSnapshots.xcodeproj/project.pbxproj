@@ -95,7 +95,8 @@
 		4B78C0762857182E007B133E /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
 		4B84582F285E6D78001C93D4 /* RenderViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderViewTest.swift; sourceTree = "<group>"; };
 		4B8C7E26286D575000FE2BF5 /* EncodeLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodeLayerTests.swift; sourceTree = "<group>"; };
-		4B8C7E28286D5A9500FE2BF5 /* ContentView.ca */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ContentView.ca; sourceTree = "<group>"; };
+		4B8C7E28286D5A9500FE2BF5 /* ContentView-fromCAAR.ca */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "ContentView-fromCAAR.ca"; sourceTree = "<group>"; };
+		4B8C7E29286D910700FE2BF5 /* ContentView-fromSnapshot.ca */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "ContentView-fromSnapshot.ca"; sourceTree = "<group>"; };
 		4BA8188D2867F96B00881F45 /* LabDeltaE.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LabDeltaE.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4BEFB0F228604184000B714C /* HRCoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRCoderTests.swift; sourceTree = "<group>"; };
 		4BFAB27428448E5900E65405 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
@@ -201,7 +202,8 @@
 				4B4F48F0286AF71300563D3C /* ContentView-withTintedImage.json */,
 				4B4F48E3286ADA8E00563D3C /* CAMLWriterTests.swift */,
 				4B8C7E26286D575000FE2BF5 /* EncodeLayerTests.swift */,
-				4B8C7E28286D5A9500FE2BF5 /* ContentView.ca */,
+				4B8C7E28286D5A9500FE2BF5 /* ContentView-fromCAAR.ca */,
+				4B8C7E29286D910700FE2BF5 /* ContentView-fromSnapshot.ca */,
 				4B4F48EE286AF16800563D3C /* CAPackageViewTest.swift */,
 				4B4F48E5286ADBD200563D3C /* RainbowGlowView.xml */,
 				4BFAB2782845888E00E65405 /* PerceptualDifferencesTest.swift */,

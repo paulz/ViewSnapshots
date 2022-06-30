@@ -15,8 +15,8 @@ class EncodeLayerTests: XCTestCase {
     }
     
     func testCAMLEncodeLayerTreeToPathWithInfoCreatesCAMLBundle() throws {
-        let viewName = "ContentView"
-        let layer = try layer(caar: viewName)
+        let viewName = "ContentView-fromCAAR"
+        let layer = try layer(caar: "ContentView")
         let bundleName = viewName + ".ca"
         let tempBundlePath = "/tmp/" + bundleName
         let exported = CAMLEncodeLayerTreeToPathWithInfo(layer, tempBundlePath, nil)
@@ -49,5 +49,19 @@ class EncodeLayerTests: XCTestCase {
         XCTAssertEqual(0, noAssets.count)
         let caml = try String(contentsOfFile: bundlePath + "/main.caml")
         XCTAssertTrue(caml.contains(#"<contents type="CATintedImage"/>"#))
+    }
+    
+    func testCAMLEncodeLayerTreeToPathWithInfoFromSnapshot() throws {
+        let viewName = "ContentView-fromSnapshot"
+        let bundleName = viewName + ".ca"
+        let tempBundlePath = "/tmp/" + bundleName
+
+        try inWindowView(ContentView_Previews.previews) { view  in
+            view.vtk_Snapshot()
+            CAMLEncodeLayerTreeToPathWithInfo(view.layer, tempBundlePath, nil)
+        }
+        let bundleUrl = folderUrl.appendingPathComponent(bundleName)
+        let same = fileManager.contentsEqual(atPath: tempBundlePath, andPath: bundleUrl.path)
+        XCTAssertTrue(same, "exported bundle match expected")
     }
 }

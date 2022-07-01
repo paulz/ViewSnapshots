@@ -75,7 +75,55 @@ class EncodeLayerTests: XCTestCase {
             CAMLEncodeLayerTreeToPathWithInfo(view.layer, tempBundlePath, nil)
         }
         let bundleUrl = folderUrl.appendingPathComponent(bundleName)
-        let same = fileManager.contentsEqual(atPath: tempBundlePath, andPath: bundleUrl.path)
-        XCTAssertTrue(same, "exported bundle match expected")
+        verifyCAML(expected: bundleUrl, actual: URL(fileURLWithPath: tempBundlePath))
+    }
+}
+
+func verifyCAML(expected: URL, actual: URL, file: StaticString = #filePath, line: UInt = #line) {
+    let camlBundleName = actual.deletingPathExtension().lastPathComponent
+    let fileManager = FileManager.default
+    XCTContext.runActivity(named: camlBundleName) { activity in
+        if fileManager.contentsEqual(atPath: expected.path, andPath: actual.path) {
+            return
+        }
+        assertNoThrow {
+            let expectedContents = try fileManager.contents(of: expected)
+            let actualContents = try fileManager.contents(of: actual)
+            XCTAssertEqual(expectedContents.count, actualContents.count,
+                           "found \(actualContents.count) files, while expecting \(expectedContents.count)",
+                           file: file, line: line)
+            for (expFile, actFile) in zip(expectedContents, actualContents) {
+                XCTAssertTrue(fileManager.contentsEqual(atPath: expFile.path, andPath: actFile.path),
+                              "file: \(expFile.lastPathComponent) is different",
+                              file: file,
+                              line: line)
+            }
+        }
+    }
+}
+
+func assertNoThrow<T>(_ expression:() throws -> T, file: StaticString = #file, line: UInt = #line) {
+    XCTAssertNoThrow(try expression(), file: file, line: line)
+}
+
+extension FileManager {
+    func contents(of directoryURL: URL) throws -> [URL] {
+        let resourceKeys = Set<URLResourceKey>([.nameKey, .isDirectoryKey])
+        let directoryEnumerator = try XCTUnwrap(enumerator(
+            at: directoryURL,
+            includingPropertiesForKeys: Array(resourceKeys),
+            options: .skipsHiddenFiles
+        ))
+         
+        var fileURLs: [URL] = []
+        for case let fileURL as URL in directoryEnumerator {
+            guard let resourceValues = try? fileURL.resourceValues(forKeys: resourceKeys),
+                resourceValues.isDirectory == false
+                else {
+                    continue
+            }
+            fileURLs.append(fileURL)
+        }
+        return fileURLs
     }
 }

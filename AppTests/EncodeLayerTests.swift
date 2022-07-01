@@ -75,7 +75,6 @@ class EncodeLayerTests: XCTestCase {
             CAMLEncodeLayerTreeToPathWithInfo(view.layer, tempBundlePath, nil)
         }
         let bundleUrl = folderUrl.appendingPathComponent(bundleName)
-        let same = fileManager.contentsEqual(atPath: tempBundlePath, andPath: bundleUrl.path)
-        XCTAssertTrue(same, "exported bundle match expected")
+        verifyCAML(expected: bundleUrl, actual: URL(fileURLWithPath: tempBundlePath))
     }
 }

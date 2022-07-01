@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		335C7827284F0EDF007ED83E /* Principal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335C7826284F0EDF007ED83E /* Principal.swift */; };
+		4B1B4FF9286EAFA400763D40 /* verifyCAML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1B4FF8286EAFA400763D40 /* verifyCAML.swift */; };
 		4B37BF962866EA8300D632C8 /* ColorThresholdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B37BF952866EA8300D632C8 /* ColorThresholdTests.swift */; };
 		4B4F48E4286ADA8E00563D3C /* CAMLWriterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4F48E3286ADA8E00563D3C /* CAMLWriterTests.swift */; };
 		4B4F48E6286ADBD200563D3C /* RainbowGlowView.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4B4F48E5286ADBD200563D3C /* RainbowGlowView.xml */; };
@@ -64,6 +65,7 @@
 		335C7826284F0EDF007ED83E /* Principal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Principal.swift; sourceTree = "<group>"; };
 		335C782A284F2365007ED83E /* ci_scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ci_scripts; sourceTree = "<group>"; };
 		4B1B4FF7286D970700763D40 /* ToggleView-fromSnapshot.ca */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "ToggleView-fromSnapshot.ca"; sourceTree = "<group>"; };
+		4B1B4FF8286EAFA400763D40 /* verifyCAML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verifyCAML.swift; sourceTree = "<group>"; };
 		4B37BF952866EA8300D632C8 /* ColorThresholdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorThresholdTests.swift; sourceTree = "<group>"; };
 		4B4F48E3286ADA8E00563D3C /* CAMLWriterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAMLWriterTests.swift; sourceTree = "<group>"; };
 		4B4F48E5286ADBD200563D3C /* RainbowGlowView.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = RainbowGlowView.xml; sourceTree = "<group>"; };
@@ -243,6 +245,7 @@
 			isa = PBXGroup;
 			children = (
 				4B78C0762857182E007B133E /* Data+Extensions.swift */,
+				4B1B4FF8286EAFA400763D40 /* verifyCAML.swift */,
 				335C7826284F0EDF007ED83E /* Principal.swift */,
 			);
 			path = Helpers;
@@ -448,6 +451,7 @@
 				4B8C7E27286D575000FE2BF5 /* EncodeLayerTests.swift in Sources */,
 				4B845830285E6D78001C93D4 /* RenderViewTest.swift in Sources */,
 				4B4F48E4286ADA8E00563D3C /* CAMLWriterTests.swift in Sources */,
+				4B1B4FF9286EAFA400763D40 /* verifyCAML.swift in Sources */,
 				4B6CD8052851AD9800118D04 /* VisualTestKit.swift in Sources */,
 				4B6CD8032851ACB700118D04 /* VisualTests.swift in Sources */,
 			);

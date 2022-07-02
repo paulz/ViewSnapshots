@@ -11,7 +11,6 @@
 		4B1B4FF9286EAFA400763D40 /* verifyCAML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1B4FF8286EAFA400763D40 /* verifyCAML.swift */; };
 		4B37BF962866EA8300D632C8 /* ColorThresholdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B37BF952866EA8300D632C8 /* ColorThresholdTests.swift */; };
 		4B471B2728700EC70042DAEF /* Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 4B471B2628700EC70042DAEF /* Dynamic */; };
-		4B471B2B28700FBE0042DAEF /* VisualTestKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B587813286FFFFB0005C4F7 /* VisualTestKit.xcframework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		4B471B2D2870105B0042DAEF /* SwiftUI_SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 4B471B2C2870105B0042DAEF /* SwiftUI_SnapshotTesting */; };
 		4B4F48E4286ADA8E00563D3C /* CAMLWriterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4F48E3286ADA8E00563D3C /* CAMLWriterTests.swift */; };
 		4B4F48E6286ADBD200563D3C /* RainbowGlowView.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4B4F48E5286ADBD200563D3C /* RainbowGlowView.xml */; };
@@ -34,6 +33,7 @@
 		4B6D597A2843533600642239 /* RainbowGlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D59792843533600642239 /* RainbowGlowView.swift */; };
 		4B78C07528570C8F007B133E /* CoreAnimationArchiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B78C07428570C8F007B133E /* CoreAnimationArchiveTests.swift */; };
 		4B78C0772857182E007B133E /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B78C0762857182E007B133E /* Data+Extensions.swift */; };
+		4B7CAFCD28701B43009E4217 /* VisualTestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7CAFCA28701A73009E4217 /* VisualTestKit.framework */; };
 		4B845830285E6D78001C93D4 /* RenderViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B84582F285E6D78001C93D4 /* RenderViewTest.swift */; };
 		4B8C7E27286D575000FE2BF5 /* EncodeLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8C7E26286D575000FE2BF5 /* EncodeLayerTests.swift */; };
 		4BE8B8E3284DD83B00083A24 /* SnapshotTestingPreviewGroup in Frameworks */ = {isa = PBXBuildFile; productRef = 4BE8B8E2284DD83B00083A24 /* SnapshotTestingPreviewGroup */; };
@@ -71,7 +71,6 @@
 		4B4F48E5286ADBD200563D3C /* RainbowGlowView.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = RainbowGlowView.xml; sourceTree = "<group>"; };
 		4B4F48EE286AF16800563D3C /* CAPackageViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAPackageViewTest.swift; sourceTree = "<group>"; };
 		4B4F48F0286AF71300563D3C /* ContentView-withTintedImage.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "ContentView-withTintedImage.json"; sourceTree = "<group>"; };
-		4B587813286FFFFB0005C4F7 /* VisualTestKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = VisualTestKit.xcframework; path = "../../Library/Developer/Xcode/DerivedData/ViewSnapshots-dfwdltapcfdocaewqrknizvurwhj/SourcePackages/checkouts/VisualTestKit/VisualTestKit.xcframework"; sourceTree = "<group>"; };
 		4B6CD8022851ACB700118D04 /* VisualTests.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = VisualTests.swift; sourceTree = "<group>"; tabWidth = 2; };
 		4B6CD8042851AD9800118D04 /* VisualTestKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualTestKit.swift; sourceTree = "<group>"; };
 		4B6CD8062851AE0100118D04 /* VisualTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = VisualTests; sourceTree = "<group>"; };
@@ -95,6 +94,7 @@
 		4B6DC06C286C19BF00E4262A /* QuartzCore-Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QuartzCore-Private.h"; sourceTree = "<group>"; };
 		4B78C07428570C8F007B133E /* CoreAnimationArchiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAnimationArchiveTests.swift; sourceTree = "<group>"; };
 		4B78C0762857182E007B133E /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
+		4B7CAFCA28701A73009E4217 /* VisualTestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisualTestKit.framework; path = "../Debug-iphonesimulator/VisualTestKit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B84582F285E6D78001C93D4 /* RenderViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderViewTest.swift; sourceTree = "<group>"; };
 		4B8C7E26286D575000FE2BF5 /* EncodeLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodeLayerTests.swift; sourceTree = "<group>"; };
 		4B8C7E28286D5A9500FE2BF5 /* ContentView-fromCAAR.ca */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "ContentView-fromCAAR.ca"; sourceTree = "<group>"; };
@@ -119,8 +119,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B7CAFCD28701B43009E4217 /* VisualTestKit.framework in Frameworks */,
 				4B471B2D2870105B0042DAEF /* SwiftUI_SnapshotTesting in Frameworks */,
-				4B471B2B28700FBE0042DAEF /* VisualTestKit.xcframework in Frameworks */,
 				4B471B2728700EC70042DAEF /* Dynamic in Frameworks */,
 				4BEFB0F128603649000B714C /* HRCoder in Frameworks */,
 				4B4F48ED286AE74B00563D3C /* AEXML in Frameworks */,
@@ -234,7 +234,7 @@
 		4B6D5965284305AB00642239 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4B587813286FFFFB0005C4F7 /* VisualTestKit.xcframework */,
+				4B7CAFCA28701A73009E4217 /* VisualTestKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -284,6 +284,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				4B7CAFCF28701B78009E4217 /* PBXTargetDependency */,
 				4B6D59442842F6F600642239 /* PBXTargetDependency */,
 			);
 			name = AppTests;
@@ -475,6 +476,10 @@
 			isa = PBXTargetDependency;
 			target = 4B6D59312842F6F500642239 /* ExampleApp */;
 			targetProxy = 4B6D594D2842F6F600642239 /* PBXContainerItemProxy */;
+		};
+		4B7CAFCF28701B78009E4217 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 4B7CAFCE28701B78009E4217 /* VisualTestKit */;
 		};
 /* End PBXTargetDependency section */
 
@@ -795,6 +800,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4B4F48EB286AE74B00563D3C /* XCRemoteSwiftPackageReference "AEXML" */;
 			productName = AEXML;
+		};
+		4B7CAFCE28701B78009E4217 /* VisualTestKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B471B1B2870037B0042DAEF /* XCRemoteSwiftPackageReference "VisualTestKit" */;
+			productName = VisualTestKit;
 		};
 		4BE8B8E2284DD83B00083A24 /* SnapshotTestingPreviewGroup */ = {
 			isa = XCSwiftPackageProductDependency;

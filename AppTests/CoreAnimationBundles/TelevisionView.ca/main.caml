@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<caml xmlns="http://www.apple.com/CoreAnimation/1.0">
+	<CALayer allowsEdgeAntialiasing="0" allowsGroupBlending="0" allowsGroupOpacity="0" bounds="0 0 96 96" contentsFormat="RGBA8" name="VC:_TtGC7SwiftUI19UIHostingControllerGVS_15ModifiedContentGS1_V10ExampleApp14TelevisionViewGVS_21_TraitWritingModifierVS_21PreviewLayoutTraitKey__GVS_26_PreferenceWritingModifierVS_23PreferredColorSchemeKey___" needsDisplayOnBoundsChange="0" needsLayoutOnGeometryChange="1" opaque="0" position="48 95" securityMode="insecure">
+		<backgroundColor opacity="0" value="0 0 0" />
+		<delegate />
+		<sublayers>
+			<CALayer allowsEdgeAntialiasing="0" allowsGroupBlending="0" allowsGroupOpacity="0" anchorPoint="0 0" bounds="0 0 96 96" contentsFormat="RGBA8" continuousCorners="0" cornerRadius="48" masksToBounds="1" opaque="1" position="0 0">
+				<delegate />
+				<sublayers>
+					<CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" anchorPoint="0 0" bounds="0 0 133.333333333333 100" contentsFormat="RGBA8" contentsScale="3" contentsScaling="stretch" position="-18.666666666667 -2">
+						<contents src="assets/image0.png" type="CGImage" />
+						<delegate />
+					</CALayer>
+				</sublayers>
+			</CALayer>
+		</sublayers>
+	</CALayer>
+</caml>

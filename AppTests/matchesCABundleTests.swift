@@ -6,12 +6,14 @@ import AEXML
 
 class matchesCABundleTests: XCTestCase {
     func testSnapshots() {
-        matchesCABundle(ToggleView_Previews.self)
-        matchesCABundle(RainbowGlowView_Previews.self)
-        matchesCABundle(ContentView_Previews.self)
-        matchesCABundle(PopularityBadge_Previews.self)
-        matchesCABundle(SettingsForm_Previews.self)
-        matchesCABundle(LayeringShadowsView_Previews.self)
+        SnapshotsConfiguration.withColorAccuracy(0) {
+            matchesCABundle(ToggleView_Previews.self)
+            matchesCABundle(RainbowGlowView_Previews.self)
+            matchesCABundle(ContentView_Previews.self)
+            matchesCABundle(PopularityBadge_Previews.self)
+            matchesCABundle(SettingsForm_Previews.self)
+            matchesCABundle(LayeringShadowsView_Previews.self)
+        }
     }
 
     func testReplacement() {

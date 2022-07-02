@@ -38,6 +38,7 @@
 		4B8C7E27286D575000FE2BF5 /* EncodeLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8C7E26286D575000FE2BF5 /* EncodeLayerTests.swift */; };
 		4BE4637228702E3900EE5D52 /* matchesCABundleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4637128702E3900EE5D52 /* matchesCABundleTests.swift */; };
 		4BE4637428703F1E00EE5D52 /* TelevisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4637328703F1E00EE5D52 /* TelevisionView.swift */; };
+		4BE4637628704EA800EE5D52 /* ComplexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4637528704EA800EE5D52 /* ComplexView.swift */; };
 		4BE8B8E3284DD83B00083A24 /* SnapshotTestingPreviewGroup in Frameworks */ = {isa = PBXBuildFile; productRef = 4BE8B8E2284DD83B00083A24 /* SnapshotTestingPreviewGroup */; };
 		4BEFB0F128603649000B714C /* HRCoder in Frameworks */ = {isa = PBXBuildFile; productRef = 4BEFB0F028603649000B714C /* HRCoder */; };
 		4BEFB0F328604184000B714C /* HRCoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEFB0F228604184000B714C /* HRCoderTests.swift */; };
@@ -105,6 +106,7 @@
 		4BE4637028702DD000EE5D52 /* CoreAnimationBundles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CoreAnimationBundles; sourceTree = "<group>"; };
 		4BE4637128702E3900EE5D52 /* matchesCABundleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = matchesCABundleTests.swift; sourceTree = "<group>"; };
 		4BE4637328703F1E00EE5D52 /* TelevisionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelevisionView.swift; sourceTree = "<group>"; };
+		4BE4637528704EA800EE5D52 /* ComplexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexView.swift; sourceTree = "<group>"; };
 		4BEFB0F228604184000B714C /* HRCoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRCoderTests.swift; sourceTree = "<group>"; };
 		4BFAB27428448E5900E65405 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 		4BFAB27628457D4300E65405 /* RenderLayerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderLayerTest.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				4B6D59372842F6F500642239 /* ContentView.swift */,
 				4B6D597728434EF100642239 /* LayeringShadowsView.swift */,
 				4BE4637328703F1E00EE5D52 /* TelevisionView.swift */,
+				4BE4637528704EA800EE5D52 /* ComplexView.swift */,
 				4B6D59792843533600642239 /* RainbowGlowView.swift */,
 				4B6D59692843082F00642239 /* PopularityBadge.swift */,
 				4B6D596B2843311000642239 /* SettingsForm.swift */,
@@ -433,6 +436,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B6D597828434EF100642239 /* LayeringShadowsView.swift in Sources */,
+				4BE4637628704EA800EE5D52 /* ComplexView.swift in Sources */,
 				4B6D596A2843082F00642239 /* PopularityBadge.swift in Sources */,
 				4B6D59382842F6F500642239 /* ContentView.swift in Sources */,
 				4B6D596C2843311000642239 /* SettingsForm.swift in Sources */,

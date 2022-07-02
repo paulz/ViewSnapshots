@@ -1,7 +1,6 @@
 import XCTest
 import VisualTestKit
 
-
 extension XCTestCase {
 
     func VTKSetReferenceImagesDirectory(_ path: String?) {

@@ -10,12 +10,14 @@
 		335C7827284F0EDF007ED83E /* Principal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335C7826284F0EDF007ED83E /* Principal.swift */; };
 		4B1B4FF9286EAFA400763D40 /* verifyCAML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1B4FF8286EAFA400763D40 /* verifyCAML.swift */; };
 		4B37BF962866EA8300D632C8 /* ColorThresholdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B37BF952866EA8300D632C8 /* ColorThresholdTests.swift */; };
+		4B471B2728700EC70042DAEF /* Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 4B471B2628700EC70042DAEF /* Dynamic */; };
+		4B471B2B28700FBE0042DAEF /* VisualTestKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B587813286FFFFB0005C4F7 /* VisualTestKit.xcframework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		4B471B2D2870105B0042DAEF /* SwiftUI_SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 4B471B2C2870105B0042DAEF /* SwiftUI_SnapshotTesting */; };
 		4B4F48E4286ADA8E00563D3C /* CAMLWriterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4F48E3286ADA8E00563D3C /* CAMLWriterTests.swift */; };
 		4B4F48E6286ADBD200563D3C /* RainbowGlowView.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4B4F48E5286ADBD200563D3C /* RainbowGlowView.xml */; };
 		4B4F48ED286AE74B00563D3C /* AEXML in Frameworks */ = {isa = PBXBuildFile; productRef = 4B4F48EC286AE74B00563D3C /* AEXML */; };
 		4B4F48EF286AF16800563D3C /* CAPackageViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4F48EE286AF16800563D3C /* CAPackageViewTest.swift */; };
 		4B4F48F1286AF71300563D3C /* ContentView-withTintedImage.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B4F48F0286AF71300563D3C /* ContentView-withTintedImage.json */; };
-		4B6CD8012851AC0400118D04 /* VisualTestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B6CD7FF2851AB0700118D04 /* VisualTestKit.framework */; };
 		4B6CD8032851ACB700118D04 /* VisualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6CD8022851ACB700118D04 /* VisualTests.swift */; };
 		4B6CD8052851AD9800118D04 /* VisualTestKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6CD8042851AD9800118D04 /* VisualTestKit.swift */; };
 		4B6CD8072851AE0100118D04 /* VisualTests in Resources */ = {isa = PBXBuildFile; fileRef = 4B6CD8062851AE0100118D04 /* VisualTests */; };
@@ -26,7 +28,6 @@
 		4B6D593D2842F6F600642239 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B6D593C2842F6F600642239 /* Preview Assets.xcassets */; };
 		4B6D59472842F6F600642239 /* SnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D59462842F6F600642239 /* SnapshotTests.swift */; };
 		4B6D59512842F6F600642239 /* UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D59502842F6F600642239 /* UITests.swift */; };
-		4B6D5967284305AB00642239 /* SwiftUI_SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 4B6D5966284305AB00642239 /* SwiftUI_SnapshotTesting */; };
 		4B6D596A2843082F00642239 /* PopularityBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D59692843082F00642239 /* PopularityBadge.swift */; };
 		4B6D596C2843311000642239 /* SettingsForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D596B2843311000642239 /* SettingsForm.swift */; };
 		4B6D597828434EF100642239 /* LayeringShadowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D597728434EF100642239 /* LayeringShadowsView.swift */; };
@@ -38,7 +39,6 @@
 		4BE8B8E3284DD83B00083A24 /* SnapshotTestingPreviewGroup in Frameworks */ = {isa = PBXBuildFile; productRef = 4BE8B8E2284DD83B00083A24 /* SnapshotTestingPreviewGroup */; };
 		4BEFB0F128603649000B714C /* HRCoder in Frameworks */ = {isa = PBXBuildFile; productRef = 4BEFB0F028603649000B714C /* HRCoder */; };
 		4BEFB0F328604184000B714C /* HRCoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEFB0F228604184000B714C /* HRCoderTests.swift */; };
-		4BFA8E00286AC082008AC581 /* Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 4BFA8DFF286AC082008AC581 /* Dynamic */; };
 		4BFAB27528448E5900E65405 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAB27428448E5900E65405 /* ToggleView.swift */; };
 		4BFAB27728457D4300E65405 /* RenderLayerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAB27628457D4300E65405 /* RenderLayerTest.swift */; };
 		4BFAB2792845888E00E65405 /* PerceptualDifferencesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAB2782845888E00E65405 /* PerceptualDifferencesTest.swift */; };
@@ -71,17 +71,16 @@
 		4B4F48E5286ADBD200563D3C /* RainbowGlowView.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = RainbowGlowView.xml; sourceTree = "<group>"; };
 		4B4F48EE286AF16800563D3C /* CAPackageViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAPackageViewTest.swift; sourceTree = "<group>"; };
 		4B4F48F0286AF71300563D3C /* ContentView-withTintedImage.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "ContentView-withTintedImage.json"; sourceTree = "<group>"; };
-		4B6CD7FF2851AB0700118D04 /* VisualTestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisualTestKit.framework; path = lib/VisualTestKit/VisualTestKit.framework; sourceTree = SOURCE_ROOT; };
+		4B587813286FFFFB0005C4F7 /* VisualTestKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = VisualTestKit.xcframework; path = "../../Library/Developer/Xcode/DerivedData/ViewSnapshots-dfwdltapcfdocaewqrknizvurwhj/SourcePackages/checkouts/VisualTestKit/VisualTestKit.xcframework"; sourceTree = "<group>"; };
 		4B6CD8022851ACB700118D04 /* VisualTests.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = VisualTests.swift; sourceTree = "<group>"; tabWidth = 2; };
 		4B6CD8042851AD9800118D04 /* VisualTestKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualTestKit.swift; sourceTree = "<group>"; };
 		4B6CD8062851AE0100118D04 /* VisualTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = VisualTests; sourceTree = "<group>"; };
-		4B6CD8312851EFEA00118D04 /* Headers */ = {isa = PBXFileReference; lastKnownFileType = text; name = Headers; path = lib/VisualTestKit/VisualTestKit.framework/Headers; sourceTree = SOURCE_ROOT; };
 		4B6D59322842F6F500642239 /* SnapshotsExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapshotsExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B6D59352842F6F500642239 /* ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleApp.swift; sourceTree = "<group>"; };
 		4B6D59372842F6F500642239 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4B6D59392842F6F600642239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B6D593C2842F6F600642239 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4B6D59422842F6F600642239 /* AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B6D59422842F6F600642239 /* AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AppTests.xctest; path = SnapshotsExampleApp.app/PlugIns/AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B6D59462842F6F600642239 /* SnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTests.swift; sourceTree = "<group>"; };
 		4B6D594C2842F6F600642239 /* UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B6D59502842F6F600642239 /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
@@ -120,11 +119,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BFA8E00286AC082008AC581 /* Dynamic in Frameworks */,
+				4B471B2D2870105B0042DAEF /* SwiftUI_SnapshotTesting in Frameworks */,
+				4B471B2B28700FBE0042DAEF /* VisualTestKit.xcframework in Frameworks */,
+				4B471B2728700EC70042DAEF /* Dynamic in Frameworks */,
 				4BEFB0F128603649000B714C /* HRCoder in Frameworks */,
 				4B4F48ED286AE74B00563D3C /* AEXML in Frameworks */,
-				4B6D5967284305AB00642239 /* SwiftUI_SnapshotTesting in Frameworks */,
-				4B6CD8012851AC0400118D04 /* VisualTestKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +195,6 @@
 				4B6CD8022851ACB700118D04 /* VisualTests.swift */,
 				4B6CD8062851AE0100118D04 /* VisualTests */,
 				4B6CD8042851AD9800118D04 /* VisualTestKit.swift */,
-				4B6CD7FF2851AB0700118D04 /* VisualTestKit.framework */,
-				4B6CD8312851EFEA00118D04 /* Headers */,
 				4BFAB27628457D4300E65405 /* RenderLayerTest.swift */,
 				4B84582F285E6D78001C93D4 /* RenderViewTest.swift */,
 				4B78C07428570C8F007B133E /* CoreAnimationArchiveTests.swift */,
@@ -237,6 +234,7 @@
 		4B6D5965284305AB00642239 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4B587813286FFFFB0005C4F7 /* VisualTestKit.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -286,15 +284,14 @@
 			buildRules = (
 			);
 			dependencies = (
-				4B6D5964284305A400642239 /* PBXTargetDependency */,
 				4B6D59442842F6F600642239 /* PBXTargetDependency */,
 			);
 			name = AppTests;
 			packageProductDependencies = (
-				4B6D5966284305AB00642239 /* SwiftUI_SnapshotTesting */,
 				4BEFB0F028603649000B714C /* HRCoder */,
-				4BFA8DFF286AC082008AC581 /* Dynamic */,
 				4B4F48EC286AE74B00563D3C /* AEXML */,
+				4B471B2628700EC70042DAEF /* Dynamic */,
+				4B471B2C2870105B0042DAEF /* SwiftUI_SnapshotTesting */,
 			);
 			productName = ViewSnapshotsTests;
 			productReference = 4B6D59422842F6F600642239 /* AppTests.xctest */;
@@ -355,6 +352,7 @@
 				4BEFB0EF28603649000B714C /* XCRemoteSwiftPackageReference "HRCoder" */,
 				4BFA8DFE286AC082008AC581 /* XCRemoteSwiftPackageReference "Dynamic" */,
 				4B4F48EB286AE74B00563D3C /* XCRemoteSwiftPackageReference "AEXML" */,
+				4B471B1B2870037B0042DAEF /* XCRemoteSwiftPackageReference "VisualTestKit" */,
 			);
 			productRefGroup = 4B6D59332842F6F500642239 /* Products */;
 			projectDirPath = "";
@@ -477,10 +475,6 @@
 			isa = PBXTargetDependency;
 			target = 4B6D59312842F6F500642239 /* ExampleApp */;
 			targetProxy = 4B6D594D2842F6F600642239 /* PBXContainerItemProxy */;
-		};
-		4B6D5964284305A400642239 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			productRef = 4B6D5963284305A400642239 /* SwiftUI_SnapshotTesting */;
 		};
 /* End PBXTargetDependency section */
 
@@ -652,13 +646,7 @@
 		4B6D595A2842F6F600642239 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/lib/VisualTestKit",
-				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSPrincipalClass = "$(PRODUCT_MODULE_NAME).Principal";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -670,8 +658,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "AppTests/AppTests-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapshotsExampleApp.app/SnapshotsExampleApp";
 			};
 			name = Debug;
@@ -679,13 +665,7 @@
 		4B6D595B2842F6F600642239 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/lib/VisualTestKit",
-				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSPrincipalClass = "$(PRODUCT_MODULE_NAME).Principal";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -697,7 +677,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "AppTests/AppTests-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapshotsExampleApp.app/SnapshotsExampleApp";
 			};
 			name = Release;
@@ -768,6 +747,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		4B471B1B2870037B0042DAEF /* XCRemoteSwiftPackageReference "VisualTestKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/paulz/VisualTestKit.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		4B4F48EB286AE74B00563D3C /* XCRemoteSwiftPackageReference "AEXML" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/tadija/AEXML";
@@ -795,18 +782,19 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		4B471B2628700EC70042DAEF /* Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4BFA8DFE286AC082008AC581 /* XCRemoteSwiftPackageReference "Dynamic" */;
+			productName = Dynamic;
+		};
+		4B471B2C2870105B0042DAEF /* SwiftUI_SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftUI_SnapshotTesting;
+		};
 		4B4F48EC286AE74B00563D3C /* AEXML */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 4B4F48EB286AE74B00563D3C /* XCRemoteSwiftPackageReference "AEXML" */;
 			productName = AEXML;
-		};
-		4B6D5963284305A400642239 /* SwiftUI_SnapshotTesting */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = SwiftUI_SnapshotTesting;
-		};
-		4B6D5966284305AB00642239 /* SwiftUI_SnapshotTesting */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = SwiftUI_SnapshotTesting;
 		};
 		4BE8B8E2284DD83B00083A24 /* SnapshotTestingPreviewGroup */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -816,11 +804,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4BEFB0EF28603649000B714C /* XCRemoteSwiftPackageReference "HRCoder" */;
 			productName = HRCoder;
-		};
-		4BFA8DFF286AC082008AC581 /* Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 4BFA8DFE286AC082008AC581 /* XCRemoteSwiftPackageReference "Dynamic" */;
-			productName = Dynamic;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

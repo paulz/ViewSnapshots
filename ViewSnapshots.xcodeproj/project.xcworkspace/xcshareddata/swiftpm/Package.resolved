@@ -26,6 +26,15 @@
         "revision" : "760e0aee165934a4b6d08e5af7f617c4a560aa29",
         "version" : "2.0.0"
       }
+    },
+    {
+      "identity" : "visualtestkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/paulz/VisualTestKit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "a160f507b18595591ac9ef09fe98813f2ac96f9f"
+      }
     }
   ],
   "version" : 2

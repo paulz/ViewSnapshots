@@ -6,8 +6,9 @@ import AEXML
 
 class matchesCABundleTests: XCTestCase {
     func testSnapshots() {
+        matchesCABundle(ComplexView_Previews.self)
+        
         SnapshotsConfiguration.withColorAccuracy(0) {
-            matchesCABundle(ComplexView_Previews.self)
             matchesCABundle(TelevisionView_Previews.self)
             matchesCABundle(ToggleView_Previews.self)
             matchesCABundle(RainbowGlowView_Previews.self)

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<caml xmlns="http://www.apple.com/CoreAnimation/1.0">
+	<CALayer allowsEdgeAntialiasing="0" allowsGroupBlending="0" allowsGroupOpacity="0" bounds="0 0 126.666666666667 112.666666666667" contentsFormat="RGBA8" name="VC:_TtGC7SwiftUI19UIHostingControllerGV12PreviewGroup12PreviewGroupGVS_9TupleViewTGVS_15ModifiedContentV10ExampleApp11ContentViewGVS_19_BackgroundModifierVS_5Color__GS4_S6_GS7_S8_______" needsDisplayOnBoundsChange="0" needsLayoutOnGeometryChange="1" opaque="0" position="63.333333333333 103.333333333333" securityMode="insecure">
+		<backgroundColor opacity="0" value="0 0 0" />
+		<delegate />
+		<sublayers>
+			<CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" anchorPoint="0 0" backgroundColor="1 0.8 0" bounds="0 0 126.666666666667 52.333333333333" contentsFormat="RGBA8" opaque="1" position="0 0">
+				<delegate />
+			</CALayer>
+			<CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" anchorPoint="0 0" bounds="0 0 94.666666666667 20.333333333333" contentsFormat="Automatic" contentsGravity="bottomLeft" contentsScale="3" needsDisplayOnBoundsChange="0" opaque="0" position="16 16" rasterizationScale="3">
+				<contents type="CATintedImage">
+					<image A8asL8="1" src="assets/image0.png" type="CGImage" />
+					<tint type="CGColor" value="0 0 0" />
+				</contents>
+				<delegate />
+			</CALayer>
+			<CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" anchorPoint="0 0" backgroundColor="0.2039 0.7804 0.349" bounds="0 0 126.666666666667 52.333333333333" contentsFormat="RGBA8" opaque="1" position="0 60.333333333333">
+				<delegate />
+			</CALayer>
+			<CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" anchorPoint="0 0" bounds="0 0 94.666666666667 20.333333333333" contentsFormat="Automatic" contentsGravity="bottomLeft" contentsScale="3" needsDisplayOnBoundsChange="0" opaque="0" position="16 76.333333333333" rasterizationScale="3">
+				<contents type="CATintedImage">
+					<image A8asL8="1" src="assets/image1.png" type="CGImage" />
+					<tint type="CGColor" value="0 0 0" />
+				</contents>
+				<delegate />
+			</CALayer>
+		</sublayers>
+	</CALayer>
+</caml>

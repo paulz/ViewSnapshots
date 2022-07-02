@@ -29,7 +29,7 @@ func verifyCAML(expected: URL, actual: URL, file: StaticString = #filePath, line
                 guard !fileManager.contentsEqual(atPath: expFile.path, andPath: actFile.path) else {
                     continue
                 }
-                XCTContext.runActivity(named: "compare " + expFile.lastPathComponent) { fileActivity in
+                try XCTContext.runActivity(named: "compare " + expFile.lastPathComponent) { fileActivity in
                     let pngType = UTType.png
                     guard Set([expFile, actFile].map(\.pathExtension)) == [pngType.preferredFilenameExtension],
                           let expData = try? Data(contentsOf: expFile),
@@ -42,6 +42,8 @@ func verifyCAML(expected: URL, actual: URL, file: StaticString = #filePath, line
                             differentFilesmessage += ", expected size: \(expSize), actual size: \(actSize)"
                         }
                         fileActivity.add(XCTAttachment(contentsOfFile: actFile))
+                        try fileManager.removeItem(at: expFile)
+                        try fileManager.copyItem(at: actFile, to: expFile)
                         XCTFail(differentFilesmessage, file: file, line: line)
                         return
                     }

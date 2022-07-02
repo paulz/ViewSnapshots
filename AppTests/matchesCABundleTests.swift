@@ -8,6 +8,19 @@ class matchesCABundleTests: XCTestCase {
     func testSnapshots() {
         matchesCABundle(ToggleView_Previews.self)
         matchesCABundle(RainbowGlowView_Previews.self)
+        matchesCABundle(ContentView_Previews.self)
+        matchesCABundle(PopularityBadge_Previews.self)
+        matchesCABundle(SettingsForm_Previews.self)
+        matchesCABundle(LayeringShadowsView_Previews.self)
+    }
+
+    func testReplacement() {
+        let xmlString = #"groupName="&lt;SwiftUI.UIKitNavigationController:0x7fefa506ee00&gt; Backdrop Group""#
+        let result = xmlString.replacingOccurrences(
+            of: #"groupName=".+ Backdrop Group""#,
+            with: #"groupName="Backdrop Group""#,
+            options: .regularExpression)
+        XCTAssertEqual(#"groupName="Backdrop Group""#, result)
     }
 }
 
@@ -32,6 +45,10 @@ func matchesCABundle<V>(_ view: V.Type = V.self) where V: PreviewProvider {
 func standardize(xmlFilePath: String) {
     assertNoThrow {
         let doc = try AEXMLDocument(xml: Data(contentsOf: URL(fileURLWithPath: xmlFilePath)))
-        try doc.xml.write(toFile: xmlFilePath, atomically: true, encoding: .utf8)
+        let withSimpleBackdropGroupName = doc.xml.replacingOccurrences(
+            of: #"groupName=".+ Backdrop Group""#,
+            with: #"groupName="Backdrop Group""#,
+            options: .regularExpression)
+        try withSimpleBackdropGroupName.write(toFile: xmlFilePath, atomically: true, encoding: .utf8)
     }
 }

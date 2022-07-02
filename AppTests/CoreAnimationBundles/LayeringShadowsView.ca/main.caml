@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<caml xmlns="http://www.apple.com/CoreAnimation/1.0">
+	<CALayer allowsEdgeAntialiasing="0" allowsGroupBlending="0" allowsGroupOpacity="0" bounds="0 0 200 200" contentsFormat="RGBA8" name="VC:_TtGC7SwiftUI19UIHostingControllerGVS_15ModifiedContentV10ExampleApp19LayeringShadowsViewGVS_21_TraitWritingModifierVS_21PreviewLayoutTraitKey___" needsDisplayOnBoundsChange="0" needsLayoutOnGeometryChange="1" opaque="0" position="100 147" securityMode="insecure">
+		<backgroundColor opacity="0" value="0 0 0" />
+		<delegate />
+		<sublayers>
+			<CALayer allowsEdgeAntialiasing="0" allowsGroupBlending="0" allowsGroupOpacity="0" anchorPoint="0 0" bounds="0 0 100 100" contentsFormat="RGBA8" opaque="1" position="50 50" shadowColor="0 0.4784 1" shadowOffset="0 0" shadowOpacity="1" shadowRadius="10">
+				<delegate />
+				<sublayers>
+					<CALayer allowsEdgeAntialiasing="0" allowsGroupBlending="0" allowsGroupOpacity="0" anchorPoint="0 0" bounds="0 0 100 100" contentsFormat="RGBA8" opaque="1" position="0 0" shadowColor="1 0.2314 0.1882" shadowOffset="0 0" shadowOpacity="1" shadowRadius="10">
+						<delegate />
+						<sublayers>
+							<CALayer allowsEdgeAntialiasing="0" allowsGroupBlending="0" allowsGroupOpacity="0" anchorPoint="0 0" bounds="0 0 100 100" contentsFormat="RGBA8" opaque="1" position="0 0" shadowColor="0.2039 0.7804 0.349" shadowOffset="0 0" shadowOpacity="1" shadowRadius="10">
+								<delegate />
+								<sublayers>
+									<CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" anchorPoint="0 0" backgroundColor="0.2039 0.7804 0.349" bounds="0 0 100 100" contentsFormat="RGBA8" continuousCorners="0" cornerRadius="50" position="0 0" shadowColor="0 0 0" shadowOffset="0 0" shadowOpacity="1" shadowPathIsBounds="1" shadowRadius="10">
+										<delegate />
+									</CALayer>
+								</sublayers>
+							</CALayer>
+						</sublayers>
+					</CALayer>
+				</sublayers>
+			</CALayer>
+		</sublayers>
+	</CALayer>
+</caml>

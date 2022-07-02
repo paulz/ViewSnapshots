@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<caml xmlns="http://www.apple.com/CoreAnimation/1.0">
+  <CALayer allowsEdgeAntialiasing="0" allowsGroupBlending="0" allowsGroupOpacity="0" bounds="0 0 300 200" contentsFormat="RGBA8" name="VC:_TtGC7SwiftUI19UIHostingControllerGVS_15ModifiedContentV10ExampleApp15RainbowGlowViewGVS_21_TraitWritingModifierVS_21PreviewLayoutTraitKey___" needsDisplayOnBoundsChange="0" needsLayoutOnGeometryChange="1" opaque="0" position="150 147" securityMode="insecure">
+    <backgroundColor opacity="0" value="0 0 0"/>
+    <delegate/>
+    <sublayers>
+      <CALayer allowsEdgeAntialiasing="0" allowsGroupBlending="0" allowsGroupOpacity="0" anchorPoint="0 0" bounds="0 0 400 300" contentsFormat="RGBA8" opaque="1" position="-50 -50">
+	<delegate/>
+	<mask allowsEdgeAntialiasing="0" allowsGroupBlending="0" allowsGroupOpacity="0" anchorPoint="0 0" bounds="0 0 400 300" contentsFormat="RGBA8" opaque="1" position="0 0">
+	  <delegate/>
+	  <sublayers>
+	    <CALayer allowsEdgeAntialiasing="0" allowsGroupBlending="0" allowsGroupOpacity="0" anchorPoint="0 0" bounds="0 0 195.333333333333 40.666666666667" contentsFormat="RGBA8" opaque="1" position="102.333333333333 129.666666666667">
+	      <delegate/>
+	      <filters>
+		<CAFilter filter="gaussianBlur" name="gaussianBlur" inputDither="0" inputRadius="20" inputNormalizeEdges="0"/>
+	      </filters>
+	      <sublayers>
+		<CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" anchorPoint="0 0" bounds="0 0 195.333333333333 40.666666666667" contentsFormat="Automatic" contentsGravity="bottomLeft" contentsScale="3" needsDisplayOnBoundsChange="0" opaque="0" position="0 0" rasterizationScale="3" shadowOffset="0 0" shadowOpacity="1" shadowRadius="2">
+		  <contents type="CATintedImage">
+		    <image type="CGImage" src="assets/image0.png" A8asL8="1"/>
+		    <tint type="CGColor" value="1 1 1"/>
+		  </contents>
+		  <delegate/>
+		  <shadowColor opacity="0.33" value="0 0 0"/>
+		</CALayer>
+	      </sublayers>
+	    </CALayer>
+	  </sublayers>
+	</mask>
+	<sublayers>
+	  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" anchorPoint="0 0" bounds="0 0 400 300" contentsFormat="RGBA8" continuousCorners="0" masksToBounds="1" position="0 0">
+	    <delegate/>
+	    <sublayers>
+	      <CAGradientLayer endPoint="1.5 0.375" startPoint="0.5 0.375" allowsEdgeAntialiasing="0" allowsGroupOpacity="1" anchorPoint="0 0" bounds="0 0 400 400" contentsFormat="RGBA8" position="0 0">
+		<colors>
+		  <CGColor value="1 0 0"/>
+		  <CGColor value="1 0.5455 0"/>
+		  <CGColor value="0.9091 1 0"/>
+		  <CGColor value="0.3636 1 0"/>
+		  <CGColor value="0 1 0.1818"/>
+		  <CGColor value="0 1 0.7273"/>
+		  <CGColor value="0 0.7273 1"/>
+		  <CGColor value="0 0.1818 1"/>
+		  <CGColor value="0.3636 0 1"/>
+		  <CGColor value="0.9091 0 1"/>
+		  <CGColor value="1 0 0.5455"/>
+		</colors>
+		<locations>
+		  <integer value="0"/>
+		  <real value="0.1"/>
+		  <real value="0.2"/>
+		  <real value="0.3"/>
+		  <real value="0.4"/>
+		  <real value="0.5"/>
+		  <real value="0.6"/>
+		  <real value="0.7"/>
+		  <real value="0.8"/>
+		  <real value="0.9"/>
+		  <integer value="1"/>
+		</locations>
+		<type value="conic"/>
+		<delegate/>
+	      </CAGradientLayer>
+	    </sublayers>
+	  </CALayer>
+	</sublayers>
+      </CALayer>
+      <CALayer allowsEdgeAntialiasing="0" allowsGroupBlending="0" allowsGroupOpacity="0" anchorPoint="0 0" bounds="0 0 195.333333333333 40.666666666667" contentsFormat="RGBA8" opaque="1" position="52.333333333333 79.666666666667">
+	<delegate/>
+	<filters>
+	  <CAFilter filter="gaussianBlur" name="gaussianBlur" inputNormalizeEdges="0" inputRadius="5" inputDither="0"/>
+	</filters>
+	<sublayers>
+	  <CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" anchorPoint="0 0" bounds="0 0 195.333333333333 40.666666666667" contentsFormat="Automatic" contentsGravity="bottomLeft" contentsScale="3" needsDisplayOnBoundsChange="0" opaque="0" position="0 0" rasterizationScale="3" shadowOffset="0 0" shadowOpacity="1" shadowRadius="2">
+	    <contents type="CATintedImage">
+	      <image type="CGImage" src="assets/image1.png" A8asL8="1"/>
+	      <tint type="CGColor" value="1 1 1"/>
+	    </contents>
+	    <delegate/>
+	    <shadowColor opacity="0.33" value="0 0 0"/>
+	  </CALayer>
+	</sublayers>
+      </CALayer>
+      <CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" anchorPoint="0 0" bounds="0 0 195.333333333333 40.666666666667" contentsFormat="Automatic" contentsGravity="bottomLeft" contentsScale="3" needsDisplayOnBoundsChange="0" opaque="0" position="52.333333333333 79.666666666667" rasterizationScale="3" shadowOffset="0 0" shadowOpacity="1" shadowRadius="2">
+	<contents type="CATintedImage">
+	  <image type="CGImage" src="assets/image2.png" A8asL8="1"/>
+	  <tint type="CGColor" value="1 1 1"/>
+	</contents>
+	<delegate/>
+	<shadowColor opacity="0.33" value="0 0 0"/>
+      </CALayer>
+      <CALayer allowsEdgeAntialiasing="0" allowsGroupBlending="0" allowsGroupOpacity="0" anchorPoint="0 0" bounds="0 0 400 300" contentsFormat="RGBA8" opaque="1" position="-50 -50">
+	<delegate/>
+	<mask allowsEdgeAntialiasing="0" allowsGroupBlending="0" allowsGroupOpacity="0" anchorPoint="0 0" bounds="0 0 400 300" contentsFormat="RGBA8" opaque="1" position="0 0">
+	  <delegate/>
+	  <sublayers>
+	    <CALayer allowsEdgeAntialiasing="0" allowsGroupBlending="0" allowsGroupOpacity="0" anchorPoint="0 0" bounds="0 0 195.333333333333 40.666666666667" contentsFormat="RGBA8" opaque="1" position="102.333333333333 129.666666666667">
+	      <delegate/>
+	      <filters>
+		<CAFilter filter="gaussianBlur" name="gaussianBlur" inputNormalizeEdges="0" inputDither="0" inputRadius="20"/>
+	      </filters>
+	      <sublayers>
+		<CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" anchorPoint="0 0" bounds="0 0 195.333333333333 40.666666666667" contentsFormat="Automatic" contentsGravity="bottomLeft" contentsScale="3" needsDisplayOnBoundsChange="0" opaque="0" position="0 0" rasterizationScale="3" shadowOffset="0 0" shadowOpacity="1" shadowRadius="2">
+		  <contents type="CATintedImage">
+		    <image type="CGImage" src="assets/image3.png" A8asL8="1"/>
+		    <tint type="CGColor" value="1 1 1"/>
+		  </contents>
+		  <delegate/>
+		  <shadowColor opacity="0.33" value="0 0 0"/>
+		</CALayer>
+	      </sublayers>
+	    </CALayer>
+	  </sublayers>
+	</mask>
+	<sublayers>
+	  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" anchorPoint="0 0" bounds="0 0 400 300" contentsFormat="RGBA8" continuousCorners="0" masksToBounds="1" position="0 0">
+	    <delegate/>
+	    <sublayers>
+	      <CAGradientLayer endPoint="1.5 0.375" startPoint="0.5 0.375" allowsEdgeAntialiasing="0" allowsGroupOpacity="1" anchorPoint="0 0" bounds="0 0 400 400" contentsFormat="RGBA8" position="0 0">
+		<colors>
+		  <CGColor value="1 0 0"/>
+		  <CGColor value="1 0.5455 0"/>
+		  <CGColor value="0.9091 1 0"/>
+		  <CGColor value="0.3636 1 0"/>
+		  <CGColor value="0 1 0.1818"/>
+		  <CGColor value="0 1 0.7273"/>
+		  <CGColor value="0 0.7273 1"/>
+		  <CGColor value="0 0.1818 1"/>
+		  <CGColor value="0.3636 0 1"/>
+		  <CGColor value="0.9091 0 1"/>
+		  <CGColor value="1 0 0.5455"/>
+		</colors>
+		<locations>
+		  <integer value="0"/>
+		  <real value="0.1"/>
+		  <real value="0.2"/>
+		  <real value="0.3"/>
+		  <real value="0.4"/>
+		  <real value="0.5"/>
+		  <real value="0.6"/>
+		  <real value="0.7"/>
+		  <real value="0.8"/>
+		  <real value="0.9"/>
+		  <integer value="1"/>
+		</locations>
+		<type value="conic"/>
+		<delegate/>
+	      </CAGradientLayer>
+	    </sublayers>
+	  </CALayer>
+	</sublayers>
+      </CALayer>
+      <CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" anchorPoint="0 0" bounds="0 0 195.333333333333 40.666666666667" contentsFormat="Automatic" contentsGravity="bottomLeft" contentsScale="3" needsDisplayOnBoundsChange="0" opaque="0" position="52.333333333333 79.666666666667" rasterizationScale="3" shadowOffset="0 0" shadowOpacity="1" shadowRadius="2">
+	<contents type="CATintedImage">
+	  <image type="CGImage" src="assets/image4.png" A8asL8="1"/>
+	  <tint type="CGColor" value="1 1 1"/>
+	</contents>
+	<delegate/>
+	<shadowColor opacity="0.33" value="0 0 0"/>
+      </CALayer>
+      <CALayer allowsEdgeAntialiasing="0" allowsGroupBlending="0" allowsGroupOpacity="0" anchorPoint="0 0" bounds="0 0 195.333333333333 40.666666666667" contentsFormat="RGBA8" opaque="1" position="52.333333333333 79.666666666667">
+	<delegate/>
+	<filters>
+	  <CAFilter filter="gaussianBlur" name="gaussianBlur" inputRadius="1" inputNormalizeEdges="0" inputDither="0"/>
+	</filters>
+	<sublayers>
+	  <CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" anchorPoint="0 0" bounds="0 0 195.333333333333 40.666666666667" contentsFormat="Automatic" contentsGravity="bottomLeft" contentsScale="3" needsDisplayOnBoundsChange="0" opaque="0" position="0 0" rasterizationScale="3" shadowOffset="0 0" shadowOpacity="1" shadowRadius="2">
+	    <contents type="CATintedImage">
+	      <image type="CGImage" src="assets/image5.png" A8asL8="1"/>
+	      <tint type="CGColor" value="1 1 1"/>
+	    </contents>
+	    <delegate/>
+	    <shadowColor opacity="0.33" value="0 0 0"/>
+	  </CALayer>
+	</sublayers>
+      </CALayer>
+      <CALayer allowsEdgeAntialiasing="0" allowsGroupBlending="0" allowsGroupOpacity="0" anchorPoint="0 0" bounds="0 0 400 300" contentsFormat="RGBA8" opaque="1" position="-50 -50">
+	<delegate/>
+	<mask allowsEdgeAntialiasing="0" allowsGroupBlending="0" allowsGroupOpacity="0" anchorPoint="0 0" bounds="0 0 400 300" contentsFormat="RGBA8" opaque="1" position="0 0">
+	  <delegate/>
+	  <sublayers>
+	    <CALayer allowsEdgeAntialiasing="0" allowsGroupBlending="0" allowsGroupOpacity="0" anchorPoint="0 0" bounds="0 0 195.333333333333 40.666666666667" contentsFormat="RGBA8" opaque="1" position="102.333333333333 129.666666666667">
+	      <delegate/>
+	      <filters>
+		<CAFilter filter="gaussianBlur" name="gaussianBlur" inputNormalizeEdges="0" inputRadius="20" inputDither="0"/>
+	      </filters>
+	      <sublayers>
+		<CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" anchorPoint="0 0" bounds="0 0 195.333333333333 40.666666666667" contentsFormat="Automatic" contentsGravity="bottomLeft" contentsScale="3" needsDisplayOnBoundsChange="0" opaque="0" position="0 0" rasterizationScale="3" shadowOffset="0 0" shadowOpacity="1" shadowRadius="2">
+		  <contents type="CATintedImage">
+		    <image type="CGImage" src="assets/image6.png" A8asL8="1"/>
+		    <tint type="CGColor" value="1 1 1"/>
+		  </contents>
+		  <delegate/>
+		  <shadowColor opacity="0.33" value="0 0 0"/>
+		</CALayer>
+	      </sublayers>
+	    </CALayer>
+	  </sublayers>
+	</mask>
+	<sublayers>
+	  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" anchorPoint="0 0" bounds="0 0 400 300" contentsFormat="RGBA8" continuousCorners="0" masksToBounds="1" position="0 0">
+	    <delegate/>
+	    <sublayers>
+	      <CAGradientLayer endPoint="1.5 0.375" startPoint="0.5 0.375" allowsEdgeAntialiasing="0" allowsGroupOpacity="1" anchorPoint="0 0" bounds="0 0 400 400" contentsFormat="RGBA8" position="0 0">
+		<colors>
+		  <CGColor value="1 0 0"/>
+		  <CGColor value="1 0.5455 0"/>
+		  <CGColor value="0.9091 1 0"/>
+		  <CGColor value="0.3636 1 0"/>
+		  <CGColor value="0 1 0.1818"/>
+		  <CGColor value="0 1 0.7273"/>
+		  <CGColor value="0 0.7273 1"/>
+		  <CGColor value="0 0.1818 1"/>
+		  <CGColor value="0.3636 0 1"/>
+		  <CGColor value="0.9091 0 1"/>
+		  <CGColor value="1 0 0.5455"/>
+		</colors>
+		<locations>
+		  <integer value="0"/>
+		  <real value="0.1"/>
+		  <real value="0.2"/>
+		  <real value="0.3"/>
+		  <real value="0.4"/>
+		  <real value="0.5"/>
+		  <real value="0.6"/>
+		  <real value="0.7"/>
+		  <real value="0.8"/>
+		  <real value="0.9"/>
+		  <integer value="1"/>
+		</locations>
+		<type value="conic"/>
+		<delegate/>
+	      </CAGradientLayer>
+	    </sublayers>
+	  </CALayer>
+	</sublayers>
+      </CALayer>
+      <CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" anchorPoint="0 0" bounds="0 0 195.333333333333 40.666666666667" contentsFormat="Automatic" contentsGravity="bottomLeft" contentsScale="3" needsDisplayOnBoundsChange="0" opaque="0" position="52.333333333333 79.666666666667" rasterizationScale="3" shadowOffset="0 0" shadowOpacity="1" shadowRadius="2">
+	<contents type="CATintedImage">
+	  <image type="CGImage" src="assets/image7.png" A8asL8="1"/>
+	  <tint type="CGColor" value="1 1 1"/>
+	</contents>
+	<delegate/>
+	<shadowColor opacity="0.33" value="0 0 0"/>
+      </CALayer>
+      <CALayer allowsEdgeAntialiasing="0" allowsGroupBlending="0" allowsGroupOpacity="0" anchorPoint="0 0" bounds="0 0 195.333333333333 40.666666666667" contentsFormat="RGBA8" opaque="1" position="52.333333333333 79.666666666667">
+	<delegate/>
+	<filters>
+	  <CAFilter filter="gaussianBlur" name="gaussianBlur" inputDither="0" inputNormalizeEdges="0" inputRadius="2"/>
+	</filters>
+	<sublayers>
+	  <CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" anchorPoint="0 0" bounds="0 0 195.333333333333 40.666666666667" contentsFormat="Automatic" contentsGravity="bottomLeft" contentsScale="3" needsDisplayOnBoundsChange="0" opaque="0" position="0 0" rasterizationScale="3" shadowOffset="0 0" shadowOpacity="1" shadowRadius="2">
+	    <contents type="CATintedImage">
+	      <image type="CGImage" src="assets/image8.png" A8asL8="1"/>
+	      <tint type="CGColor" value="1 1 1"/>
+	    </contents>
+	    <delegate/>
+	    <shadowColor opacity="0.33" value="0 0 0"/>
+	  </CALayer>
+	</sublayers>
+      </CALayer>
+    </sublayers>
+  </CALayer>
+</caml>

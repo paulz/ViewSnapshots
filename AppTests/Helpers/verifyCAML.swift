@@ -6,6 +6,16 @@ func verifyCAML(expected: URL, actual: URL, file: StaticString = #filePath, line
     let camlBundleName = actual.deletingPathExtension().lastPathComponent
     let fileManager = FileManager.default
     XCTContext.runActivity(named: camlBundleName) { activity in
+        var isDirectory: ObjCBool = false
+        guard fileManager.fileExists(atPath: expected.path, isDirectory: &isDirectory), isDirectory.boolValue else {
+            assertNoThrow {
+                try fileManager.createDirectory(at: expected.deletingLastPathComponent(),
+                                                withIntermediateDirectories: true)
+                try fileManager.copyItem(at: actual, to: expected)
+                XCTFail("did not exist, now recorded")
+            }
+            return
+        }
         if fileManager.contentsEqual(atPath: expected.path, andPath: actual.path) {
             return
         }

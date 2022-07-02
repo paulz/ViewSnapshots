@@ -36,6 +36,7 @@
 		4B7CAFCD28701B43009E4217 /* VisualTestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7CAFCA28701A73009E4217 /* VisualTestKit.framework */; };
 		4B845830285E6D78001C93D4 /* RenderViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B84582F285E6D78001C93D4 /* RenderViewTest.swift */; };
 		4B8C7E27286D575000FE2BF5 /* EncodeLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8C7E26286D575000FE2BF5 /* EncodeLayerTests.swift */; };
+		4BE4637228702E3900EE5D52 /* matchesCABundleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4637128702E3900EE5D52 /* matchesCABundleTests.swift */; };
 		4BE8B8E3284DD83B00083A24 /* SnapshotTestingPreviewGroup in Frameworks */ = {isa = PBXBuildFile; productRef = 4BE8B8E2284DD83B00083A24 /* SnapshotTestingPreviewGroup */; };
 		4BEFB0F128603649000B714C /* HRCoder in Frameworks */ = {isa = PBXBuildFile; productRef = 4BEFB0F028603649000B714C /* HRCoder */; };
 		4BEFB0F328604184000B714C /* HRCoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEFB0F228604184000B714C /* HRCoderTests.swift */; };
@@ -79,7 +80,7 @@
 		4B6D59372842F6F500642239 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4B6D59392842F6F600642239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B6D593C2842F6F600642239 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4B6D59422842F6F600642239 /* AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AppTests.xctest; path = SnapshotsExampleApp.app/PlugIns/AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B6D59422842F6F600642239 /* AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B6D59462842F6F600642239 /* SnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTests.swift; sourceTree = "<group>"; };
 		4B6D594C2842F6F600642239 /* UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B6D59502842F6F600642239 /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
@@ -100,6 +101,8 @@
 		4B8C7E28286D5A9500FE2BF5 /* ContentView-fromCAAR.ca */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "ContentView-fromCAAR.ca"; sourceTree = "<group>"; };
 		4B8C7E29286D910700FE2BF5 /* ContentView-fromSnapshot.ca */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "ContentView-fromSnapshot.ca"; sourceTree = "<group>"; };
 		4BA8188D2867F96B00881F45 /* LabDeltaE.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LabDeltaE.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4BE4637028702DD000EE5D52 /* CoreAnimationBundles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CoreAnimationBundles; sourceTree = "<group>"; };
+		4BE4637128702E3900EE5D52 /* matchesCABundleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = matchesCABundleTests.swift; sourceTree = "<group>"; };
 		4BEFB0F228604184000B714C /* HRCoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRCoderTests.swift; sourceTree = "<group>"; };
 		4BFAB27428448E5900E65405 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 		4BFAB27628457D4300E65405 /* RenderLayerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderLayerTest.swift; sourceTree = "<group>"; };
@@ -202,6 +205,8 @@
 				4B4F48F0286AF71300563D3C /* ContentView-withTintedImage.json */,
 				4B4F48E3286ADA8E00563D3C /* CAMLWriterTests.swift */,
 				4B8C7E26286D575000FE2BF5 /* EncodeLayerTests.swift */,
+				4BE4637128702E3900EE5D52 /* matchesCABundleTests.swift */,
+				4BE4637028702DD000EE5D52 /* CoreAnimationBundles */,
 				4B8C7E28286D5A9500FE2BF5 /* ContentView-fromCAAR.ca */,
 				4B8C7E29286D910700FE2BF5 /* ContentView-fromSnapshot.ca */,
 				4B1B4FF7286D970700763D40 /* ToggleView-fromSnapshot.ca */,
@@ -449,6 +454,7 @@
 				4B78C0772857182E007B133E /* Data+Extensions.swift in Sources */,
 				4B8C7E27286D575000FE2BF5 /* EncodeLayerTests.swift in Sources */,
 				4B845830285E6D78001C93D4 /* RenderViewTest.swift in Sources */,
+				4BE4637228702E3900EE5D52 /* matchesCABundleTests.swift in Sources */,
 				4B4F48E4286ADA8E00563D3C /* CAMLWriterTests.swift in Sources */,
 				4B1B4FF9286EAFA400763D40 /* verifyCAML.swift in Sources */,
 				4B6CD8052851AD9800118D04 /* VisualTestKit.swift in Sources */,

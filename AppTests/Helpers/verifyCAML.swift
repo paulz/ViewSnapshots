@@ -41,6 +41,7 @@ func verifyCAML(expected: URL, actual: URL, file: StaticString = #filePath, line
                             expSize != actSize {
                             differentFilesmessage += ", expected size: \(expSize), actual size: \(actSize)"
                         }
+                        fileActivity.add(XCTAttachment(contentsOfFile: actFile))
                         XCTFail(differentFilesmessage, file: file, line: line)
                         return
                     }

@@ -59,9 +59,8 @@
 				</sublayers>
 			</CALayer>
 			<CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" anchorPoint="0 0" bounds="0 0 10.333333333333 20.333333333333" contentsFormat="Automatic" contentsGravity="bottomLeft" contentsScale="3" needsDisplayOnBoundsChange="0" opaque="0" position="16 108.333333333333" rasterizationScale="3">
-				<contents type="CATintedImage">
-					<image A8asL8="1" src="assets/image4.png" type="CGImage" />
-					<tint type="CGColor" value="0 0 0" />
+				<contents tint="0 0 0" type="CATintedImage">
+					<image A8asL8="1" src="assets/image4.png" />
 				</contents>
 				<delegate />
 			</CALayer>
@@ -192,9 +191,8 @@
 						<delegate />
 						<sublayers>
 							<CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" bounds="0 0 9 18" contentsFormat="Automatic" contentsGravity="resize" contentsScale="3" hidden="0" needsDisplayOnBoundsChange="0" opaque="0" position="15.166666666667 15" rasterizationScale="3">
-								<contents type="CATintedImage">
-									<image A8asL8="1" src="assets/image17.png" type="CGImage" />
-									<tint type="CGColor" value="0 0.4784 1" />
+								<contents tint="0 0.4784 1" type="CATintedImage">
+									<image A8asL8="1" src="assets/image17.png" />
 								</contents>
 								<delegate />
 							</CALayer>

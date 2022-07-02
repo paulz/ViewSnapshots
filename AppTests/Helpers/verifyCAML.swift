@@ -81,6 +81,8 @@ func verifyCAML(expected: URL, actual: URL, file: StaticString = #filePath, line
                             """,
                             file: file, line: line
                         )
+                        try fileManager.removeItem(at: expFile)
+                        try fileManager.copyItem(at: actFile, to: expFile)
                     }
                 }
             }

@@ -10,6 +10,7 @@
 		335C7827284F0EDF007ED83E /* Principal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335C7826284F0EDF007ED83E /* Principal.swift */; };
 		4B1B4FF9286EAFA400763D40 /* verifyCAML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1B4FF8286EAFA400763D40 /* verifyCAML.swift */; };
 		4B275953287248B100864BFA /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B275952287248B100864BFA /* FavoriteView.swift */; };
+		4B27595528724EF600864BFA /* SmallColorDifferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B27595428724EF600864BFA /* SmallColorDifferenceView.swift */; };
 		4B37BF962866EA8300D632C8 /* ColorThresholdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B37BF952866EA8300D632C8 /* ColorThresholdTests.swift */; };
 		4B471B2728700EC70042DAEF /* Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 4B471B2628700EC70042DAEF /* Dynamic */; };
 		4B471B2D2870105B0042DAEF /* SwiftUI_SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 4B471B2C2870105B0042DAEF /* SwiftUI_SnapshotTesting */; };
@@ -73,6 +74,7 @@
 		4B1B4FF7286D970700763D40 /* ToggleView-fromSnapshot.ca */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "ToggleView-fromSnapshot.ca"; sourceTree = "<group>"; };
 		4B1B4FF8286EAFA400763D40 /* verifyCAML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verifyCAML.swift; sourceTree = "<group>"; };
 		4B275952287248B100864BFA /* FavoriteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		4B27595428724EF600864BFA /* SmallColorDifferenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallColorDifferenceView.swift; sourceTree = "<group>"; };
 		4B37BF952866EA8300D632C8 /* ColorThresholdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorThresholdTests.swift; sourceTree = "<group>"; };
 		4B4F48E3286ADA8E00563D3C /* CAMLWriterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAMLWriterTests.swift; sourceTree = "<group>"; };
 		4B4F48E5286ADBD200563D3C /* RainbowGlowView.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = RainbowGlowView.xml; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 				4B6D59352842F6F500642239 /* ExampleApp.swift */,
 				4B275952287248B100864BFA /* FavoriteView.swift */,
 				4B6D59372842F6F500642239 /* ContentView.swift */,
+				4B27595428724EF600864BFA /* SmallColorDifferenceView.swift */,
 				4B6D597728434EF100642239 /* LayeringShadowsView.swift */,
 				4BE4637328703F1E00EE5D52 /* TelevisionView.swift */,
 				4BE4637528704EA800EE5D52 /* ComplexView.swift */,
@@ -445,6 +448,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B6D597828434EF100642239 /* LayeringShadowsView.swift in Sources */,
+				4B27595528724EF600864BFA /* SmallColorDifferenceView.swift in Sources */,
 				4BE4637628704EA800EE5D52 /* ComplexView.swift in Sources */,
 				4B6D596A2843082F00642239 /* PopularityBadge.swift in Sources */,
 				4B6D59382842F6F500642239 /* ContentView.swift in Sources */,

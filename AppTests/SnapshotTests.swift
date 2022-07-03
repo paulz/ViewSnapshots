@@ -9,7 +9,7 @@ class SnapshotTests: XCTestCase {
             verifySnapshot(ContentView_Previews.self)
         }
 
-        verifySnapshot(ComplexView_Previews.self)
+        verifySnapshot(ComplexView_Previews.self, colorAccuracy: 0.0625)
         verifySnapshot(PopularityBadge_Previews.self)
         verifySnapshot(SettingsForm_Previews.self)
 

@@ -14,7 +14,7 @@ class CAMLdocumentTests: XCTestCase {
         """
         <?xml version="1.0" encoding="utf-8" standalone="no"?>
         <contents type="CATintedImage">
-            <image A8asL8="1" src="assets/image4.png" />
+            <image A8asL8="1" src="assets/image4.png" type="CGImage" />
             <tint type="CGColor" value="0 0 0" />
         </contents>
         """,

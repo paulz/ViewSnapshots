@@ -11,14 +11,16 @@ class SnapshotTests: XCTestCase {
 
         verifySnapshot(PopularityBadge_Previews.self)
         verifySnapshot(SettingsForm_Previews.self)
-        verifySnapshot(ComplexView_Previews.self, colorAccuracy: 0.0625)
 
         SnapshotsConfiguration.withColorAccuracy(0.032) {
             verifySnapshot(LayeringShadowsView_Previews.self)
             verifySnapshot(ToggleView_Previews.self)
         }
-        
-        verifySnapshot(RainbowGlowView_Previews.self, colorAccuracy: 0.0625)
+
+        SnapshotsConfiguration.withColorAccuracy(0.0625) {
+            verifySnapshot(ComplexView_Previews.self)
+            verifySnapshot(RainbowGlowView_Previews.self)
+        }
     }
     
     func testXcodeSVGassetNotMatchingPDf() {

@@ -37,7 +37,7 @@
 													<CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" bounds="0 0 0 0" contentsFormat="RGBA8" opacity="0" opaque="1" position="38.666666666667 16">
 														<delegate />
 													</CALayer>
-													<CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" bounds="0 0 0 0" contentsFormat="RGBA8" opacity="1" opaque="1" position="12 16">
+													<CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" bounds="0 0 0 0" contentsFormat="RGBA8" opaque="1" position="12 16">
 														<delegate />
 													</CALayer>
 												</sublayers>

@@ -11,6 +11,7 @@ func verifyCAML(expected: URL, actual: URL, file: StaticString = #filePath, line
             assertNoThrow {
                 try? fileManager.createDirectory(at: expected.deletingLastPathComponent(),
                                                  withIntermediateDirectories: true)
+                try? fileManager.removeItem(at: expected)
                 try fileManager.copyItem(at: actual, to: expected)
                 XCTFail("did not exist, now recorded", file: file, line: line)
             }

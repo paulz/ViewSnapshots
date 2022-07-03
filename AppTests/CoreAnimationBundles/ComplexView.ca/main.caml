@@ -63,7 +63,7 @@
 			</CALayer>
 			<CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" anchorPoint="0 0" bounds="0 0 10.333333333333 20.333333333333" contentsFormat="Automatic" contentsGravity="bottomLeft" contentsScale="3" needsDisplayOnBoundsChange="0" opaque="0" position="16 160.333333333333" rasterizationScale="3">
 				<contents type="CATintedImage">
-					<image A8asL8="1" src="assets/image4.png" type="CGImage" />
+					<image A8asL8="1" src="assets/image4.png" />
 					<tint type="CGColor" value="0 0 0" />
 				</contents>
 				<delegate />

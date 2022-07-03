@@ -30,10 +30,10 @@ class PerceptualDifferencesTest: XCTestCase {
         deltaFilter.inputImage = intelImage.removeTransparency()
         deltaFilter.image2 = m1Image.removeTransparency()
         let deltaImage = try XCTUnwrap(deltaFilter.outputImage)
-        let deltaUrl = folderUrl().appendingPathComponent("\(name)-labDelta.png")
-        try context.writePNGRepresentation(
-            of: deltaImage, to: deltaUrl, format: .RGBA8, colorSpace: sRGB
-        )
+        try XCTContext.runActivity(named: "labDeltaE") { activity in
+            let pngData = try XCTUnwrap(context.pngRepresentation(of: deltaImage, format: .RGBA8, colorSpace: sRGB))
+            activity.add(pngData.pngAttachment())
+        }
         XCTAssertEqual(m1Image.properties as NSDictionary, intelImage.properties as NSDictionary)
         return Delta(
             first: deltaFilter.inputImage!,

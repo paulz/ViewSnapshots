@@ -1,5 +1,7 @@
 import Foundation
 import CommonCrypto
+import XCTest
+import UniformTypeIdentifiers
 
 extension Data {
     func sha1string() -> String {
@@ -12,5 +14,9 @@ extension Data {
             _ = CC_SHA1($0.baseAddress, CC_LONG(count), &digest)
         }
         return digest
+    }
+
+    func pngAttachment() -> XCTAttachment {
+        XCTAttachment(data: self, uniformTypeIdentifier: UTType.png.identifier)
     }
 }

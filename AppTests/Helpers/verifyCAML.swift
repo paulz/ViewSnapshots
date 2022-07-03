@@ -7,12 +7,17 @@ func verifyCAML(expected: URL, actual: URL, file: StaticString = #filePath, line
     let fileManager = FileManager.default
     XCTContext.runActivity(named: camlBundleName) { activity in
         var isDirectory: ObjCBool = false
+        func replaceExpected(message: String) {
+            assertNoThrow {
+                try? fileManager.createDirectory(at: expected.deletingLastPathComponent(),
+                                                 withIntermediateDirectories: true)
+                try fileManager.copyItem(at: actual, to: expected)
+                XCTFail("did not exist, now recorded", file: file, line: line)
+            }
+        }
         guard fileManager.fileExists(atPath: expected.path, isDirectory: &isDirectory), isDirectory.boolValue else {
             assertNoThrow {
-                try fileManager.createDirectory(at: expected.deletingLastPathComponent(),
-                                                withIntermediateDirectories: true)
-                try fileManager.copyItem(at: actual, to: expected)
-                XCTFail("did not exist, now recorded")
+                replaceExpected(message: "did not exist, now recorded")
             }
             return
         }
@@ -22,9 +27,10 @@ func verifyCAML(expected: URL, actual: URL, file: StaticString = #filePath, line
         assertNoThrow {
             let expectedContents = try fileManager.contents(of: expected)
             let actualContents = try fileManager.contents(of: actual)
-            XCTAssertEqual(expectedContents.count, actualContents.count,
-                           "found \(actualContents.count) files, while expecting \(expectedContents.count)",
-                           file: file, line: line)
+            if expectedContents.count != actualContents.count {
+                replaceExpected(message: "found \(actualContents.count) files," +
+                                " while expecting \(expectedContents.count) - replacing")
+            }
             for (expFile, actFile) in zip(expectedContents, actualContents) {
                 guard !fileManager.contentsEqual(atPath: expFile.path, andPath: actFile.path) else {
                     continue

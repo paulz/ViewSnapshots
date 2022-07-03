@@ -47,6 +47,6 @@ func updateTintedImage(element: AEXMLElement) {
     element.attributes["tint"] = nil
     element.addChild(name: "tint", attributes: [
         "type" : "CGColor",
-        "tint" : tint
+        "value" : tint
     ])
 }

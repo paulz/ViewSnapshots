@@ -18,6 +18,7 @@ class SnapshotTests: XCTestCase {
         }
 
         SnapshotsConfiguration.withColorAccuracy(0.0625) {
+            verifySnapshot(FavoriteView_Previews.self)
             verifySnapshot(ComplexView_Previews.self)
             verifySnapshot(RainbowGlowView_Previews.self)
         }

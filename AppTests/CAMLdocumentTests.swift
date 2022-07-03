@@ -14,8 +14,8 @@ class CAMLdocumentTests: XCTestCase {
         """
         <?xml version="1.0" encoding="utf-8" standalone="no"?>
         <contents type="CATintedImage">
-            <image A8asL8="1" src="assets/image4.png" />
-            <tint tint="0 0 0" type="CGColor" />
+            <image A8asL8="1" src="assets/image4.png" type="CGImage" />
+            <tint type="CGColor" value="0 0 0" />
         </contents>
         """,
         "should convert attribute to tint element")

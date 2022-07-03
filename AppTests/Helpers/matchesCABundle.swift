@@ -33,20 +33,24 @@ func standardize(xmlFilePath: String) {
 }
 
 func standardizeTintedImages(doc: AEXMLDocument) {
-    let tintedImages = doc.allDescendants {
-        $0.attributes["tint"] != nil &&
+    doc.allDescendants {
         $0.attributes["type"] == "CATintedImage"
-    }
-    tintedImages.forEach {
-        updateTintedImage(element: $0)
-    }
+    }.forEach(updateTintedImage(element:))
 }
 
 func updateTintedImage(element: AEXMLElement) {
-    let tint = element.attributes["tint"]!
-    element.attributes["tint"] = nil
-    element.addChild(name: "tint", attributes: [
-        "type" : "CGColor",
-        "tint" : tint
-    ])
+    if let tint = element.attributes["tint"] {
+        element.attributes["tint"] = nil
+        element.addChild(
+            name: "tint",
+            attributes: [
+                "type" : "CGColor",
+                "value" : tint
+            ]
+        )
+    }
+    if let image = element.children.first(where: {$0.name == "image"}),
+       image.attributes["type"] == nil {
+        image.attributes["type"] = "CGImage"
+    }
 }

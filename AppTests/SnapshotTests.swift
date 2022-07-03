@@ -5,10 +5,14 @@ import SwiftUI
 
 class SnapshotTests: XCTestCase {
     func testPreviews() throws {
-        verifySnapshot(ContentView_Previews.self)
+        SnapshotsConfiguration.withColorAccuracy(0) {
+            verifySnapshot(ContentView_Previews.self)
+        }
+
+        verifySnapshot(ComplexView_Previews.self)
         verifySnapshot(PopularityBadge_Previews.self)
         verifySnapshot(SettingsForm_Previews.self)
-        
+
         SnapshotsConfiguration.withColorAccuracy(0.032) {
             verifySnapshot(LayeringShadowsView_Previews.self)
             verifySnapshot(ToggleView_Previews.self)

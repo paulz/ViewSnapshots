@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "reg-keygen-git-hash-plugin": "^0.12.1",
+    "reg-simple-keygen-plugin": "^0.12.1"
+  }
+}

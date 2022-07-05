@@ -509,37 +509,16 @@
 				</contents>
 				<delegate />
 			</CALayer>
-			<CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" anchorPoint="0 0" bounds="0 0 202 34.333333333333" contentsFormat="RGBA8" opaque="1" position="94 422.333333333333">
+			<CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" anchorPoint="0 0" bounds="0 0 88.666666666667 34.333333333333" contentsFormat="RGBA8" opaque="1" position="207.333333333333 422.333333333333">
 				<delegate />
 				<sublayers>
-					<CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" bounds="0 0 202 34.333333333333" contentsFormat="RGBA8" opaque="1" position="101 17.166666666667">
+					<CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" bounds="0 0 88.666666666667 34.333333333333" contentsFormat="RGBA8" opaque="1" position="44.333333333333 17.166666666667">
 						<delegate />
 						<sublayers>
-							<CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" bounds="0 0 202 34.333333333333" contentsFormat="RGBA8" opaque="1" position="101 17.166666666667">
+							<CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" bounds="0 0 88.666666666667 34.333333333333" contentsFormat="RGBA8" opaque="1" position="44.333333333333 17.166666666667">
 								<delegate />
 								<sublayers>
-									<CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" bounds="0 0 109 34.333333333333" contentsFormat="RGBA8" opaque="1" position="54.833333333333 17.166666666667">
-										<delegate />
-										<sublayers>
-											<CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" bounds="0 0 109 34.333333333333" contentsFormat="RGBA8" continuousCorners="1" cornerRadius="8" needsDisplayOnBoundsChange="0" opaque="0" position="54.5 17.166666666667">
-												<backgroundColor opacity="0.12" value="0.4627 0.4627 0.502" />
-												<delegate />
-											</CALayer>
-											<CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" bounds="0 0 85 20.333333333333" contentsFormat="RGBA8" opaque="1" position="54.5 17.166666666667">
-												<delegate />
-												<sublayers>
-													<CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" bounds="0 0 85 20.333333333333" contentsFormat="Automatic" contentsGravity="left" contentsScale="3" needsDisplayOnBoundsChange="0" opaque="0" position="42.5 10.166666666667" rasterizationScale="3">
-														<contents type="CATintedImage">
-															<image A8asL8="1" src="assets/image26.png" type="CGImage" />
-															<tint type="CGColor" value="0 0 0" />
-														</contents>
-														<delegate />
-													</CALayer>
-												</sublayers>
-											</CALayer>
-										</sublayers>
-									</CALayer>
-									<CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" bounds="0 0 88.666666666667 34.333333333333" contentsFormat="RGBA8" continuousCorners="1" cornerRadius="8" needsDisplayOnBoundsChange="0" opaque="0" position="157.666666666667 17.166666666667">
+									<CALayer allowsEdgeAntialiasing="0" allowsGroupOpacity="1" bounds="0 0 88.666666666667 34.333333333333" contentsFormat="RGBA8" continuousCorners="1" cornerRadius="8" needsDisplayOnBoundsChange="0" opaque="0" position="44.333333333333 17.166666666667">
 										<backgroundColor opacity="0.12" value="0.4627 0.4627 0.502" />
 										<delegate />
 										<sublayers>

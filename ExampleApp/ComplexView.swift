@@ -37,6 +37,7 @@ struct ComplexView: View {
                    .pickerStyle(.wheel)
                    .padding(-20)
             DatePicker("Date:", selection: $date)
+                .id(date)
             ColorPicker("Color:", selection: $color)
         }.padding()
     }

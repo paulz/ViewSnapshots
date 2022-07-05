@@ -6,10 +6,10 @@ import SwiftUI
 class SnapshotTests: XCTestCase {
     func testPreviews() throws {
         SnapshotsConfiguration.withColorAccuracy(0) {
-            verifySnapshot(ContentView_Previews.self)
             verifySnapshot(SmallColorDifferenceView_Previews.self)
         }
 
+        verifySnapshot(ContentView_Previews.self)
         verifySnapshot(PopularityBadge_Previews.self)
         verifySnapshot(SettingsForm_Previews.self)
 

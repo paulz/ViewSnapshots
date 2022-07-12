@@ -1,0 +1,22 @@
+{
+  "core": {
+    "workingDir": ".reg",
+    "actualDir": "./AppTests/Snapshots",
+    "thresholdRate": 0,
+    "addIgnore": true,
+    "ximgdiff": {
+      "invocationType": "client"
+    }
+  },
+  "plugins": {
+    "reg-keygen-git-hash-plugin": {},
+    "reg-notify-github-plugin": {
+      "prComment": true,
+      "prCommentBehavior": "default",
+      "clientId": "M7E0NzE1MzU31g/LTC0PzkssKM7ILynWNzI3sDA0MjDTL0gszakCAA=="
+    },
+    "reg-publish-s3-plugin": {
+      "bucketName": "reg-publish-bucket-fc8a6084-ce9f-451c-9abe-4f979e707469"
+    }
+  }
+}

@@ -27,6 +27,14 @@ jobs:
           node-version: 16
       - name: Yarn install with caching
         uses: bahmutov/npm-install@v1
+      - name: Visual regression testing
+        uses: bokuweb/reg-actions@v1
+        with:
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+          image-directory-path: AppTests/Snapshots
+          enable-antialias: true
+          matching-threshold: 0.02
+          threshold-rate: 0.001
       - name: Show Hardware Info
         run: ./ci_scripts/ci_post_clone.sh
       - name: Resolve dependencies
